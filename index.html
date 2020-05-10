@@ -48,7 +48,7 @@
                     <h3>Map Filters and Info</h3>
                 </div>
                 <div class="section">
-                    <b>Time:</b> <span id="day_time"></span> 
+                    <b>Time:</b> <span id="day_time"></span>
                     <select id="time_multiply">
                         <option value="1" selected="selected">1x</option>
                         <option value="5">5x</option>
@@ -59,6 +59,39 @@
                     <input type="button" id="geolocation_click" />
                     <input type="text" id="user_location" / > -->
                 </div>
+                <div class="section">
+                    <!-- change the types of boutons -->
+                    <div id="options" class="hoverable">
+                      <b><span class="nav-subhead">Options</span></b>
+                      <div id="togglers" class="option">
+                        <div class="option-name">Show <i class="fa fa-chevron-down"></i></div>
+                        <div class="option-menu">
+                          <div id="port-toggler" class="btn check"><i class="fa fa-check-square"></i> <span class="radio-name">Ports</span></div>
+                          <div id="route-toggler" class="btn check"><i class="fa fa-check-square"></i> <span class="radio-name">Routes</span></div>
+                          <div id="ships-toggler" class="btn check checked"><i class="fa fa-check-square"></i> <span class="radio-name">Ships</span></div>
+                          <div id="map-toggler" class="btn check checked"><i class="fa fa-check-square"></i> <span class="radio-name">Map</span></div>
+                        </div>
+                      </div>
+                      <div id="colours" class="option">
+                        <div class="option-name">Colours <i class="fa fa-chevron-down"></i></div>
+                        <div class="option-menu">
+                          <div data-value="shade-uniform" class="btn radio selected"><i class="fa fa-check-square" aria-hidden="true"></i> <span class="radio-name">Uniform</span></div>
+                          <div data-value="shade-type" class="btn radio"><i class="fa fa-check-square"></i> <span class="radio-name">Ship type</span></div>
+                        </div>
+                      </div>
+                      <div id="filters" class="option">
+                        <div class="option-name">Filters <i class="fa fa-chevron-down"></i></div>
+                        <div class="option-menu">
+                          <div id="filter-type-3" data-ship-type="3" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> Container</div>
+                          <div id="filter-type-0" data-ship-type="0" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> Dry bulk</div>
+                          <div id="filter-type-1" data-ship-type="1" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> Tanker</div>
+                          <div id="filter-type-2" data-ship-type="2" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> Gas bulk</div>
+                          <div id="filter-type-4" data-ship-type="4" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> Vehicles</div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
                 <div id="vehicle_info" class="hidden section" data-type="panel">
                     <div>
                         <b>Vehicle:</b> <span class="vehicle_name"></span> <input type="button" class="panel_collapsible expanded" />
@@ -115,7 +148,7 @@
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyzNxxrLPxkfe2Jz1Iue1rKbNY5iw5JCQ&amp;v=3.20&amp;sensor=false&amp;libraries=geometry,places"></script>
             <script type="text/javascript" src="static/js/stamen.js"></script>
-            
+
             <script src="static/js/infobox_packed.js"></script>
             <script src="static/js/map.js"></script>
             <!-- <div class="container">
@@ -136,7 +169,7 @@
                         <script src="https://d3js.org/d3.v4.js"></script>
                         <!-- Create a div where the graph will take place -->
                         <div id="my_dataviz"></div>
-                        
+
                         <script>
 
                         // set the dimensions and margins of the graph
