@@ -295,7 +295,7 @@
                                 .data(data)
                                 .enter().append("g")
                                   .attr("text-anchor", "middle")
-                                  .attr("transform", function(d) { return "rotate(" + ((x(d.time) + x.bandwidth() / 2) * 180 / Math.PI - 165) + ")translate(" + innerRadius + ",0)"; });
+                                  .attr("transform", function(d) { return "rotate(" + ((x(d.time) + x.bandwidth() / 2) * 180 / Math.PI - 90) + ")translate(" + innerRadius + ",0)"; });
 
                               label_1.append("line")
                                   .attr("x2", function(d) { return (((d.time % 5) == 0) | (d.time == '1')) ? -7 : -4 })
