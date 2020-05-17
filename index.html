@@ -9,6 +9,8 @@
         <link rel="icon" type="image/x-icon" href="static/template_assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- jquery.js -->
+        <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
@@ -57,6 +59,54 @@
             </div>
         </nav>
         <!-- Masthead-->
+
+        <style>
+                /* START timebar part */
+
+                #dashboard {
+                  position: absolute;
+                   float: left; width: calc(100% - 340px); top: 0px; left: 0;
+
+                  /*position: absolute;
+                  float: left;
+                  width: calc(100% - 340px);
+                  top: 0px;
+                  left: 50px;
+                  padding: 5px;
+                  right: 70px;
+                  top: 70px;
+                  background-color: #FAFAFA;
+                  border: 1px solid #717D7D;*/
+                }
+                #dashboard .dashboard-area { display: inline-block; vertical-align: top; text-align: center; }
+                #dashboard #carbon { float: left; }
+                #dashboard #time-holder { position: fixed; left: 200px; text-shadow: 1px 1px 2px rgb(33,60,71); color: rgb(220,245,255); top: 20%; font-weight: bold; margin-top: -1em; }
+                #dashboard #time-holder .result { font-size: 100px; }
+                #dashboard #freight { width: calc(100% - 165px); text-align: center; }
+                #dashboard .stat, #options .option-name { font-size: 13px; display: inline-block; vertical-align: top; }
+
+                #dashboard #freight .stat { margin-left: 8px; }
+                #dashboard .stat .value { color: rgb(255,255,175); font-family: 'Share Tech Mono'; letter-spacing: -1px; }
+                #dashboard.color-coded .stat .value { color: white; }
+                body.guardian #dashboard .stat .value { font-family: inherit; font-weight: bold; letter-spacing: 0; }
+                #dashboard .stat #result-vehicles { min-width: 74px; }
+                #dashboard .stat .result { display: inline-block; line-height: 1; }
+                #dashboard .filter, #dashboard .radio { font-size: 13px; }
+
+                #scrubber { height: 50px; width: 100%; background: rgba(255,255,255,0.1); position: absolute; bottom: 50px; -moz-border-radiuseft: 0; cursor: pointer; }
+                #scrubber-inner { height: 30px; position: absolute; }
+                #scrubber-inner .hour { position: absolute; height: 100%; border-right: 1px white rgba(255,255,255,0.1); }
+                #scrubber-inner .hour .label { position: absolute; top: -1.25em; left: 1px; font-size: 13px; }
+                #scrubber-inner .hour .minute { background: rgba(255,255,255,0.25); height: 100%; border-right: 1px solid rgba(0,0,0,0.1); }
+                #scrubber-inner .hour .minute.current { background: rgba(255,255,255,1); }
+                #scrubber-inner .hour .minute:hover { background: black; }
+                #scrubber-inner .hour .minute .load-progress { position: absolute; height: 0; bottom: 0; left: 0; background: rgba(255,255,200,0.33); }
+
+                /* END */
+        </style>
+
+
+
         <!-- <header class="masthead"> -->
             <div id="map_canvas"></div>
             <div id="panel" class="hidden">
@@ -75,6 +125,7 @@
                     <input type="button" id="geolocation_click" />
                     <input type="text" id="user_location" / > -->
                 </div>
+
                 <div class="section">
                     <!-- change the types of boutons -->
                     <div id="options" class="hoverable">
@@ -169,6 +220,65 @@
 
             <script src="static/js/infobox_packed.js"></script>
             <script src="static/js/map.js"></script>
+
+
+            <div id="scrubber"></div>
+            <script>
+
+            // we build the minutes as the setInterval of 5 mins
+            var HOURS = [
+              { name: "00:00", minutes: 12 },
+              { name: "01:00", minutes: 12 },
+              { name: "02:00", minutes: 12 },
+              { name: "03:00", minutes: 12 },
+              { name: "04:00", minutes: 12 },
+              { name: "05:00", minutes: 12 },
+              { name: "06:00", minutes: 12 },
+              { name: "07:00", minutes: 12 },
+              { name: "08:00", minutes: 12 },
+              { name: "09:00", minutes: 12 },
+              { name: "10:00", minutes: 12 },
+              { name: "11:00", minutes: 12 }
+            ];
+
+            function initScrubber() {
+              var $scrubber_inner = $("<div />").attr("id", "scrubber-inner").appendTo("#scrubber");
+
+              var minute_number = 0,
+                  minute_width = Math.floor(window.innerWidth/(12*12 + 12)),
+                  scrolling = minute_width < 2;
+              if (scrolling) minute_width = 2;
+              var calendar_width = minute_width*(12*12) + 12,
+                  margin = scrolling ? 0 : (window.innerWidth - calendar_width)/2;
+              for (var i = 0; i < HOURS.length; i++) {
+                var $hour = $("<div />")
+                    .attr("class", "hour " + HOURS[i].name)
+                    .css("left" , margin + minute_number * minute_width + (i * 1) + "px")
+                    .css("width" ,minute_width * HOURS[i].minutes + 1 + "px")
+                    .appendTo($scrubber_inner);
+                $("<div />").attr("class", "label").text(HOURS[i].name).appendTo($hour);
+                for (var j = 0; j < HOURS[i].minutes; j++) {
+                  var $minute = $("<div />").attr("class", "minute").attr("id", "minute-" + minute_number)
+                    .css("position", "absolute")
+                    .css("top", 0)
+                    .css( "left" , j * minute_width + "px")
+                    .css( "width", minute_width + "px")
+                    .appendTo($hour);
+                    //.on("click", clickDay);
+                  $("<div />").attr("class", "label").text(j).appendTo($minute);
+                  $("<div />").attr("class", "load-progress")
+                  .css( "width", minute_width + "px")
+                  .css("height","0px")
+                  .appendTo($minute);
+                  minute_number++;
+                }
+              }
+
+            }
+
+            initScrubber();
+
+            </script>
             <!-- <div class="container">
                 <div class="masthead-subheading">Welcome To Our Studio!</div>
                 <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
