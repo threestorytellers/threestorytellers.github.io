@@ -1,0 +1,6545 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530004",
+        "stop_code": null,
+        "stop_name": "La Robella (télésiège)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.548731,
+          46.875984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530005",
+        "stop_code": null,
+        "stop_name": "Buttes (télésiège)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.551343,
+          46.886189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530014",
+        "stop_code": null,
+        "stop_name": "Schwarzsee Gypsera (Talstat.)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.288321,
+          46.669266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530017",
+        "stop_code": null,
+        "stop_name": "Riggisalp (Bergstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.293654,
+          46.65892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530032",
+        "stop_code": null,
+        "stop_name": "Rougemont (télécabine)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.208493,
+          46.485703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530039",
+        "stop_code": null,
+        "stop_name": "Col-du-Pillon (téléphérique)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.205312,
+          46.354141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530040",
+        "stop_code": null,
+        "stop_name": "La Barboleuse (télécabine)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.076852,
+          46.283745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530041",
+        "stop_code": null,
+        "stop_name": "Les Chaux (Barboleuse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.104613,
+          46.295086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530042",
+        "stop_code": null,
+        "stop_name": "Villars-sur-Ollon (télécabine)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.054965,
+          46.303654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530043",
+        "stop_code": null,
+        "stop_name": "Roc-d'Orsay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.06391,
+          46.322086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530070",
+        "stop_code": null,
+        "stop_name": "Morgins (La Foilleuse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.85814,
+          46.236755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530071",
+        "stop_code": null,
+        "stop_name": "La Foilleuse (Morgins)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.861233,
+          46.225067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530078",
+        "stop_code": null,
+        "stop_name": "Les Crosets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.834032,
+          46.18388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530079",
+        "stop_code": null,
+        "stop_name": "Pointe-des-Mossettes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.815625,
+          46.192081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530084",
+        "stop_code": null,
+        "stop_name": "Dorénaz (téléphérique)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.044333,
+          46.150394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530085",
+        "stop_code": null,
+        "stop_name": "Champex-d'Alesse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.059207,
+          46.148193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530086",
+        "stop_code": null,
+        "stop_name": "Alesse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.053882,
+          46.148975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530087",
+        "stop_code": null,
+        "stop_name": "Champex (télésiège)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.106592,
+          46.031456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530088",
+        "stop_code": null,
+        "stop_name": "La Breya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.103217,
+          46.021675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530095",
+        "stop_code": null,
+        "stop_name": "Verbier (télécabine)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.233673,
+          46.09362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530096",
+        "stop_code": null,
+        "stop_name": "Croix-des-Ruinettes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.252882,
+          46.091236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530099",
+        "stop_code": null,
+        "stop_name": "Tortin (Col-des-Gentianes)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.304207,
+          46.113438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530101",
+        "stop_code": null,
+        "stop_name": "Col-des-Gentianes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.302028,
+          46.085098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530102",
+        "stop_code": null,
+        "stop_name": "Mont-Fort"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.318289,
+          46.080109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530103",
+        "stop_code": null,
+        "stop_name": "La Chaux VS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.270319,
+          46.07999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530104",
+        "stop_code": null,
+        "stop_name": "Verbier Les Creux"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.224802,
+          46.103825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530105",
+        "stop_code": null,
+        "stop_name": "Savoleyres"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.218985,
+          46.12236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530106",
+        "stop_code": null,
+        "stop_name": "La Tzoumaz (téléc. Savoleyres)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.233079,
+          46.144714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530107",
+        "stop_code": null,
+        "stop_name": "Riddes (téléphérique)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.221494,
+          46.171085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530108",
+        "stop_code": null,
+        "stop_name": "Haute-Nendaz (télécabine)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.291208,
+          46.179916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530109",
+        "stop_code": null,
+        "stop_name": "Tracouet (Haute-Nendaz)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.283231,
+          46.161709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530113",
+        "stop_code": null,
+        "stop_name": "Siviez (station aval)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.31567,
+          46.134941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530115",
+        "stop_code": null,
+        "stop_name": "Tortin (Siviez)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.304336,
+          46.113655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530116",
+        "stop_code": null,
+        "stop_name": "Combatzeline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.333645,
+          46.140186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530119",
+        "stop_code": null,
+        "stop_name": "Veysonnaz (télécabine)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.342787,
+          46.195637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530120",
+        "stop_code": null,
+        "stop_name": "Thyon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.36672,
+          46.179947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530124",
+        "stop_code": null,
+        "stop_name": "Les Collons (Trabanta)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.386534,
+          46.180218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530127",
+        "stop_code": null,
+        "stop_name": "Dixence (téléphérique)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.403368,
+          46.08453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530128",
+        "stop_code": null,
+        "stop_name": "Lac-des-Dix (téléphérique)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.397372,
+          46.080994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530129",
+        "stop_code": null,
+        "stop_name": "Lana (télésiège)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.476989,
+          46.121517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530130",
+        "stop_code": null,
+        "stop_name": "La Meina (Lana)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.455567,
+          46.120995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530134",
+        "stop_code": null,
+        "stop_name": "Vercorin (station amont)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.526285,
+          46.256786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530136",
+        "stop_code": null,
+        "stop_name": "Vercorin (station aval)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.534113,
+          46.254028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530137",
+        "stop_code": null,
+        "stop_name": "Crêt du Midi (station amont)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.529663,
+          46.229465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530139",
+        "stop_code": null,
+        "stop_name": "Grimentz (télé)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.573473,
+          46.176212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530140",
+        "stop_code": null,
+        "stop_name": "Bendolla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.558306,
+          46.180565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530144",
+        "stop_code": null,
+        "stop_name": "Zinal (télépherique)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.624079,
+          46.138306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530145",
+        "stop_code": null,
+        "stop_name": "Sorebois"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.60373,
+          46.144417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530146",
+        "stop_code": null,
+        "stop_name": "Chandolin (télésiège)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.604392,
+          46.247929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530147",
+        "stop_code": null,
+        "stop_name": "Tsapé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.620794,
+          46.251682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530149",
+        "stop_code": null,
+        "stop_name": "Ovronnaz (télésiège)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.160687,
+          46.204605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530150",
+        "stop_code": null,
+        "stop_name": "Jorasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.14197,
+          46.203758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530151",
+        "stop_code": null,
+        "stop_name": "Anzère (télécabine)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.394883,
+          46.295258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530152",
+        "stop_code": null,
+        "stop_name": "Pas-de-Maimbré"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.385834,
+          46.312229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530159",
+        "stop_code": null,
+        "stop_name": "Crans-s.-S. (télécabine)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.467331,
+          46.308647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530161",
+        "stop_code": null,
+        "stop_name": "Cry-d'Er (Crans-s.-S.)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.477708,
+          46.334812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530163",
+        "stop_code": null,
+        "stop_name": "Montana (télécab. rte Vermala)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.479185,
+          46.312874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530167",
+        "stop_code": null,
+        "stop_name": "Montana (Zaumiau)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.498575,
+          46.32061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530168",
+        "stop_code": null,
+        "stop_name": "Les Marolires"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.495309,
+          46.325775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530169",
+        "stop_code": null,
+        "stop_name": "Cabane-des-Violettes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4983,
+          46.342468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530173",
+        "stop_code": null,
+        "stop_name": "Glacier-de-la-Plaine-Morte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.488934,
+          46.369911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530179",
+        "stop_code": null,
+        "stop_name": "Albinenleitern (Torrentbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.622914,
+          46.361019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530180",
+        "stop_code": null,
+        "stop_name": "Turtmann (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.701482,
+          46.298588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530181",
+        "stop_code": null,
+        "stop_name": "Unterems"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.69917,
+          46.292809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530182",
+        "stop_code": null,
+        "stop_name": "Oberems"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.695464,
+          46.282967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530183",
+        "stop_code": null,
+        "stop_name": "Gampel (Talstation Jeizinen)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.739291,
+          46.315495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530184",
+        "stop_code": null,
+        "stop_name": "Jeizinen (Bergstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.722794,
+          46.326298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530187",
+        "stop_code": null,
+        "stop_name": "Raron (Talstation Eischoll)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.800798,
+          46.303173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530188",
+        "stop_code": null,
+        "stop_name": "Eischoll (Bergstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.783801,
+          46.293968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530192",
+        "stop_code": null,
+        "stop_name": "Unterbäch (Talstation Brand)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.801293,
+          46.28392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530193",
+        "stop_code": null,
+        "stop_name": "Brand (Unterbäch)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.797871,
+          46.274639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530194",
+        "stop_code": null,
+        "stop_name": "Visperterminen (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.904291,
+          46.258347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530195",
+        "stop_code": null,
+        "stop_name": "Giw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.923071,
+          46.25555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530196",
+        "stop_code": null,
+        "stop_name": "Kalpetran (Seilbahn)Talstation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.836816,
+          46.214317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530197",
+        "stop_code": null,
+        "stop_name": "Embd (Seilbahn) Bergstation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.827732,
+          46.216167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530198",
+        "stop_code": null,
+        "stop_name": "Embd (Luftseilbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.826026,
+          46.215004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530199",
+        "stop_code": null,
+        "stop_name": "Schalb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.81671,
+          46.217022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530200",
+        "stop_code": null,
+        "stop_name": "Grächen (Talstation Hannigalp)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.841506,
+          46.196651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530206",
+        "stop_code": null,
+        "stop_name": "Zermatt (Matterhorn Talstat.)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.74287,
+          46.014771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530207",
+        "stop_code": null,
+        "stop_name": "Furi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.732277,
+          46.00174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530208",
+        "stop_code": null,
+        "stop_name": "Zermatt Schwarzsee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.70951,
+          45.991756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530210",
+        "stop_code": null,
+        "stop_name": "Klein Matterhorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.729621,
+          45.939049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530211",
+        "stop_code": null,
+        "stop_name": "Trockener Steg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.72222,
+          45.971397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530214",
+        "stop_code": null,
+        "stop_name": "Sunnegga (Talstation Blauherd)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.770473,
+          46.016827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530215",
+        "stop_code": null,
+        "stop_name": "Rothorn VS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.797399,
+          46.021538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530217",
+        "stop_code": null,
+        "stop_name": "Blauherd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.78585,
+          46.016781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530226",
+        "stop_code": null,
+        "stop_name": "Hannig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.916767,
+          46.114948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530227",
+        "stop_code": null,
+        "stop_name": "Saas-Grund (Hohsaas Taltst.)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.93854,
+          46.128132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530228",
+        "stop_code": null,
+        "stop_name": "Hohsaas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.989093,
+          46.140022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530230",
+        "stop_code": null,
+        "stop_name": "Kreuzboden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.964309,
+          46.138439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530231",
+        "stop_code": null,
+        "stop_name": "Saas-Almagell (Furggstalden)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.957852,
+          46.092258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530232",
+        "stop_code": null,
+        "stop_name": "Furggstalden (Saas-Almagell)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.963413,
+          46.089642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530233",
+        "stop_code": null,
+        "stop_name": "Ried-Brig (Rosswald Talstat.)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.025878,
+          46.313843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530234",
+        "stop_code": null,
+        "stop_name": "Rosswald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.040936,
+          46.304375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530235",
+        "stop_code": null,
+        "stop_name": "Blatten b. Naters (Belalpbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.98428,
+          46.358925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530236",
+        "stop_code": null,
+        "stop_name": "Erich/Tschuggen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.979765,
+          46.364838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530237",
+        "stop_code": null,
+        "stop_name": "Mörel (Riederalpbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.046011,
+          46.356602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530240",
+        "stop_code": null,
+        "stop_name": "Riederalp (Hohfluh)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.027023,
+          46.377735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530241",
+        "stop_code": null,
+        "stop_name": "Moosfluh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.048218,
+          46.395859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530242",
+        "stop_code": null,
+        "stop_name": "Hohfluh (Riederalp)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.027842,
+          46.386143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530243",
+        "stop_code": null,
+        "stop_name": "Betten Talstation (Seilbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.076794,
+          46.371342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530244",
+        "stop_code": null,
+        "stop_name": "Schönbiel (Bettmeralp)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.079216,
+          46.403675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530245",
+        "stop_code": null,
+        "stop_name": "Bettmergrat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.077122,
+          46.410301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530250",
+        "stop_code": null,
+        "stop_name": "Fürgangen (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.152316,
+          46.411938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530251",
+        "stop_code": null,
+        "stop_name": "Bellwald (Bergstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.160657,
+          46.423016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530252",
+        "stop_code": null,
+        "stop_name": "Bellwald (Talstation Richinen)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.161293,
+          46.427795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530253",
+        "stop_code": null,
+        "stop_name": "Richinen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.166796,
+          46.44138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530254",
+        "stop_code": null,
+        "stop_name": "Furggulti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.162959,
+          46.453209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530268",
+        "stop_code": null,
+        "stop_name": "Lenk (Talstation Leiterli)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.437014,
+          46.453014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530270",
+        "stop_code": null,
+        "stop_name": "Leiterli (Bergstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.40894,
+          46.428875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530277",
+        "stop_code": null,
+        "stop_name": "Lenk (Talstation Metschstand)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.457041,
+          46.442039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530283",
+        "stop_code": null,
+        "stop_name": "Schönried (Talst. Horneggli)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.293109,
+          46.503574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530284",
+        "stop_code": null,
+        "stop_name": "Horneggli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.313559,
+          46.493614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530288",
+        "stop_code": null,
+        "stop_name": "Gstaad (Talstation Wispile)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.284859,
+          46.463638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530290",
+        "stop_code": null,
+        "stop_name": "Höhi Wispile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.292578,
+          46.440163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530297",
+        "stop_code": null,
+        "stop_name": "Oldenegg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.238152,
+          46.351437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530298",
+        "stop_code": null,
+        "stop_name": "Kiental SKRa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.723513,
+          46.585499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530299",
+        "stop_code": null,
+        "stop_name": "Ramslauenen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.708362,
+          46.579632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530301",
+        "stop_code": null,
+        "stop_name": "Kandersteg (Luftseilbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.661066,
+          46.489231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530302",
+        "stop_code": null,
+        "stop_name": "Allmenalp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.649447,
+          46.49229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530304",
+        "stop_code": null,
+        "stop_name": "Elsigbach (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.606474,
+          46.529095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530305",
+        "stop_code": null,
+        "stop_name": "Elsigenalp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.622496,
+          46.522545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530308",
+        "stop_code": null,
+        "stop_name": "Adelboden Dorf (Silleren)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.556641,
+          46.490368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530309",
+        "stop_code": null,
+        "stop_name": "Adelboden Oey (Sillerenbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.560425,
+          46.487888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530311",
+        "stop_code": null,
+        "stop_name": "Sillerenbühl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.518075,
+          46.471786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530312",
+        "stop_code": null,
+        "stop_name": "Unter dem Birg (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.566427,
+          46.459141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530313",
+        "stop_code": null,
+        "stop_name": "Engstligenalp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.565142,
+          46.449402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530314",
+        "stop_code": null,
+        "stop_name": "Adelboden Geils (Hahnenmoos)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.512729,
+          46.456959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530315",
+        "stop_code": null,
+        "stop_name": "Hahnenmoos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.495427,
+          46.453335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530320",
+        "stop_code": null,
+        "stop_name": "Grindelwald (Pfingsteggbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.046927,
+          46.623173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530321",
+        "stop_code": null,
+        "stop_name": "Pfingstegg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.056445,
+          46.617382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530343",
+        "stop_code": null,
+        "stop_name": "Meiringen (Luftseilbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.192109,
+          46.72834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530344",
+        "stop_code": null,
+        "stop_name": "Hasliberg Reuti (Gondelbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.209,
+          46.733032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530351",
+        "stop_code": null,
+        "stop_name": "Marbach (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.895557,
+          46.850037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530352",
+        "stop_code": null,
+        "stop_name": "Marbachegg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.906049,
+          46.835217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530353",
+        "stop_code": null,
+        "stop_name": "Sörenberg (Talst. Rossweid)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.033941,
+          46.820644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530354",
+        "stop_code": null,
+        "stop_name": "Rossweid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.027168,
+          46.80883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530364",
+        "stop_code": null,
+        "stop_name": "Distelboden (Talst. Bonistock)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.281377,
+          46.771393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530365",
+        "stop_code": null,
+        "stop_name": "Bonistock (Distelboden)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.290027,
+          46.777794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530374",
+        "stop_code": null,
+        "stop_name": "Fell"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.421407,
+          46.883381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530375",
+        "stop_code": null,
+        "stop_name": "Chrüzhütte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.43535,
+          46.871826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530376",
+        "stop_code": null,
+        "stop_name": "Fellboden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.421512,
+          46.881973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530377",
+        "stop_code": null,
+        "stop_name": "Bannalpsee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.425468,
+          46.870186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530385",
+        "stop_code": null,
+        "stop_name": "Emmetten (Niederbauenbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.519011,
+          46.955879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530386",
+        "stop_code": null,
+        "stop_name": "Niederbauen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53486,
+          46.946384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530391",
+        "stop_code": null,
+        "stop_name": "Stoos(Sesselbahn Fronalpstock)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.662616,
+          46.980618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530392",
+        "stop_code": null,
+        "stop_name": "Fronalpstock"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.637408,
+          46.969593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530393",
+        "stop_code": null,
+        "stop_name": "Stoos Bergstat. (Luftseilb)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.664164,
+          46.982182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530400",
+        "stop_code": null,
+        "stop_name": "Ried (Muotathal) (Seilbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.724245,
+          46.984097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530401",
+        "stop_code": null,
+        "stop_name": "Illgau (Luftseilbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.723642,
+          46.986919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530402",
+        "stop_code": null,
+        "stop_name": "Brunni SZ (Talstation Holzegg)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.703089,
+          47.042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530403",
+        "stop_code": null,
+        "stop_name": "Holzegg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.698384,
+          47.028835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530404",
+        "stop_code": null,
+        "stop_name": "Oberiberg (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.772017,
+          47.03384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530405",
+        "stop_code": null,
+        "stop_name": "Steinboden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.771065,
+          47.014572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530406",
+        "stop_code": null,
+        "stop_name": "Unteriberg Weglosen (Talst.)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.808958,
+          47.020138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530407",
+        "stop_code": null,
+        "stop_name": "Hoch-Ybrig Seebli (Kl.Sternen)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.789246,
+          47.01104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530408",
+        "stop_code": null,
+        "stop_name": "Klein Sternen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.797868,
+          46.999908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530411",
+        "stop_code": null,
+        "stop_name": "Sattel (Talstat. Hochstuckli)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.634376,
+          47.078403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530412",
+        "stop_code": null,
+        "stop_name": "Sattel Mostelberg (Bergstat.)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.649866,
+          47.067467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530418",
+        "stop_code": null,
+        "stop_name": "Flüelen (Talstation Eggberge)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.62756,
+          46.893478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530420",
+        "stop_code": null,
+        "stop_name": "Eggberge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.64444,
+          46.9016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530421",
+        "stop_code": null,
+        "stop_name": "Brügg (Bürglen UR) (Seilbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.682055,
+          46.877209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530423",
+        "stop_code": null,
+        "stop_name": "Biel (Kinzig)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.708868,
+          46.895367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530424",
+        "stop_code": null,
+        "stop_name": "Schattdorf (Talstation Haldi)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.655653,
+          46.865376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530425",
+        "stop_code": null,
+        "stop_name": "Haldi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.670334,
+          46.864353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530426",
+        "stop_code": null,
+        "stop_name": "Bristen (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.711514,
+          46.766525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530427",
+        "stop_code": null,
+        "stop_name": "Golzern (Bergstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.721351,
+          46.774952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530457",
+        "stop_code": null,
+        "stop_name": "S. Carlo (Bavona) Funivia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.529776,
+          46.410042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530458",
+        "stop_code": null,
+        "stop_name": "Robiei"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.512392,
+          46.443207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530483",
+        "stop_code": null,
+        "stop_name": "Rietbach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.153236,
+          47.228718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530484",
+        "stop_code": null,
+        "stop_name": "Alt St. Johann (Sellamattbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.288858,
+          47.193356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530485",
+        "stop_code": null,
+        "stop_name": "Alp Sellamatt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.296335,
+          47.182152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530486",
+        "stop_code": null,
+        "stop_name": "Wildhaus Thur (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.342262,
+          47.19891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530487",
+        "stop_code": null,
+        "stop_name": "Wildhaus Oberdorf (Bergstat.)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.345074,
+          47.192249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530488",
+        "stop_code": null,
+        "stop_name": "Gamsalp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.339443,
+          47.172691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530489",
+        "stop_code": null,
+        "stop_name": "Wildhaus (Talstation Gamplüt)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.356855,
+          47.207512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530490",
+        "stop_code": null,
+        "stop_name": "Gamplüt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.343677,
+          47.213039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530491",
+        "stop_code": null,
+        "stop_name": "Amden (Talstat. Niederschlag)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.143269,
+          47.149784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530492",
+        "stop_code": null,
+        "stop_name": "Niederschlag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.146405,
+          47.161667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530493",
+        "stop_code": null,
+        "stop_name": "Flumserberg Tannenboden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.280887,
+          47.093796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530494",
+        "stop_code": null,
+        "stop_name": "Tannenboden (Maschgenkammbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.28055,
+          47.092064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530495",
+        "stop_code": null,
+        "stop_name": "Maschgenkamm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.25345,
+          47.069874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530496",
+        "stop_code": null,
+        "stop_name": "Flumserberg Tannenheim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.303636,
+          47.089146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530497",
+        "stop_code": null,
+        "stop_name": "Prodalp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.290308,
+          47.080498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530498",
+        "stop_code": null,
+        "stop_name": "Prodkamm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.268231,
+          47.073887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530499",
+        "stop_code": null,
+        "stop_name": "Wangs Talstation Pizolbahnen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.432208,
+          47.028824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530500",
+        "stop_code": null,
+        "stop_name": "Furt (Bergstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.420445,
+          47.002491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530502",
+        "stop_code": null,
+        "stop_name": "Gaffia (Bergstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.412818,
+          46.991123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530503",
+        "stop_code": null,
+        "stop_name": "Bad Ragaz Matells (Talst.)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.473525,
+          47.017273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530505",
+        "stop_code": null,
+        "stop_name": "Pardiel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.464807,
+          46.989532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530506",
+        "stop_code": null,
+        "stop_name": "Laufböden (Bergstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.436485,
+          46.97971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530507",
+        "stop_code": null,
+        "stop_name": "Oberschan (Luftseilbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.473375,
+          47.097931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530508",
+        "stop_code": null,
+        "stop_name": "Hotel Alvier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.461846,
+          47.09029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530509",
+        "stop_code": null,
+        "stop_name": "Malbun (Sareis Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.610527,
+          47.100712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530510",
+        "stop_code": null,
+        "stop_name": "Sareis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.619474,
+          47.102962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530515",
+        "stop_code": null,
+        "stop_name": "Niederurnen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.046703,
+          47.12505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530516",
+        "stop_code": null,
+        "stop_name": "Morgenholz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.020143,
+          47.125534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530519",
+        "stop_code": null,
+        "stop_name": "Matt (Seilbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.171469,
+          46.960117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530520",
+        "stop_code": null,
+        "stop_name": "Weissenberge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.179575,
+          46.962879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530521",
+        "stop_code": null,
+        "stop_name": "Elm (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.162787,
+          46.913586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530522",
+        "stop_code": null,
+        "stop_name": "Empächli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.155249,
+          46.921787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530527",
+        "stop_code": null,
+        "stop_name": "Malans (Älplibahn Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.569389,
+          46.986195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530528",
+        "stop_code": null,
+        "stop_name": "Älpli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.588487,
+          47.012581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530533",
+        "stop_code": null,
+        "stop_name": "Klosters Dorf (Talst. Madrisa)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.875579,
+          46.88451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530534",
+        "stop_code": null,
+        "stop_name": "Madrisa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.864089,
+          46.902168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530535",
+        "stop_code": null,
+        "stop_name": "Parsennhütte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.825332,
+          46.850498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530540",
+        "stop_code": null,
+        "stop_name": "Dörfji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.896091,
+          46.802578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530541",
+        "stop_code": null,
+        "stop_name": "Pischa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.918871,
+          46.809422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530543",
+        "stop_code": null,
+        "stop_name": "Piz Mundaun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.143322,
+          46.749863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530545",
+        "stop_code": null,
+        "stop_name": "Chur (Brambrüeschbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.525763,
+          46.847336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530546",
+        "stop_code": null,
+        "stop_name": "Känzeli (Chur)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.525582,
+          46.838932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530558",
+        "stop_code": null,
+        "stop_name": "Wali"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.108479,
+          46.725014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530559",
+        "stop_code": null,
+        "stop_name": "Stein (Obersaxen)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.125462,
+          46.726284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530562",
+        "stop_code": null,
+        "stop_name": "Obersaxen Valata (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.138151,
+          46.761494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530563",
+        "stop_code": null,
+        "stop_name": "Cuolm Sura (Valata)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.143361,
+          46.749844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530566",
+        "stop_code": null,
+        "stop_name": "Belalp Chiematte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.967495,
+          46.369835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530568",
+        "stop_code": null,
+        "stop_name": "Vals (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.173301,
+          46.609173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530569",
+        "stop_code": null,
+        "stop_name": "Gadastatt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.151488,
+          46.606003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530570",
+        "stop_code": null,
+        "stop_name": "Vella (pendicularas)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.16945,
+          46.717239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530571",
+        "stop_code": null,
+        "stop_name": "Triel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.157106,
+          46.724003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530572",
+        "stop_code": null,
+        "stop_name": "Hitzeggen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.143693,
+          46.735504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530573",
+        "stop_code": null,
+        "stop_name": "Disentis/Mustér (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.841118,
+          46.700951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530574",
+        "stop_code": null,
+        "stop_name": "Caischavedra (Disentis)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.815865,
+          46.704494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530580",
+        "stop_code": null,
+        "stop_name": "Churwalden (Talst.Pradaschier)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.541322,
+          46.778622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530581",
+        "stop_code": null,
+        "stop_name": "Alp Pradaschier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.520238,
+          46.783157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530582",
+        "stop_code": null,
+        "stop_name": "Churwalden (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.541605,
+          46.777142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530583",
+        "stop_code": null,
+        "stop_name": "Heidbüel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.531625,
+          46.764683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530584",
+        "stop_code": null,
+        "stop_name": "Lenzerheide/Lai Val Sporz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.546252,
+          46.725163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530585",
+        "stop_code": null,
+        "stop_name": "Tgantieni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.53109,
+          46.72123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530586",
+        "stop_code": null,
+        "stop_name": "Piz Scalottas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.510925,
+          46.721867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530587",
+        "stop_code": null,
+        "stop_name": "Feldis/Veulden (Sesselbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.440266,
+          46.791653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530588",
+        "stop_code": null,
+        "stop_name": "Mutta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.456056,
+          46.796631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530589",
+        "stop_code": null,
+        "stop_name": "Savognin (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.591745,
+          46.596508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530590",
+        "stop_code": null,
+        "stop_name": "Cabane-des-Diablerets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.214723,
+          46.340183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530591",
+        "stop_code": null,
+        "stop_name": "Somtgant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.55407,
+          46.586525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530594",
+        "stop_code": null,
+        "stop_name": "Bergün/Bravuogn Sagliaz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.75098,
+          46.622444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530595",
+        "stop_code": null,
+        "stop_name": "Pros da Darlux"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.770605,
+          46.623203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530596",
+        "stop_code": null,
+        "stop_name": "Pranzaira (Albigna)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.644196,
+          46.358032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530597",
+        "stop_code": null,
+        "stop_name": "Albigna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.645483,
+          46.337894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530601",
+        "stop_code": null,
+        "stop_name": "St. Moritz Suvretta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.817832,
+          46.487499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530602",
+        "stop_code": null,
+        "stop_name": "Randolins"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.80934,
+          46.491142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530603",
+        "stop_code": null,
+        "stop_name": "Krümmenswil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.168894,
+          47.24403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530604",
+        "stop_code": null,
+        "stop_name": "Celerina (Talstation Marguns)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.852969,
+          46.512833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530605",
+        "stop_code": null,
+        "stop_name": "Pontresina (Sesselb. Languard)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.906904,
+          46.490917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530606",
+        "stop_code": null,
+        "stop_name": "Alp Languard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.921891,
+          46.487801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530607",
+        "stop_code": null,
+        "stop_name": "Ftan Fionas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.245839,
+          46.794891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530608",
+        "stop_code": null,
+        "stop_name": "Prui"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.251322,
+          46.805523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530609",
+        "stop_code": null,
+        "stop_name": "Samnaun-Ravaisch (Bergbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.375223,
+          46.951237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530610",
+        "stop_code": null,
+        "stop_name": "Alptrider Sattel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.367265,
+          46.970173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530675",
+        "stop_code": null,
+        "stop_name": "Les Marécottes (télécabine)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.006305,
+          46.11134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530676",
+        "stop_code": null,
+        "stop_name": "Le Châble TV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.214625,
+          46.078644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530678",
+        "stop_code": null,
+        "stop_name": "Zweisimmen (Talst. Rinderberg)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.374448,
+          46.551109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530681",
+        "stop_code": null,
+        "stop_name": "Niederrickenbach Talstation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.397282,
+          46.927773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530682",
+        "stop_code": null,
+        "stop_name": "Emmetten (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.513681,
+          46.956085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530685",
+        "stop_code": null,
+        "stop_name": "St. Moritz Bad (Signalbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.832575,
+          46.483509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530688",
+        "stop_code": null,
+        "stop_name": "Riederalp West"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.026016,
+          46.37595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530690",
+        "stop_code": null,
+        "stop_name": "Greich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.039683,
+          46.367153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530692",
+        "stop_code": null,
+        "stop_name": "Amsteg (Talstation Arnisee)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.664819,
+          46.774853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530693",
+        "stop_code": null,
+        "stop_name": "Arni UR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.651389,
+          46.77803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530738",
+        "stop_code": null,
+        "stop_name": "Alp Darlux"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.779869,
+          46.624462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530745",
+        "stop_code": null,
+        "stop_name": "Innergsteig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.280378,
+          46.376225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530746",
+        "stop_code": null,
+        "stop_name": "Sanetsch-Stausee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.295086,
+          46.36311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530751",
+        "stop_code": null,
+        "stop_name": "Marcheusson"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.840271,
+          46.177181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530752",
+        "stop_code": null,
+        "stop_name": "Dieni (pendicularas)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.743566,
+          46.669151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530753",
+        "stop_code": null,
+        "stop_name": "Milez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.718078,
+          46.666832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530757",
+        "stop_code": null,
+        "stop_name": "Metschstand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.494415,
+          46.444084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530758",
+        "stop_code": null,
+        "stop_name": "St. Jakob (Isenthal)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.522648,
+          46.901672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530759",
+        "stop_code": null,
+        "stop_name": "Gitschenen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.500463,
+          46.900215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530781",
+        "stop_code": null,
+        "stop_name": "Glattalp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.873764,
+          46.915066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530782",
+        "stop_code": null,
+        "stop_name": "Sahli (Luftseilbahn Glattalp)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.846522,
+          46.913612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530797",
+        "stop_code": null,
+        "stop_name": "Gersau Gschwend"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.540665,
+          47.01297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530798",
+        "stop_code": null,
+        "stop_name": "Burggeist (Rigi Scheidegg)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.524606,
+          47.025314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530802",
+        "stop_code": null,
+        "stop_name": "Bettmeralp (Talst. Schönbiel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.067098,
+          46.391464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530803",
+        "stop_code": null,
+        "stop_name": "Bettmeralp (Bettmerhorn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.064363,
+          46.392208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530805",
+        "stop_code": null,
+        "stop_name": "Saas-Fee (Alpin Express)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.928095,
+          46.105938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530806",
+        "stop_code": null,
+        "stop_name": "Saas-Fee Bifig (Felskinn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.920022,
+          46.099739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530807",
+        "stop_code": null,
+        "stop_name": "Saas-Fee (Hannig)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.927318,
+          46.110161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530808",
+        "stop_code": null,
+        "stop_name": "Riederalp (Moosfluh)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.039865,
+          46.381256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530819",
+        "stop_code": null,
+        "stop_name": "Illgau Dorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.725992,
+          46.987892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530820",
+        "stop_code": null,
+        "stop_name": "Oberberg St. Karl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.720141,
+          46.999977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530824",
+        "stop_code": null,
+        "stop_name": "Belalp Bruchegg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.977582,
+          46.37664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530825",
+        "stop_code": null,
+        "stop_name": "Belalp Hohbiel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.977506,
+          46.397755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530839",
+        "stop_code": null,
+        "stop_name": "Klingenstock"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.675938,
+          46.956928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530840",
+        "stop_code": null,
+        "stop_name": "Stoos (Klingenstockbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.671274,
+          46.973541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530853",
+        "stop_code": null,
+        "stop_name": "Bürglen UR Brügg (Ruogigbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.680604,
+          46.877991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530854",
+        "stop_code": null,
+        "stop_name": "Eierschwand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.680117,
+          46.885326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530855",
+        "stop_code": null,
+        "stop_name": "Ruogig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.687702,
+          46.902851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530859",
+        "stop_code": null,
+        "stop_name": "La Vouarda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.59518,
+          46.150547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530862",
+        "stop_code": null,
+        "stop_name": "Plan du Fou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.294487,
+          46.140079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530951",
+        "stop_code": null,
+        "stop_name": "Furt (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.418295,
+          47.001617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8530953",
+        "stop_code": null,
+        "stop_name": "Gaffia (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.414627,
+          46.991318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8531039",
+        "stop_code": null,
+        "stop_name": "Bettmeralp (Talst. Wurzenbord)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.067556,
+          46.391705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8531040",
+        "stop_code": null,
+        "stop_name": "Wurzenbord"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.078967,
+          46.396938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8531048",
+        "stop_code": null,
+        "stop_name": "Gütsch (Bergst. Andermatt)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.621282,
+          46.656219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8531050",
+        "stop_code": null,
+        "stop_name": "Andermatt (Gondelbahn Gütsch)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.59537,
+          46.637779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8531081",
+        "stop_code": null,
+        "stop_name": "Adelboden (Tschentenbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.557545,
+          46.493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8531082",
+        "stop_code": null,
+        "stop_name": "Tschentenalp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.545886,
+          46.498707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8531155",
+        "stop_code": null,
+        "stop_name": "Glacier du Sex Rouge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.209403,
+          46.326878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8531173",
+        "stop_code": null,
+        "stop_name": "Les Diablerets Le Vioz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.151463,
+          46.346382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8531174",
+        "stop_code": null,
+        "stop_name": "Les Mazots"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.132915,
+          46.332256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8531260",
+        "stop_code": null,
+        "stop_name": "Arnouva (télécabine amont)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.477462,
+          46.317657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8531261",
+        "stop_code": null,
+        "stop_name": "Arnouva (télésiège aval)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.478761,
+          46.318485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8531262",
+        "stop_code": null,
+        "stop_name": "Cry d'Er (Arnouva télés.amont)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.479513,
+          46.334347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8531312",
+        "stop_code": null,
+        "stop_name": "Gstaad Bissen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.311649,
+          46.469627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8531313",
+        "stop_code": null,
+        "stop_name": "Wasserngrat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.323784,
+          46.457165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8531349",
+        "stop_code": null,
+        "stop_name": "Merbé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.472493,
+          46.324211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8531394",
+        "stop_code": null,
+        "stop_name": "Trabanta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.36842,
+          46.177536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8595499",
+        "stop_code": null,
+        "stop_name": "Rickenbach SZ (Rotenfluebahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.669487,
+          47.014835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8595500",
+        "stop_code": null,
+        "stop_name": "Rotenflue (Mythenregion)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.703064,
+          47.02084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8500089",
+        "stop_code": null,
+        "stop_name": "Wasserfallen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.699989,
+          47.37365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8500097",
+        "stop_code": null,
+        "stop_name": "Reigoldswil (Wasserfallenbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.696282,
+          47.390198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501335",
+        "stop_code": null,
+        "stop_name": "Stalden-Saas (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.870815,
+          46.231789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501336",
+        "stop_code": null,
+        "stop_name": "Plattjen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.943163,
+          46.090672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501337",
+        "stop_code": null,
+        "stop_name": "Felskinn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.916118,
+          46.068882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501339",
+        "stop_code": null,
+        "stop_name": "Rinderhütte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.648489,
+          46.36898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501355",
+        "stop_code": null,
+        "stop_name": "Reusch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.235592,
+          46.365391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501358",
+        "stop_code": null,
+        "stop_name": "La Videmanette"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.204737,
+          46.459976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501441",
+        "stop_code": null,
+        "stop_name": "Chalais (station aval)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.511878,
+          46.267715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501442",
+        "stop_code": null,
+        "stop_name": "Eggishorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.093412,
+          46.427094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501443",
+        "stop_code": null,
+        "stop_name": "Fiescheralp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.103441,
+          46.413162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501444",
+        "stop_code": null,
+        "stop_name": "Hannigalp (Bergst. Grächen)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.867155,
+          46.206463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501450",
+        "stop_code": null,
+        "stop_name": "Croix-de-Culet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.845809,
+          46.175205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501451",
+        "stop_code": null,
+        "stop_name": "Champéry (Planachaux)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.871154,
+          46.174885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501467",
+        "stop_code": null,
+        "stop_name": "Leysin (station aval)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.017424,
+          46.347546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501486",
+        "stop_code": null,
+        "stop_name": "Berneuse (Leysin)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.002882,
+          46.359535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501556",
+        "stop_code": null,
+        "stop_name": "La Creusaz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.994374,
+          46.118435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501583",
+        "stop_code": null,
+        "stop_name": "Ried-Mörel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.034604,
+          46.360226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501584",
+        "stop_code": null,
+        "stop_name": "Isérables"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.243983,
+          46.16433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501643",
+        "stop_code": null,
+        "stop_name": "Leukerbad (Talstation Gemmi)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.625421,
+          46.383587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501644",
+        "stop_code": null,
+        "stop_name": "Leukerbad (Torrentbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.629117,
+          46.373909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501645",
+        "stop_code": null,
+        "stop_name": "Raron (Talstation Unterbäch)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.801149,
+          46.303253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501646",
+        "stop_code": null,
+        "stop_name": "Fiesch (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.13407,
+          46.405998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501647",
+        "stop_code": null,
+        "stop_name": "Saas-Fee Chalbermatten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.926188,
+          46.102386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501657",
+        "stop_code": null,
+        "stop_name": "Gemmipass"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.616277,
+          46.397995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501659",
+        "stop_code": "UTB",
+        "stop_name": "Unterbäch (Bergstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.800715,
+          46.284866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501695",
+        "stop_code": null,
+        "stop_name": "Längfluh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.895805,
+          46.084755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501696",
+        "stop_code": null,
+        "stop_name": "Spielboden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.89968,
+          46.091988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501698",
+        "stop_code": "RIRA",
+        "stop_name": "Riederalp Mitte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.033213,
+          46.377991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501719",
+        "stop_code": null,
+        "stop_name": "Gspon (Bergstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.902037,
+          46.22517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501720",
+        "stop_code": null,
+        "stop_name": "Staldenried"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.884846,
+          46.229252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501953",
+        "stop_code": null,
+        "stop_name": "Belalp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.974557,
+          46.371696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501954",
+        "stop_code": "BETA",
+        "stop_name": "Bettmeralp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.057936,
+          46.386108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8501955",
+        "stop_code": null,
+        "stop_name": "Betten Dorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.068065,
+          46.375103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8503081",
+        "stop_code": null,
+        "stop_name": "Felsenegg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.507415,
+          47.310139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8503082",
+        "stop_code": null,
+        "stop_name": "Adliswil (Luftseilbahnstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.520054,
+          47.313171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8503250",
+        "stop_code": null,
+        "stop_name": "Hoch-Ybrig Seebli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.790316,
+          47.011234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8504347",
+        "stop_code": null,
+        "stop_name": "Schneehüenerstock"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.655956,
+          46.669418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8504348",
+        "stop_code": null,
+        "stop_name": "Oberalppass(Schneehüenerstock)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.671401,
+          46.660168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8504748",
+        "stop_code": null,
+        "stop_name": "Le Moléson"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.018485,
+          46.547291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8504749",
+        "stop_code": null,
+        "stop_name": "Plan-Francey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.023727,
+          46.555721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8505089",
+        "stop_code": null,
+        "stop_name": "Morschach Talstat. (Luftseilb)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.638381,
+          46.990219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8505190",
+        "stop_code": null,
+        "stop_name": "Gemsstock"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.611721,
+          46.602222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8505191",
+        "stop_code": null,
+        "stop_name": "Gurschen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.598363,
+          46.618408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8505192",
+        "stop_code": null,
+        "stop_name": "Andermatt (Gemsstockbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.591783,
+          46.632538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8505226",
+        "stop_code": "GRIT",
+        "stop_name": "Grindelwald Terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.017105,
+          46.625507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8506251",
+        "stop_code": null,
+        "stop_name": "Iltios"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.312326,
+          47.185436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8506261",
+        "stop_code": null,
+        "stop_name": "Brülisau (Kastenbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.456784,
+          47.296497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8506262",
+        "stop_code": null,
+        "stop_name": "Hoher Kasten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.484942,
+          47.283756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8506265",
+        "stop_code": null,
+        "stop_name": "Kronberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.327926,
+          47.291519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8506266",
+        "stop_code": null,
+        "stop_name": "Jakobsbad (Kronbergbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.328336,
+          47.319916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8506268",
+        "stop_code": "SCHP",
+        "stop_name": "Schwägalp (Säntis-Schwebebahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.317684,
+          47.256409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8506269",
+        "stop_code": null,
+        "stop_name": "Säntis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.342103,
+          47.249287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8506274",
+        "stop_code": null,
+        "stop_name": "Chäserrugg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.312455,
+          47.155239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507258",
+        "stop_code": null,
+        "stop_name": "Erlenbach i.S. (Stockhornbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.545355,
+          46.660141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507259",
+        "stop_code": null,
+        "stop_name": "Chrindi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.542316,
+          46.683739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507260",
+        "stop_code": null,
+        "stop_name": "Stockhorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.538373,
+          46.693493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507261",
+        "stop_code": null,
+        "stop_name": "Sunnbüel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.650446,
+          46.457962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507262",
+        "stop_code": null,
+        "stop_name": "Kandersteg (Talst. Sunnbüel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.663566,
+          46.476665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507350",
+        "stop_code": null,
+        "stop_name": "Grindelwald (Firstbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.041792,
+          46.625114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507351",
+        "stop_code": null,
+        "stop_name": "Schreckfeld (Firstbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.065224,
+          46.658489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507352",
+        "stop_code": null,
+        "stop_name": "Bort (Firstbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.051738,
+          46.646744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507354",
+        "stop_code": null,
+        "stop_name": "First (Grindelwald)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.053821,
+          46.659866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507356",
+        "stop_code": null,
+        "stop_name": "Wengen Wengiboden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.921576,
+          46.606304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507357",
+        "stop_code": null,
+        "stop_name": "Männlichen (Luftseilb. Wengen)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.940983,
+          46.613083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507371",
+        "stop_code": null,
+        "stop_name": "Männlichen (Gondelbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.942792,
+          46.611061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507377",
+        "stop_code": "LBLM",
+        "stop_name": "Lauterbrunnen (Seilbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.907179,
+          46.598755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507378",
+        "stop_code": "GALP",
+        "stop_name": "Grütschalp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.890873,
+          46.596516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507391",
+        "stop_code": null,
+        "stop_name": "Holenstein"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.979156,
+          46.621159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507452",
+        "stop_code": null,
+        "stop_name": "Rinderberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.358161,
+          46.508488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507453",
+        "stop_code": "STEB",
+        "stop_name": "Stechelberg (Schilthornbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.901716,
+          46.555157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507454",
+        "stop_code": "GIM",
+        "stop_name": "Gimmelwald (Schilthornbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.893486,
+          46.547138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507455",
+        "stop_code": null,
+        "stop_name": "Mürren (Schilthornbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.89128,
+          46.557724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507456",
+        "stop_code": null,
+        "stop_name": "Birg (Schilthornbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.857797,
+          46.561829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507457",
+        "stop_code": "SCHR",
+        "stop_name": "Schilthorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.835253,
+          46.557259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507460",
+        "stop_code": null,
+        "stop_name": "Lauchernalp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.774218,
+          46.410976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507500",
+        "stop_code": null,
+        "stop_name": "Wiler (Lötschen) (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.777776,
+          46.401817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507593",
+        "stop_code": null,
+        "stop_name": "Oeschinen (Bergstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.697047,
+          46.502052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8507594",
+        "stop_code": null,
+        "stop_name": "Kandersteg (Talst. Oeschinen)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.682684,
+          46.497478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508354",
+        "stop_code": null,
+        "stop_name": "Sörenberg-Schönenboden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.059659,
+          46.807579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508355",
+        "stop_code": null,
+        "stop_name": "Brienzer Rothorn (Seilbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.044403,
+          46.787212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508356",
+        "stop_code": null,
+        "stop_name": "Melchtal Stöckalp (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.278988,
+          46.802147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508357",
+        "stop_code": "MEF",
+        "stop_name": "Melchsee-Frutt (Bergstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.268397,
+          46.774544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508364",
+        "stop_code": "LUNO",
+        "stop_name": "Lungern (Turren-Bahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.14941,
+          46.785107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508367",
+        "stop_code": null,
+        "stop_name": "Turren"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.129832,
+          46.789242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508368",
+        "stop_code": null,
+        "stop_name": "Ristis (Brunni-Bahnen)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.40714,
+          46.832081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508453",
+        "stop_code": null,
+        "stop_name": "Kriens (Pilatusbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.277879,
+          47.030422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508454",
+        "stop_code": null,
+        "stop_name": "Krienseregg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.264471,
+          47.014057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508455",
+        "stop_code": "FRM",
+        "stop_name": "Fräkmüntegg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.251241,
+          46.990673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508456",
+        "stop_code": "PIL",
+        "stop_name": "Pilatus Kulm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.255947,
+          46.979431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508495",
+        "stop_code": null,
+        "stop_name": "Stockhütte (Bergstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.505201,
+          46.945225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508496",
+        "stop_code": null,
+        "stop_name": "Klewenalp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.472965,
+          46.940392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508497",
+        "stop_code": null,
+        "stop_name": "Niederrickenbach Dorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.426969,
+          46.929733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508500",
+        "stop_code": null,
+        "stop_name": "Beckenried (Klewenalpbahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.473215,
+          46.966343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508502",
+        "stop_code": null,
+        "stop_name": "Engelberg (Brunni-Bahnen)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.415408,
+          46.818913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508551",
+        "stop_code": null,
+        "stop_name": "Wirzweli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.367209,
+          46.91396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8508552",
+        "stop_code": null,
+        "stop_name": "Dallenwil (Wirzwelibahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.386968,
+          46.925194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509080",
+        "stop_code": null,
+        "stop_name": "Klosters Platz (Gotschnabahn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.880438,
+          46.868961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509081",
+        "stop_code": null,
+        "stop_name": "Gotschnaboden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.858132,
+          46.861996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509082",
+        "stop_code": null,
+        "stop_name": "Gotschnagrat (Klosters)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.847882,
+          46.859016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509085",
+        "stop_code": null,
+        "stop_name": "Weissfluhjoch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.805787,
+          46.832905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509087",
+        "stop_code": null,
+        "stop_name": "Weissfluhgipfel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.79613,
+          46.834286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509090",
+        "stop_code": null,
+        "stop_name": "Davos Platz (Jakobshorn)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.823333,
+          46.791199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509091",
+        "stop_code": null,
+        "stop_name": "Ischalp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.832426,
+          46.786751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509093",
+        "stop_code": null,
+        "stop_name": "Jakobshorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.848282,
+          46.772457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509099",
+        "stop_code": null,
+        "stop_name": "Brambrüesch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.51631,
+          46.82906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509158",
+        "stop_code": null,
+        "stop_name": "Arosa (Talstation) Hörnli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.659675,
+          46.772655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509159",
+        "stop_code": null,
+        "stop_name": "Hörnligrat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.620958,
+          46.767159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509160",
+        "stop_code": null,
+        "stop_name": "Arosa (Talstation) Weisshorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.678598,
+          46.783588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509162",
+        "stop_code": null,
+        "stop_name": "Weisshorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.639122,
+          46.78928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509273",
+        "stop_code": null,
+        "stop_name": "Corviglia (Talstat. Piz Nair)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.818434,
+          46.508007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509274",
+        "stop_code": null,
+        "stop_name": "Piz Nair"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.787692,
+          46.505451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509277",
+        "stop_code": null,
+        "stop_name": "Marguns (Val Saluver)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.825114,
+          46.516731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509280",
+        "stop_code": null,
+        "stop_name": "Scuol (pendicularas)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.289165,
+          46.795303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509281",
+        "stop_code": null,
+        "stop_name": "Motta Naluns"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.272526,
+          46.810867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509282",
+        "stop_code": null,
+        "stop_name": "Arosa (Mittelstation)Weisshorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.66315,
+          46.786404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509375",
+        "stop_code": null,
+        "stop_name": "Curtinatsch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.994783,
+          46.436714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509376",
+        "stop_code": null,
+        "stop_name": "Piz Lagalb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.021954,
+          46.429909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509383",
+        "stop_code": null,
+        "stop_name": "Signal (St. Moritz)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.822584,
+          46.494213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509440",
+        "stop_code": null,
+        "stop_name": "Pizolhütte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.417035,
+          46.979218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509450",
+        "stop_code": null,
+        "stop_name": "Unterterzen (Talstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.255108,
+          47.113342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509451",
+        "stop_code": null,
+        "stop_name": "Oberterzen (Mittelstation)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.257201,
+          47.102791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509679",
+        "stop_code": null,
+        "stop_name": "Rhäzüns (Luftseilbahn Feldis)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.401795,
+          46.79583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509680",
+        "stop_code": "FEVE",
+        "stop_name": "Feldis/Veulden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.429821,
+          46.79512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509681",
+        "stop_code": null,
+        "stop_name": "Lenzerheide/Lai Canols"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.556857,
+          46.740292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509682",
+        "stop_code": null,
+        "stop_name": "Scharmoin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.573071,
+          46.74284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "8509683",
+        "stop_code": null,
+        "stop_name": "Parpaner Rothorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.597355,
+          46.742554
+        ]
+      }
+    }
+  ]
+}

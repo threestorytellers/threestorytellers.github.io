@@ -1,0 +1,7314 @@
+{
+  "8530484_8530485": {
+    "signature": "8530484_8530485",
+    "shape_id": "shp_6_9895",
+    "stations": [
+      {
+        "stop_id": "8530484",
+        "shape_percent": 5.73
+      },
+      {
+        "stop_id": "8530485",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530485_8530484": {
+    "signature": "8530485_8530484",
+    "shape_id": "shp_6_1784",
+    "stations": [
+      {
+        "stop_id": "8530485",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530484",
+        "shape_percent": 94.19
+      }
+    ],
+    "ok": true
+  },
+  "8506251_8506274": {
+    "signature": "8506251_8506274",
+    "shape_id": "shp_6_5460",
+    "stations": [
+      {
+        "stop_id": "8506251",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8506274",
+        "shape_percent": 99.91
+      }
+    ],
+    "ok": true
+  },
+  "8506274_8506251": {
+    "signature": "8506274_8506251",
+    "shape_id": "shp_6_6718",
+    "stations": [
+      {
+        "stop_id": "8506274",
+        "shape_percent": 0.06
+      },
+      {
+        "stop_id": "8506251",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8508453_8508454_8508455": {
+    "signature": "8508453_8508454_8508455",
+    "shape_id": "shp_6_10185",
+    "stations": [
+      {
+        "stop_id": "8508453",
+        "shape_percent": 0.1
+      },
+      {
+        "stop_id": "8508454",
+        "shape_percent": 43.03
+      },
+      {
+        "stop_id": "8508455",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8508455_8508454_8508453": {
+    "signature": "8508455_8508454_8508453",
+    "shape_id": "shp_6_2331",
+    "stations": [
+      {
+        "stop_id": "8508455",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8508454",
+        "shape_percent": 56.82
+      },
+      {
+        "stop_id": "8508453",
+        "shape_percent": 99.88
+      }
+    ],
+    "ok": true
+  },
+  "8508455_8508456": {
+    "signature": "8508455_8508456",
+    "shape_id": "shp_6_4975",
+    "stations": [
+      {
+        "stop_id": "8508455",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8508456",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8508456_8508455": {
+    "signature": "8508456_8508455",
+    "shape_id": "shp_6_4377",
+    "stations": [
+      {
+        "stop_id": "8508456",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8508455",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530685_8509383": {
+    "signature": "8530685_8509383",
+    "shape_id": "shp_6_5772",
+    "stations": [
+      {
+        "stop_id": "8530685",
+        "shape_percent": 0.28
+      },
+      {
+        "stop_id": "8509383",
+        "shape_percent": 99.65
+      }
+    ],
+    "ok": true
+  },
+  "8509383_8530685": {
+    "signature": "8509383_8530685",
+    "shape_id": "shp_6_3727",
+    "stations": [
+      {
+        "stop_id": "8509383",
+        "shape_percent": 0.35
+      },
+      {
+        "stop_id": "8530685",
+        "shape_percent": 99.72
+      }
+    ],
+    "ok": true
+  },
+  "8509273_8509274": {
+    "signature": "8509273_8509274",
+    "shape_id": "shp_6_4869",
+    "stations": [
+      {
+        "stop_id": "8509273",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509274",
+        "shape_percent": 99.96
+      }
+    ],
+    "ok": true
+  },
+  "8509274_8509273": {
+    "signature": "8509274_8509273",
+    "shape_id": "shp_6_9138",
+    "stations": [
+      {
+        "stop_id": "8509274",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509273",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8509085_8509087": {
+    "signature": "8509085_8509087",
+    "shape_id": "shp_6_1669",
+    "stations": [
+      {
+        "stop_id": "8509085",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509087",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8509087_8509085": {
+    "signature": "8509087_8509085",
+    "shape_id": "shp_6_7927",
+    "stations": [
+      {
+        "stop_id": "8509087",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509085",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530535_8509085": {
+    "signature": "8530535_8509085",
+    "shape_id": "shp_6_6961",
+    "stations": [
+      {
+        "stop_id": "8530535",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509085",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8509085_8530535": {
+    "signature": "8509085_8530535",
+    "shape_id": "shp_6_1618",
+    "stations": [
+      {
+        "stop_id": "8509085",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530535",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507350_8507352_8507351_8507354": {
+    "signature": "8507350_8507352_8507351_8507354",
+    "shape_id": "shp_6_2066",
+    "stations": [
+      {
+        "stop_id": "8507350",
+        "shape_percent": 0.2
+      },
+      {
+        "stop_id": "8507352",
+        "shape_percent": 50.21
+      },
+      {
+        "stop_id": "8507351",
+        "shape_percent": 82.67
+      },
+      {
+        "stop_id": "8507354",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507354_8507351_8507352_8507350": {
+    "signature": "8507354_8507351_8507352_8507350",
+    "shape_id": "shp_6_10006",
+    "stations": [
+      {
+        "stop_id": "8507354",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507351",
+        "shape_percent": 17.22
+      },
+      {
+        "stop_id": "8507352",
+        "shape_percent": 49.76
+      },
+      {
+        "stop_id": "8507350",
+        "shape_percent": 99.79
+      }
+    ],
+    "ok": true
+  },
+  "8508502_8508368": {
+    "signature": "8508502_8508368",
+    "shape_id": "shp_6_635",
+    "stations": [
+      {
+        "stop_id": "8508502",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8508368",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8508368_8508502": {
+    "signature": "8508368_8508502",
+    "shape_id": "shp_6_2361",
+    "stations": [
+      {
+        "stop_id": "8508368",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8508502",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8503082_8503081": {
+    "signature": "8503082_8503081",
+    "shape_id": "shp_6_7437",
+    "stations": [
+      {
+        "stop_id": "8503082",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8503081",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8503081_8503082": {
+    "signature": "8503081_8503082",
+    "shape_id": "shp_6_7109",
+    "stations": [
+      {
+        "stop_id": "8503081",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8503082",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8508500_8508496": {
+    "signature": "8508500_8508496",
+    "shape_id": "shp_6_2676",
+    "stations": [
+      {
+        "stop_id": "8508500",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8508496",
+        "shape_percent": 99.93
+      }
+    ],
+    "ok": true
+  },
+  "8508496_8508500": {
+    "signature": "8508496_8508500",
+    "shape_id": "shp_6_8831",
+    "stations": [
+      {
+        "stop_id": "8508496",
+        "shape_percent": 0.03
+      },
+      {
+        "stop_id": "8508500",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530682_8508495": {
+    "signature": "8530682_8508495",
+    "shape_id": "shp_6_6747",
+    "stations": [
+      {
+        "stop_id": "8530682",
+        "shape_percent": 0.07
+      },
+      {
+        "stop_id": "8508495",
+        "shape_percent": 99.85
+      }
+    ],
+    "ok": true
+  },
+  "8508495_8530682": {
+    "signature": "8508495_8530682",
+    "shape_id": "shp_6_9362",
+    "stations": [
+      {
+        "stop_id": "8508495",
+        "shape_percent": 0.15
+      },
+      {
+        "stop_id": "8530682",
+        "shape_percent": 99.85
+      }
+    ],
+    "ok": true
+  },
+  "8509091_8509093": {
+    "signature": "8509091_8509093",
+    "shape_id": "shp_6_2290",
+    "stations": [
+      {
+        "stop_id": "8509091",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509093",
+        "shape_percent": 99.6
+      }
+    ],
+    "ok": true
+  },
+  "8509090_8509091": {
+    "signature": "8509090_8509091",
+    "shape_id": "shp_6_273",
+    "stations": [
+      {
+        "stop_id": "8509090",
+        "shape_percent": 0.23
+      },
+      {
+        "stop_id": "8509091",
+        "shape_percent": 98.03
+      }
+    ],
+    "ok": true
+  },
+  "8509091_8509090": {
+    "signature": "8509091_8509090",
+    "shape_id": "shp_6_4568",
+    "stations": [
+      {
+        "stop_id": "8509091",
+        "shape_percent": 1.85
+      },
+      {
+        "stop_id": "8509090",
+        "shape_percent": 99.77
+      }
+    ],
+    "ok": true
+  },
+  "8509093_8509091": {
+    "signature": "8509093_8509091",
+    "shape_id": "shp_6_2834",
+    "stations": [
+      {
+        "stop_id": "8509093",
+        "shape_percent": 0.4
+      },
+      {
+        "stop_id": "8509091",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8509080_8509081": {
+    "signature": "8509080_8509081",
+    "shape_id": "shp_6_7188",
+    "stations": [
+      {
+        "stop_id": "8509080",
+        "shape_percent": 0.05
+      },
+      {
+        "stop_id": "8509081",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8509081_8509080": {
+    "signature": "8509081_8509080",
+    "shape_id": "shp_6_7529",
+    "stations": [
+      {
+        "stop_id": "8509081",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509080",
+        "shape_percent": 99.95
+      }
+    ],
+    "ok": true
+  },
+  "8509081_8509082": {
+    "signature": "8509081_8509082",
+    "shape_id": "shp_6_10195",
+    "stations": [
+      {
+        "stop_id": "8509081",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509082",
+        "shape_percent": 99.53
+      }
+    ],
+    "ok": true
+  },
+  "8509082_8509081": {
+    "signature": "8509082_8509081",
+    "shape_id": "shp_6_7940",
+    "stations": [
+      {
+        "stop_id": "8509082",
+        "shape_percent": 0.47
+      },
+      {
+        "stop_id": "8509081",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530237_8530690_8501698": {
+    "signature": "8530237_8530690_8501698",
+    "shape_id": "shp_6_9034",
+    "stations": [
+      {
+        "stop_id": "8530237",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530690",
+        "shape_percent": 49.16
+      },
+      {
+        "stop_id": "8501698",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501698_8530690_8530237": {
+    "signature": "8501698_8530690_8530237",
+    "shape_id": "shp_6_10140",
+    "stations": [
+      {
+        "stop_id": "8501698",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530690",
+        "shape_percent": 50.72
+      },
+      {
+        "stop_id": "8530237",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530237_8501698": {
+    "signature": "8530237_8501698",
+    "shape_id": "shp_6_5396",
+    "stations": [
+      {
+        "stop_id": "8530237",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501698",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501698_8530237": {
+    "signature": "8501698_8530237",
+    "shape_id": "shp_6_1402",
+    "stations": [
+      {
+        "stop_id": "8501698",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530237",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501583_8530237": {
+    "signature": "8501583_8530237",
+    "shape_id": "shp_6_1672",
+    "stations": [
+      {
+        "stop_id": "8501583",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530237",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530237_8501583_8530688": {
+    "signature": "8530237_8501583_8530688",
+    "shape_id": "shp_6_8120",
+    "stations": [
+      {
+        "stop_id": "8530237",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501583",
+        "shape_percent": 33.18
+      },
+      {
+        "stop_id": "8530688",
+        "shape_percent": 99.96
+      }
+    ],
+    "ok": true
+  },
+  "8530688_8501583_8530237": {
+    "signature": "8530688_8501583_8530237",
+    "shape_id": "shp_6_4688",
+    "stations": [
+      {
+        "stop_id": "8530688",
+        "shape_percent": 0.04
+      },
+      {
+        "stop_id": "8501583",
+        "shape_percent": 66.57
+      },
+      {
+        "stop_id": "8530237",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530688_8530237": {
+    "signature": "8530688_8530237",
+    "shape_id": "shp_6_4320",
+    "stations": [
+      {
+        "stop_id": "8530688",
+        "shape_percent": 0.04
+      },
+      {
+        "stop_id": "8530237",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530237_8501583": {
+    "signature": "8530237_8501583",
+    "shape_id": "shp_6_5987",
+    "stations": [
+      {
+        "stop_id": "8530237",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501583",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530808_8530241": {
+    "signature": "8530808_8530241",
+    "shape_id": "shp_6_6868",
+    "stations": [
+      {
+        "stop_id": "8530808",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530241",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530241_8530808": {
+    "signature": "8530241_8530808",
+    "shape_id": "shp_6_4215",
+    "stations": [
+      {
+        "stop_id": "8530241",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530808",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530240_8530242": {
+    "signature": "8530240_8530242",
+    "shape_id": "shp_6_1265",
+    "stations": [
+      {
+        "stop_id": "8530240",
+        "shape_percent": 0.85
+      },
+      {
+        "stop_id": "8530242",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530242_8530240": {
+    "signature": "8530242_8530240",
+    "shape_id": "shp_6_6093",
+    "stations": [
+      {
+        "stop_id": "8530242",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530240",
+        "shape_percent": 99.05
+      }
+    ],
+    "ok": true
+  },
+  "8501645_8501659": {
+    "signature": "8501645_8501659",
+    "shape_id": "shp_6_4973",
+    "stations": [
+      {
+        "stop_id": "8501645",
+        "shape_percent": 0.05
+      },
+      {
+        "stop_id": "8501659",
+        "shape_percent": 99.9
+      }
+    ],
+    "ok": true
+  },
+  "8501659_8501645": {
+    "signature": "8501659_8501645",
+    "shape_id": "shp_6_2879",
+    "stations": [
+      {
+        "stop_id": "8501659",
+        "shape_percent": 0.1
+      },
+      {
+        "stop_id": "8501645",
+        "shape_percent": 99.95
+      }
+    ],
+    "ok": true
+  },
+  "8501441_8530134": {
+    "signature": "8501441_8530134",
+    "shape_id": "shp_6_5004",
+    "stations": [
+      {
+        "stop_id": "8501441",
+        "shape_percent": 0.12
+      },
+      {
+        "stop_id": "8530134",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530134_8501441": {
+    "signature": "8530134_8501441",
+    "shape_id": "shp_6_207",
+    "stations": [
+      {
+        "stop_id": "8530134",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501441",
+        "shape_percent": 99.88
+      }
+    ],
+    "ok": true
+  },
+  "8506268_8506269": {
+    "signature": "8506268_8506269",
+    "shape_id": "shp_6_116",
+    "stations": [
+      {
+        "stop_id": "8506268",
+        "shape_percent": 0.4
+      },
+      {
+        "stop_id": "8506269",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8506269_8506268": {
+    "signature": "8506269_8506268",
+    "shape_id": "shp_6_8929",
+    "stations": [
+      {
+        "stop_id": "8506269",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8506268",
+        "shape_percent": 99.55
+      }
+    ],
+    "ok": true
+  },
+  "8509450_8509451": {
+    "signature": "8509450_8509451",
+    "shape_id": "shp_6_2798",
+    "stations": [
+      {
+        "stop_id": "8509450",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509451",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8509451_8509450": {
+    "signature": "8509451_8509450",
+    "shape_id": "shp_6_3429",
+    "stations": [
+      {
+        "stop_id": "8509451",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509450",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8509450_8509451_8530493": {
+    "signature": "8509450_8509451_8530493",
+    "shape_id": "shp_6_1153",
+    "stations": [
+      {
+        "stop_id": "8509450",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509451",
+        "shape_percent": 36.6
+      },
+      {
+        "stop_id": "8530493",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530493_8509451_8509450": {
+    "signature": "8530493_8509451_8509450",
+    "shape_id": "shp_6_3502",
+    "stations": [
+      {
+        "stop_id": "8530493",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509451",
+        "shape_percent": 63.4
+      },
+      {
+        "stop_id": "8509450",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507356_8507357": {
+    "signature": "8507356_8507357",
+    "shape_id": "shp_6_7220",
+    "stations": [
+      {
+        "stop_id": "8507356",
+        "shape_percent": 0.42
+      },
+      {
+        "stop_id": "8507357",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507357_8507356": {
+    "signature": "8507357_8507356",
+    "shape_id": "shp_6_2118",
+    "stations": [
+      {
+        "stop_id": "8507357",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507356",
+        "shape_percent": 99.58
+      }
+    ],
+    "ok": true
+  },
+  "8501451_8501450": {
+    "signature": "8501451_8501450",
+    "shape_id": "shp_6_483",
+    "stations": [
+      {
+        "stop_id": "8501451",
+        "shape_percent": 0.2
+      },
+      {
+        "stop_id": "8501450",
+        "shape_percent": 99.64
+      }
+    ],
+    "ok": true
+  },
+  "8501450_8501451": {
+    "signature": "8501450_8501451",
+    "shape_id": "shp_6_3245",
+    "stations": [
+      {
+        "stop_id": "8501450",
+        "shape_percent": 0.31
+      },
+      {
+        "stop_id": "8501451",
+        "shape_percent": 99.75
+      }
+    ],
+    "ok": true
+  },
+  "8509160_8509282": {
+    "signature": "8509160_8509282",
+    "shape_id": "shp_6_4142",
+    "stations": [
+      {
+        "stop_id": "8509160",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509282",
+        "shape_percent": 99.92
+      }
+    ],
+    "ok": true
+  },
+  "8509282_8509162": {
+    "signature": "8509282_8509162",
+    "shape_id": "shp_6_2745",
+    "stations": [
+      {
+        "stop_id": "8509282",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509162",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8509162_8509282": {
+    "signature": "8509162_8509282",
+    "shape_id": "shp_6_9219",
+    "stations": [
+      {
+        "stop_id": "8509162",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509282",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8509282_8509160": {
+    "signature": "8509282_8509160",
+    "shape_id": "shp_6_10401",
+    "stations": [
+      {
+        "stop_id": "8509282",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509160",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8509158_8509159": {
+    "signature": "8509158_8509159",
+    "shape_id": "shp_6_8794",
+    "stations": [
+      {
+        "stop_id": "8509158",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509159",
+        "shape_percent": 99.93
+      }
+    ],
+    "ok": true
+  },
+  "8509159_8509158": {
+    "signature": "8509159_8509158",
+    "shape_id": "shp_6_6707",
+    "stations": [
+      {
+        "stop_id": "8509159",
+        "shape_percent": 0.07
+      },
+      {
+        "stop_id": "8509158",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530200_8501444": {
+    "signature": "8530200_8501444",
+    "shape_id": "shp_6_2691",
+    "stations": [
+      {
+        "stop_id": "8530200",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501444",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501444_8530200": {
+    "signature": "8501444_8530200",
+    "shape_id": "shp_6_6925",
+    "stations": [
+      {
+        "stop_id": "8501444",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530200",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530607_8530608": {
+    "signature": "8530607_8530608",
+    "shape_id": "shp_6_8645",
+    "stations": [
+      {
+        "stop_id": "8530607",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530608",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530608_8530607": {
+    "signature": "8530608_8530607",
+    "shape_id": "shp_6_9019",
+    "stations": [
+      {
+        "stop_id": "8530608",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530607",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8509280_8509281": {
+    "signature": "8509280_8509281",
+    "shape_id": "shp_6_697",
+    "stations": [
+      {
+        "stop_id": "8509280",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509281",
+        "shape_percent": 99.76
+      }
+    ],
+    "ok": true
+  },
+  "8509281_8509280": {
+    "signature": "8509281_8509280",
+    "shape_id": "shp_6_4270",
+    "stations": [
+      {
+        "stop_id": "8509281",
+        "shape_percent": 0.24
+      },
+      {
+        "stop_id": "8509280",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530540_8530541": {
+    "signature": "8530540_8530541",
+    "shape_id": "shp_6_5224",
+    "stations": [
+      {
+        "stop_id": "8530540",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530541",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530541_8530540": {
+    "signature": "8530541_8530540",
+    "shape_id": "shp_6_6862",
+    "stations": [
+      {
+        "stop_id": "8530541",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530540",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530032_8501358": {
+    "signature": "8530032_8501358",
+    "shape_id": "shp_6_7957",
+    "stations": [
+      {
+        "stop_id": "8530032",
+        "shape_percent": 0.17
+      },
+      {
+        "stop_id": "8501358",
+        "shape_percent": 99.55
+      }
+    ],
+    "ok": true
+  },
+  "8501358_8530032": {
+    "signature": "8501358_8530032",
+    "shape_id": "shp_6_3490",
+    "stations": [
+      {
+        "stop_id": "8501358",
+        "shape_percent": 0.45
+      },
+      {
+        "stop_id": "8530032",
+        "shape_percent": 99.79
+      }
+    ],
+    "ok": true
+  },
+  "8530678_8507452": {
+    "signature": "8530678_8507452",
+    "shape_id": "shp_6_840",
+    "stations": [
+      {
+        "stop_id": "8530678",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507452",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507452_8530678": {
+    "signature": "8507452_8530678",
+    "shape_id": "shp_6_5040",
+    "stations": [
+      {
+        "stop_id": "8507452",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530678",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530283_8530284": {
+    "signature": "8530283_8530284",
+    "shape_id": "shp_6_3672",
+    "stations": [
+      {
+        "stop_id": "8530283",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530284",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530284_8530283": {
+    "signature": "8530284_8530283",
+    "shape_id": "shp_6_7942",
+    "stations": [
+      {
+        "stop_id": "8530284",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530283",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530288_8530290": {
+    "signature": "8530288_8530290",
+    "shape_id": "shp_6_9298",
+    "stations": [
+      {
+        "stop_id": "8530288",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530290",
+        "shape_percent": 99.89
+      }
+    ],
+    "ok": true
+  },
+  "8530290_8530288": {
+    "signature": "8530290_8530288",
+    "shape_id": "shp_6_1055",
+    "stations": [
+      {
+        "stop_id": "8530290",
+        "shape_percent": 0.07
+      },
+      {
+        "stop_id": "8530288",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530797_8530798": {
+    "signature": "8530797_8530798",
+    "shape_id": "shp_6_3709",
+    "stations": [
+      {
+        "stop_id": "8530797",
+        "shape_percent": 0.76
+      },
+      {
+        "stop_id": "8530798",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530798_8530797": {
+    "signature": "8530798_8530797",
+    "shape_id": "shp_6_8600",
+    "stations": [
+      {
+        "stop_id": "8530798",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530797",
+        "shape_percent": 99.24
+      }
+    ],
+    "ok": true
+  },
+  "8530107_8501584": {
+    "signature": "8530107_8501584",
+    "shape_id": "shp_6_3142",
+    "stations": [
+      {
+        "stop_id": "8530107",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501584",
+        "shape_percent": 99.15
+      }
+    ],
+    "ok": true
+  },
+  "8501584_8530107": {
+    "signature": "8501584_8530107",
+    "shape_id": "shp_6_2380",
+    "stations": [
+      {
+        "stop_id": "8501584",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530107",
+        "shape_percent": 99.95
+      }
+    ],
+    "ok": true
+  },
+  "8507262_8507261": {
+    "signature": "8507262_8507261",
+    "shape_id": "shp_6_5355",
+    "stations": [
+      {
+        "stop_id": "8507262",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507261",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507261_8507262": {
+    "signature": "8507261_8507262",
+    "shape_id": "shp_6_8293",
+    "stations": [
+      {
+        "stop_id": "8507261",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507262",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501643_8501657": {
+    "signature": "8501643_8501657",
+    "shape_id": "shp_6_1399",
+    "stations": [
+      {
+        "stop_id": "8501643",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501657",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501657_8501643": {
+    "signature": "8501657_8501643",
+    "shape_id": "shp_6_10098",
+    "stations": [
+      {
+        "stop_id": "8501657",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501643",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530589_8530591": {
+    "signature": "8530589_8530591",
+    "shape_id": "shp_6_408",
+    "stations": [
+      {
+        "stop_id": "8530589",
+        "shape_percent": 0.1
+      },
+      {
+        "stop_id": "8530591",
+        "shape_percent": 99.61
+      }
+    ],
+    "ok": true
+  },
+  "8530591_8530589": {
+    "signature": "8530591_8530589",
+    "shape_id": "shp_6_2506",
+    "stations": [
+      {
+        "stop_id": "8530591",
+        "shape_percent": 0.35
+      },
+      {
+        "stop_id": "8530589",
+        "shape_percent": 99.87
+      }
+    ],
+    "ok": true
+  },
+  "8509679_8509680": {
+    "signature": "8509679_8509680",
+    "shape_id": "shp_6_8671",
+    "stations": [
+      {
+        "stop_id": "8509679",
+        "shape_percent": 0.05
+      },
+      {
+        "stop_id": "8509680",
+        "shape_percent": 99.67
+      }
+    ],
+    "ok": true
+  },
+  "8509680_8509679": {
+    "signature": "8509680_8509679",
+    "shape_id": "shp_6_9772",
+    "stations": [
+      {
+        "stop_id": "8509680",
+        "shape_percent": 0.28
+      },
+      {
+        "stop_id": "8509679",
+        "shape_percent": 99.91
+      }
+    ],
+    "ok": true
+  },
+  "8501467_8501486": {
+    "signature": "8501467_8501486",
+    "shape_id": "shp_6_1241",
+    "stations": [
+      {
+        "stop_id": "8501467",
+        "shape_percent": 0.23
+      },
+      {
+        "stop_id": "8501486",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501486_8501467": {
+    "signature": "8501486_8501467",
+    "shape_id": "shp_6_3390",
+    "stations": [
+      {
+        "stop_id": "8501486",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501467",
+        "shape_percent": 99.71
+      }
+    ],
+    "ok": true
+  },
+  "8501647_8501696": {
+    "signature": "8501647_8501696",
+    "shape_id": "shp_6_7505",
+    "stations": [
+      {
+        "stop_id": "8501647",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501696",
+        "shape_percent": 99.96
+      }
+    ],
+    "ok": true
+  },
+  "8501696_8501647": {
+    "signature": "8501696_8501647",
+    "shape_id": "shp_6_1337",
+    "stations": [
+      {
+        "stop_id": "8501696",
+        "shape_percent": 0.04
+      },
+      {
+        "stop_id": "8501647",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501696_8501695": {
+    "signature": "8501696_8501695",
+    "shape_id": "shp_6_2969",
+    "stations": [
+      {
+        "stop_id": "8501696",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501695",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501695_8501696": {
+    "signature": "8501695_8501696",
+    "shape_id": "shp_6_7274",
+    "stations": [
+      {
+        "stop_id": "8501695",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501696",
+        "shape_percent": 99.88
+      }
+    ],
+    "ok": true
+  },
+  "8501647_8501336": {
+    "signature": "8501647_8501336",
+    "shape_id": "shp_6_9179",
+    "stations": [
+      {
+        "stop_id": "8501647",
+        "shape_percent": 0.59
+      },
+      {
+        "stop_id": "8501336",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501336_8501647": {
+    "signature": "8501336_8501647",
+    "shape_id": "shp_6_4080",
+    "stations": [
+      {
+        "stop_id": "8501336",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501647",
+        "shape_percent": 99.35
+      }
+    ],
+    "ok": true
+  },
+  "8530805_8501337": {
+    "signature": "8530805_8501337",
+    "shape_id": "shp_6_2281",
+    "stations": [
+      {
+        "stop_id": "8530805",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501337",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501337_8530805": {
+    "signature": "8501337_8530805",
+    "shape_id": "shp_6_3652",
+    "stations": [
+      {
+        "stop_id": "8501337",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530805",
+        "shape_percent": 99.98
+      }
+    ],
+    "ok": true
+  },
+  "8530806_8501337": {
+    "signature": "8530806_8501337",
+    "shape_id": "shp_6_4193",
+    "stations": [
+      {
+        "stop_id": "8530806",
+        "shape_percent": 0.17
+      },
+      {
+        "stop_id": "8501337",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501337_8530806": {
+    "signature": "8501337_8530806",
+    "shape_id": "shp_6_7107",
+    "stations": [
+      {
+        "stop_id": "8501337",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530806",
+        "shape_percent": 99.83
+      }
+    ],
+    "ok": true
+  },
+  "8530807_8530226": {
+    "signature": "8530807_8530226",
+    "shape_id": "shp_6_5863",
+    "stations": [
+      {
+        "stop_id": "8530807",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530226",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530226_8530807": {
+    "signature": "8530226_8530807",
+    "shape_id": "shp_6_1943",
+    "stations": [
+      {
+        "stop_id": "8530226",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530807",
+        "shape_percent": 99.37
+      }
+    ],
+    "ok": true
+  },
+  "8530231_8530232": {
+    "signature": "8530231_8530232",
+    "shape_id": "shp_6_3295",
+    "stations": [
+      {
+        "stop_id": "8530231",
+        "shape_percent": 0.19
+      },
+      {
+        "stop_id": "8530232",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530232_8530231": {
+    "signature": "8530232_8530231",
+    "shape_id": "shp_6_7749",
+    "stations": [
+      {
+        "stop_id": "8530232",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530231",
+        "shape_percent": 99.81
+      }
+    ],
+    "ok": true
+  },
+  "8595499_8595500": {
+    "signature": "8595499_8595500",
+    "shape_id": "shp_6_4346",
+    "stations": [
+      {
+        "stop_id": "8595499",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8595500",
+        "shape_percent": 99.92
+      }
+    ],
+    "ok": true
+  },
+  "8595500_8595499": {
+    "signature": "8595500_8595499",
+    "shape_id": "shp_6_9690",
+    "stations": [
+      {
+        "stop_id": "8595500",
+        "shape_percent": 0.08
+      },
+      {
+        "stop_id": "8595499",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530545_8530546": {
+    "signature": "8530545_8530546",
+    "shape_id": "shp_6_4176",
+    "stations": [
+      {
+        "stop_id": "8530545",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530546",
+        "shape_percent": 99.57
+      }
+    ],
+    "ok": true
+  },
+  "8530546_8530545": {
+    "signature": "8530546_8530545",
+    "shape_id": "shp_6_624",
+    "stations": [
+      {
+        "stop_id": "8530546",
+        "shape_percent": 0.43
+      },
+      {
+        "stop_id": "8530545",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530546_8509099": {
+    "signature": "8530546_8509099",
+    "shape_id": "shp_6_1344",
+    "stations": [
+      {
+        "stop_id": "8530546",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509099",
+        "shape_percent": 99.16
+      }
+    ],
+    "ok": true
+  },
+  "8509099_8530546": {
+    "signature": "8509099_8530546",
+    "shape_id": "shp_6_1255",
+    "stations": [
+      {
+        "stop_id": "8509099",
+        "shape_percent": 0.84
+      },
+      {
+        "stop_id": "8530546",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8500097_8500089": {
+    "signature": "8500097_8500089",
+    "shape_id": "shp_6_3030",
+    "stations": [
+      {
+        "stop_id": "8500097",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8500089",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8500089_8500097": {
+    "signature": "8500089_8500097",
+    "shape_id": "shp_6_1768",
+    "stations": [
+      {
+        "stop_id": "8500089",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8500097",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530604_8509277": {
+    "signature": "8530604_8509277",
+    "shape_id": "shp_6_4553",
+    "stations": [
+      {
+        "stop_id": "8530604",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509277",
+        "shape_percent": 99.72
+      }
+    ],
+    "ok": true
+  },
+  "8509277_8530604": {
+    "signature": "8509277_8530604",
+    "shape_id": "shp_6_8657",
+    "stations": [
+      {
+        "stop_id": "8509277",
+        "shape_percent": 0.23
+      },
+      {
+        "stop_id": "8530604",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530411_8530412": {
+    "signature": "8530411_8530412",
+    "shape_id": "shp_6_539",
+    "stations": [
+      {
+        "stop_id": "8530411",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530412",
+        "shape_percent": 99.94
+      }
+    ],
+    "ok": true
+  },
+  "8530412_8530411": {
+    "signature": "8530412_8530411",
+    "shape_id": "shp_6_172",
+    "stations": [
+      {
+        "stop_id": "8530412",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530411",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530183_8530184": {
+    "signature": "8530183_8530184",
+    "shape_id": "shp_6_753",
+    "stations": [
+      {
+        "stop_id": "8530183",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530184",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530184_8530183": {
+    "signature": "8530184_8530183",
+    "shape_id": "shp_6_10078",
+    "stations": [
+      {
+        "stop_id": "8530184",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530183",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530159_8531349_8530161": {
+    "signature": "8530159_8531349_8530161",
+    "shape_id": "shp_6_8820",
+    "stations": [
+      {
+        "stop_id": "8530159",
+        "shape_percent": 0.23
+      },
+      {
+        "stop_id": "8531349",
+        "shape_percent": 58.87
+      },
+      {
+        "stop_id": "8530161",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530161_8531349_8530159": {
+    "signature": "8530161_8531349_8530159",
+    "shape_id": "shp_6_3228",
+    "stations": [
+      {
+        "stop_id": "8530161",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8531349",
+        "shape_percent": 40.99
+      },
+      {
+        "stop_id": "8530159",
+        "shape_percent": 99.77
+      }
+    ],
+    "ok": true
+  },
+  "8530163_8531260": {
+    "signature": "8530163_8531260",
+    "shape_id": "shp_6_2251",
+    "stations": [
+      {
+        "stop_id": "8530163",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8531260",
+        "shape_percent": 99.1
+      }
+    ],
+    "ok": true
+  },
+  "8531260_8530163": {
+    "signature": "8531260_8530163",
+    "shape_id": "shp_6_8190",
+    "stations": [
+      {
+        "stop_id": "8531260",
+        "shape_percent": 0.9
+      },
+      {
+        "stop_id": "8530163",
+        "shape_percent": 99.82
+      }
+    ],
+    "ok": true
+  },
+  "8531261_8531262": {
+    "signature": "8531261_8531262",
+    "shape_id": "shp_6_111",
+    "stations": [
+      {
+        "stop_id": "8531261",
+        "shape_percent": 0.11
+      },
+      {
+        "stop_id": "8531262",
+        "shape_percent": 99.94
+      }
+    ],
+    "ok": true
+  },
+  "8531262_8531261": {
+    "signature": "8531262_8531261",
+    "shape_id": "shp_6_2883",
+    "stations": [
+      {
+        "stop_id": "8531262",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8531261",
+        "shape_percent": 99.83
+      }
+    ],
+    "ok": true
+  },
+  "8530167_8530168_8530169": {
+    "signature": "8530167_8530168_8530169",
+    "shape_id": "shp_6_5378",
+    "stations": [
+      {
+        "stop_id": "8530167",
+        "shape_percent": 0.2
+      },
+      {
+        "stop_id": "8530168",
+        "shape_percent": 25.41
+      },
+      {
+        "stop_id": "8530169",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530169_8530168_8530167": {
+    "signature": "8530169_8530168_8530167",
+    "shape_id": "shp_6_3699",
+    "stations": [
+      {
+        "stop_id": "8530169",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530168",
+        "shape_percent": 74.51
+      },
+      {
+        "stop_id": "8530167",
+        "shape_percent": 99.76
+      }
+    ],
+    "ok": true
+  },
+  "8530169_8530173": {
+    "signature": "8530169_8530173",
+    "shape_id": "shp_6_10304",
+    "stations": [
+      {
+        "stop_id": "8530169",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530173",
+        "shape_percent": 99.65
+      }
+    ],
+    "ok": true
+  },
+  "8530173_8530169": {
+    "signature": "8530173_8530169",
+    "shape_id": "shp_6_8160",
+    "stations": [
+      {
+        "stop_id": "8530173",
+        "shape_percent": 0.35
+      },
+      {
+        "stop_id": "8530169",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8509375_8509376": {
+    "signature": "8509375_8509376",
+    "shape_id": "shp_6_5984",
+    "stations": [
+      {
+        "stop_id": "8509375",
+        "shape_percent": 0.05
+      },
+      {
+        "stop_id": "8509376",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8509376_8509375": {
+    "signature": "8509376_8509375",
+    "shape_id": "shp_6_6774",
+    "stations": [
+      {
+        "stop_id": "8509376",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509375",
+        "shape_percent": 99.95
+      }
+    ],
+    "ok": true
+  },
+  "8530681_8508497": {
+    "signature": "8530681_8508497",
+    "shape_id": "shp_6_1955",
+    "stations": [
+      {
+        "stop_id": "8530681",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8508497",
+        "shape_percent": 99.6
+      }
+    ],
+    "ok": true
+  },
+  "8508497_8530681": {
+    "signature": "8508497_8530681",
+    "shape_id": "shp_6_6873",
+    "stations": [
+      {
+        "stop_id": "8508497",
+        "shape_percent": 0.35
+      },
+      {
+        "stop_id": "8530681",
+        "shape_percent": 99.96
+      }
+    ],
+    "ok": true
+  },
+  "8505192_8505191": {
+    "signature": "8505192_8505191",
+    "shape_id": "shp_6_2188",
+    "stations": [
+      {
+        "stop_id": "8505192",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8505191",
+        "shape_percent": 99.94
+      }
+    ],
+    "ok": true
+  },
+  "8505191_8505192": {
+    "signature": "8505191_8505192",
+    "shape_id": "shp_6_7311",
+    "stations": [
+      {
+        "stop_id": "8505191",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8505192",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8505191_8505190": {
+    "signature": "8505191_8505190",
+    "shape_id": "shp_6_3698",
+    "stations": [
+      {
+        "stop_id": "8505191",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8505190",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8505190_8505191": {
+    "signature": "8505190_8505191",
+    "shape_id": "shp_6_7570",
+    "stations": [
+      {
+        "stop_id": "8505190",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8505191",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8531050_8531048": {
+    "signature": "8531050_8531048",
+    "shape_id": "shp_6_1129",
+    "stations": [
+      {
+        "stop_id": "8531050",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8531048",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8531048_8531050": {
+    "signature": "8531048_8531050",
+    "shape_id": "shp_6_6851",
+    "stations": [
+      {
+        "stop_id": "8531048",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8531050",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8504348_8504347": {
+    "signature": "8504348_8504347",
+    "shape_id": "shp_6_7470",
+    "stations": [
+      {
+        "stop_id": "8504348",
+        "shape_percent": 0.51
+      },
+      {
+        "stop_id": "8504347",
+        "shape_percent": 99.68
+      }
+    ],
+    "ok": true
+  },
+  "8504347_8504348": {
+    "signature": "8504347_8504348",
+    "shape_id": "shp_6_3969",
+    "stations": [
+      {
+        "stop_id": "8504347",
+        "shape_percent": 0.25
+      },
+      {
+        "stop_id": "8504348",
+        "shape_percent": 99.49
+      }
+    ],
+    "ok": true
+  },
+  "8509681_8509682": {
+    "signature": "8509681_8509682",
+    "shape_id": "shp_6_10208",
+    "stations": [
+      {
+        "stop_id": "8509681",
+        "shape_percent": 1.71
+      },
+      {
+        "stop_id": "8509682",
+        "shape_percent": 99.92
+      }
+    ],
+    "ok": true
+  },
+  "8509682_8509681": {
+    "signature": "8509682_8509681",
+    "shape_id": "shp_6_52",
+    "stations": [
+      {
+        "stop_id": "8509682",
+        "shape_percent": 0.08
+      },
+      {
+        "stop_id": "8509681",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8509682_8509683": {
+    "signature": "8509682_8509683",
+    "shape_id": "shp_6_9304",
+    "stations": [
+      {
+        "stop_id": "8509682",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8509683",
+        "shape_percent": 99.78
+      }
+    ],
+    "ok": true
+  },
+  "8509683_8509682": {
+    "signature": "8509683_8509682",
+    "shape_id": "shp_6_5161",
+    "stations": [
+      {
+        "stop_id": "8509683",
+        "shape_percent": 0.16
+      },
+      {
+        "stop_id": "8509682",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530582_8530583": {
+    "signature": "8530582_8530583",
+    "shape_id": "shp_6_1145",
+    "stations": [
+      {
+        "stop_id": "8530582",
+        "shape_percent": 0.06
+      },
+      {
+        "stop_id": "8530583",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530583_8530582": {
+    "signature": "8530583_8530582",
+    "shape_id": "shp_6_7507",
+    "stations": [
+      {
+        "stop_id": "8530583",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530582",
+        "shape_percent": 99.94
+      }
+    ],
+    "ok": true
+  },
+  "8506261_8506262": {
+    "signature": "8506261_8506262",
+    "shape_id": "shp_6_9542",
+    "stations": [
+      {
+        "stop_id": "8506261",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8506262",
+        "shape_percent": 99.96
+      }
+    ],
+    "ok": true
+  },
+  "8506262_8506261": {
+    "signature": "8506262_8506261",
+    "shape_id": "shp_6_7543",
+    "stations": [
+      {
+        "stop_id": "8506262",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8506261",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8508552_8508551": {
+    "signature": "8508552_8508551",
+    "shape_id": "shp_6_9892",
+    "stations": [
+      {
+        "stop_id": "8508552",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8508551",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8508551_8508552": {
+    "signature": "8508551_8508552",
+    "shape_id": "shp_6_1615",
+    "stations": [
+      {
+        "stop_id": "8508551",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8508552",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8506266_8506265": {
+    "signature": "8506266_8506265",
+    "shape_id": "shp_6_914",
+    "stations": [
+      {
+        "stop_id": "8506266",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8506265",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8506265_8506266": {
+    "signature": "8506265_8506266",
+    "shape_id": "shp_6_5590",
+    "stations": [
+      {
+        "stop_id": "8506265",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8506266",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507453_8507454": {
+    "signature": "8507453_8507454",
+    "shape_id": "shp_6_10272",
+    "stations": [
+      {
+        "stop_id": "8507453",
+        "shape_percent": 0.09
+      },
+      {
+        "stop_id": "8507454",
+        "shape_percent": 99.91
+      }
+    ],
+    "ok": true
+  },
+  "8507454_8507453": {
+    "signature": "8507454_8507453",
+    "shape_id": "shp_6_2322",
+    "stations": [
+      {
+        "stop_id": "8507454",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507453",
+        "shape_percent": 99.82
+      }
+    ],
+    "ok": true
+  },
+  "8507454_8507455": {
+    "signature": "8507454_8507455",
+    "shape_id": "shp_6_6073",
+    "stations": [
+      {
+        "stop_id": "8507454",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507455",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507455_8507454": {
+    "signature": "8507455_8507454",
+    "shape_id": "shp_6_1807",
+    "stations": [
+      {
+        "stop_id": "8507455",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507454",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507455_8507456": {
+    "signature": "8507455_8507456",
+    "shape_id": "shp_6_5315",
+    "stations": [
+      {
+        "stop_id": "8507455",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507456",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507456_8507455": {
+    "signature": "8507456_8507455",
+    "shape_id": "shp_6_3860",
+    "stations": [
+      {
+        "stop_id": "8507456",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507455",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507456_8507457": {
+    "signature": "8507456_8507457",
+    "shape_id": "shp_6_3546",
+    "stations": [
+      {
+        "stop_id": "8507456",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507457",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507457_8507456": {
+    "signature": "8507457_8507456",
+    "shape_id": "shp_6_7022",
+    "stations": [
+      {
+        "stop_id": "8507457",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507456",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530486_8530487": {
+    "signature": "8530486_8530487",
+    "shape_id": "shp_6_1300",
+    "stations": [
+      {
+        "stop_id": "8530486",
+        "shape_percent": 1.14
+      },
+      {
+        "stop_id": "8530487",
+        "shape_percent": 98.1
+      }
+    ],
+    "ok": true
+  },
+  "8530487_8530486": {
+    "signature": "8530487_8530486",
+    "shape_id": "shp_6_4102",
+    "stations": [
+      {
+        "stop_id": "8530487",
+        "shape_percent": 1.78
+      },
+      {
+        "stop_id": "8530486",
+        "shape_percent": 98.73
+      }
+    ],
+    "ok": true
+  },
+  "8530487_8530488": {
+    "signature": "8530487_8530488",
+    "shape_id": "shp_6_427",
+    "stations": [
+      {
+        "stop_id": "8530487",
+        "shape_percent": 0.32
+      },
+      {
+        "stop_id": "8530488",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530488_8530487": {
+    "signature": "8530488_8530487",
+    "shape_id": "shp_6_9400",
+    "stations": [
+      {
+        "stop_id": "8530488",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530487",
+        "shape_percent": 99.64
+      }
+    ],
+    "ok": true
+  },
+  "8530146_8530147": {
+    "signature": "8530146_8530147",
+    "shape_id": "shp_6_9540",
+    "stations": [
+      {
+        "stop_id": "8530146",
+        "shape_percent": 0.76
+      },
+      {
+        "stop_id": "8530147",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530147_8530146": {
+    "signature": "8530147_8530146",
+    "shape_id": "shp_6_10253",
+    "stations": [
+      {
+        "stop_id": "8530147",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530146",
+        "shape_percent": 99.24
+      }
+    ],
+    "ok": true
+  },
+  "8501355_8530297": {
+    "signature": "8501355_8530297",
+    "shape_id": "shp_6_9897",
+    "stations": [
+      {
+        "stop_id": "8501355",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530297",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530297_8501355": {
+    "signature": "8530297_8501355",
+    "shape_id": "shp_6_7845",
+    "stations": [
+      {
+        "stop_id": "8530297",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501355",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530039_8530590": {
+    "signature": "8530039_8530590",
+    "shape_id": "shp_6_4853",
+    "stations": [
+      {
+        "stop_id": "8530039",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530590",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530590_8530039": {
+    "signature": "8530590_8530039",
+    "shape_id": "shp_6_7382",
+    "stations": [
+      {
+        "stop_id": "8530590",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530039",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530590_8531155": {
+    "signature": "8530590_8531155",
+    "shape_id": "shp_6_8774",
+    "stations": [
+      {
+        "stop_id": "8530590",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8531155",
+        "shape_percent": 99.22
+      }
+    ],
+    "ok": true
+  },
+  "8531155_8530590": {
+    "signature": "8531155_8530590",
+    "shape_id": "shp_6_8048",
+    "stations": [
+      {
+        "stop_id": "8531155",
+        "shape_percent": 0.78
+      },
+      {
+        "stop_id": "8530590",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530243_8501954": {
+    "signature": "8530243_8501954",
+    "shape_id": "shp_6_4429",
+    "stations": [
+      {
+        "stop_id": "8530243",
+        "shape_percent": 0.46
+      },
+      {
+        "stop_id": "8501954",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501954_8530243": {
+    "signature": "8501954_8530243",
+    "shape_id": "shp_6_6297",
+    "stations": [
+      {
+        "stop_id": "8501954",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530243",
+        "shape_percent": 99.5
+      }
+    ],
+    "ok": true
+  },
+  "8501955_8501954": {
+    "signature": "8501955_8501954",
+    "shape_id": "shp_6_9812",
+    "stations": [
+      {
+        "stop_id": "8501955",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501954",
+        "shape_percent": 99.72
+      }
+    ],
+    "ok": true
+  },
+  "8501954_8501955_8530243": {
+    "signature": "8501954_8501955_8530243",
+    "shape_id": "shp_6_5947",
+    "stations": [
+      {
+        "stop_id": "8501954",
+        "shape_percent": 0.13
+      },
+      {
+        "stop_id": "8501955",
+        "shape_percent": 64.25
+      },
+      {
+        "stop_id": "8530243",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530243_8501955_8501954": {
+    "signature": "8530243_8501955_8501954",
+    "shape_id": "shp_6_3350",
+    "stations": [
+      {
+        "stop_id": "8530243",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501955",
+        "shape_percent": 35.25
+      },
+      {
+        "stop_id": "8501954",
+        "shape_percent": 99.82
+      }
+    ],
+    "ok": true
+  },
+  "8501954_8501955": {
+    "signature": "8501954_8501955",
+    "shape_id": "shp_6_2869",
+    "stations": [
+      {
+        "stop_id": "8501954",
+        "shape_percent": 0.21
+      },
+      {
+        "stop_id": "8501955",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530802_8530244": {
+    "signature": "8530802_8530244",
+    "shape_id": "shp_6_2120",
+    "stations": [
+      {
+        "stop_id": "8530802",
+        "shape_percent": 0.84
+      },
+      {
+        "stop_id": "8530244",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530244_8530802": {
+    "signature": "8530244_8530802",
+    "shape_id": "shp_6_2116",
+    "stations": [
+      {
+        "stop_id": "8530244",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530802",
+        "shape_percent": 99.1
+      }
+    ],
+    "ok": true
+  },
+  "8531039_8531040": {
+    "signature": "8531039_8531040",
+    "shape_id": "shp_6_2536",
+    "stations": [
+      {
+        "stop_id": "8531039",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8531040",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8531040_8531039": {
+    "signature": "8531040_8531039",
+    "shape_id": "shp_6_2628",
+    "stations": [
+      {
+        "stop_id": "8531040",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8531039",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530803_8530245": {
+    "signature": "8530803_8530245",
+    "shape_id": "shp_6_2590",
+    "stations": [
+      {
+        "stop_id": "8530803",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530245",
+        "shape_percent": 99.91
+      }
+    ],
+    "ok": true
+  },
+  "8530245_8530803": {
+    "signature": "8530245_8530803",
+    "shape_id": "shp_6_9170",
+    "stations": [
+      {
+        "stop_id": "8530245",
+        "shape_percent": 0.09
+      },
+      {
+        "stop_id": "8530803",
+        "shape_percent": 99.96
+      }
+    ],
+    "ok": true
+  },
+  "8530250_8530251": {
+    "signature": "8530250_8530251",
+    "shape_id": "shp_6_5985",
+    "stations": [
+      {
+        "stop_id": "8530250",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530251",
+        "shape_percent": 99.64
+      }
+    ],
+    "ok": true
+  },
+  "8530251_8530250": {
+    "signature": "8530251_8530250",
+    "shape_id": "shp_6_3583",
+    "stations": [
+      {
+        "stop_id": "8530251",
+        "shape_percent": 0.29
+      },
+      {
+        "stop_id": "8530250",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507258_8507259": {
+    "signature": "8507258_8507259",
+    "shape_id": "shp_6_5110",
+    "stations": [
+      {
+        "stop_id": "8507258",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507259",
+        "shape_percent": 99.81
+      }
+    ],
+    "ok": true
+  },
+  "8507259_8507258": {
+    "signature": "8507259_8507258",
+    "shape_id": "shp_6_8106",
+    "stations": [
+      {
+        "stop_id": "8507259",
+        "shape_percent": 0.19
+      },
+      {
+        "stop_id": "8507258",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507259_8507260": {
+    "signature": "8507259_8507260",
+    "shape_id": "shp_6_6075",
+    "stations": [
+      {
+        "stop_id": "8507259",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507260",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507260_8507259": {
+    "signature": "8507260_8507259",
+    "shape_id": "shp_6_6952",
+    "stations": [
+      {
+        "stop_id": "8507260",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507259",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530494_8530495": {
+    "signature": "8530494_8530495",
+    "shape_id": "shp_6_8615",
+    "stations": [
+      {
+        "stop_id": "8530494",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530495",
+        "shape_percent": 99.75
+      }
+    ],
+    "ok": true
+  },
+  "8530495_8530494": {
+    "signature": "8530495_8530494",
+    "shape_id": "shp_6_9656",
+    "stations": [
+      {
+        "stop_id": "8530495",
+        "shape_percent": 0.25
+      },
+      {
+        "stop_id": "8530494",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501646_8501443": {
+    "signature": "8501646_8501443",
+    "shape_id": "shp_6_7669",
+    "stations": [
+      {
+        "stop_id": "8501646",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501443",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501443_8501646": {
+    "signature": "8501443_8501646",
+    "shape_id": "shp_6_4119",
+    "stations": [
+      {
+        "stop_id": "8501443",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501646",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501443_8501442": {
+    "signature": "8501443_8501442",
+    "shape_id": "shp_6_10112",
+    "stations": [
+      {
+        "stop_id": "8501443",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501442",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501442_8501443": {
+    "signature": "8501442_8501443",
+    "shape_id": "shp_6_1934",
+    "stations": [
+      {
+        "stop_id": "8501442",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501443",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530605_8530606": {
+    "signature": "8530605_8530606",
+    "shape_id": "shp_6_91",
+    "stations": [
+      {
+        "stop_id": "8530605",
+        "shape_percent": 0.08
+      },
+      {
+        "stop_id": "8530606",
+        "shape_percent": 98.79
+      }
+    ],
+    "ok": true
+  },
+  "8530606_8530605": {
+    "signature": "8530606_8530605",
+    "shape_id": "shp_6_7072",
+    "stations": [
+      {
+        "stop_id": "8530606",
+        "shape_percent": 0.08
+      },
+      {
+        "stop_id": "8530605",
+        "shape_percent": 99.84
+      }
+    ],
+    "ok": true
+  },
+  "8530424_8530425": {
+    "signature": "8530424_8530425",
+    "shape_id": "shp_6_615",
+    "stations": [
+      {
+        "stop_id": "8530424",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530425",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530425_8530424": {
+    "signature": "8530425_8530424",
+    "shape_id": "shp_6_3883",
+    "stations": [
+      {
+        "stop_id": "8530425",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530424",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530320_8530321": {
+    "signature": "8530320_8530321",
+    "shape_id": "shp_6_5076",
+    "stations": [
+      {
+        "stop_id": "8530320",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530321",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530321_8530320": {
+    "signature": "8530321_8530320",
+    "shape_id": "shp_6_720",
+    "stations": [
+      {
+        "stop_id": "8530321",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530320",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530351_8530352": {
+    "signature": "8530351_8530352",
+    "shape_id": "shp_6_3967",
+    "stations": [
+      {
+        "stop_id": "8530351",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530352",
+        "shape_percent": 99.46
+      }
+    ],
+    "ok": true
+  },
+  "8530352_8530351": {
+    "signature": "8530352_8530351",
+    "shape_id": "shp_6_6049",
+    "stations": [
+      {
+        "stop_id": "8530352",
+        "shape_percent": 0.49
+      },
+      {
+        "stop_id": "8530351",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530235_8530236_8501953": {
+    "signature": "8530235_8530236_8501953",
+    "shape_id": "shp_6_8874",
+    "stations": [
+      {
+        "stop_id": "8530235",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530236",
+        "shape_percent": 46.03
+      },
+      {
+        "stop_id": "8501953",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501953_8530236_8530235": {
+    "signature": "8501953_8530236_8530235",
+    "shape_id": "shp_6_1575",
+    "stations": [
+      {
+        "stop_id": "8501953",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530236",
+        "shape_percent": 53.46
+      },
+      {
+        "stop_id": "8530235",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530824_8530825": {
+    "signature": "8530824_8530825",
+    "shape_id": "shp_6_5338",
+    "stations": [
+      {
+        "stop_id": "8530824",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530825",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530825_8530824": {
+    "signature": "8530825_8530824",
+    "shape_id": "shp_6_3480",
+    "stations": [
+      {
+        "stop_id": "8530825",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530824",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530235_8530566": {
+    "signature": "8530235_8530566",
+    "shape_id": "shp_6_1432",
+    "stations": [
+      {
+        "stop_id": "8530235",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530566",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530566_8530235": {
+    "signature": "8530566_8530235",
+    "shape_id": "shp_6_5390",
+    "stations": [
+      {
+        "stop_id": "8530566",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530235",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530233_8530234": {
+    "signature": "8530233_8530234",
+    "shape_id": "shp_6_9783",
+    "stations": [
+      {
+        "stop_id": "8530233",
+        "shape_percent": 1.45
+      },
+      {
+        "stop_id": "8530234",
+        "shape_percent": 99.75
+      }
+    ],
+    "ok": true
+  },
+  "8530234_8530233": {
+    "signature": "8530234_8530233",
+    "shape_id": "shp_6_7990",
+    "stations": [
+      {
+        "stop_id": "8530234",
+        "shape_percent": 0.19
+      },
+      {
+        "stop_id": "8530233",
+        "shape_percent": 99.94
+      }
+    ],
+    "ok": true
+  },
+  "8530084_8530086_8530085": {
+    "signature": "8530084_8530086_8530085",
+    "shape_id": "shp_6_7153",
+    "stations": [
+      {
+        "stop_id": "8530084",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530086",
+        "shape_percent": 63.88
+      },
+      {
+        "stop_id": "8530085",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530085_8530086_8530084": {
+    "signature": "8530085_8530086_8530084",
+    "shape_id": "shp_6_1510",
+    "stations": [
+      {
+        "stop_id": "8530085",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530086",
+        "shape_percent": 36.12
+      },
+      {
+        "stop_id": "8530084",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501335_8501720": {
+    "signature": "8501335_8501720",
+    "shape_id": "shp_6_6274",
+    "stations": [
+      {
+        "stop_id": "8501335",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501720",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501720_8501335": {
+    "signature": "8501720_8501335",
+    "shape_id": "shp_6_10167",
+    "stations": [
+      {
+        "stop_id": "8501720",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501335",
+        "shape_percent": 99.91
+      }
+    ],
+    "ok": true
+  },
+  "8501720_8501719": {
+    "signature": "8501720_8501719",
+    "shape_id": "shp_6_5348",
+    "stations": [
+      {
+        "stop_id": "8501720",
+        "shape_percent": 0.21
+      },
+      {
+        "stop_id": "8501719",
+        "shape_percent": 99.79
+      }
+    ],
+    "ok": true
+  },
+  "8501719_8501720": {
+    "signature": "8501719_8501720",
+    "shape_id": "shp_6_5482",
+    "stations": [
+      {
+        "stop_id": "8501719",
+        "shape_percent": 0.21
+      },
+      {
+        "stop_id": "8501720",
+        "shape_percent": 99.71
+      }
+    ],
+    "ok": true
+  },
+  "8530312_8530313": {
+    "signature": "8530312_8530313",
+    "shape_id": "shp_6_2618",
+    "stations": [
+      {
+        "stop_id": "8530312",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530313",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530313_8530312": {
+    "signature": "8530313_8530312",
+    "shape_id": "shp_6_728",
+    "stations": [
+      {
+        "stop_id": "8530313",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530312",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8508354_8508355": {
+    "signature": "8508354_8508355",
+    "shape_id": "shp_6_7902",
+    "stations": [
+      {
+        "stop_id": "8508354",
+        "shape_percent": 0.04
+      },
+      {
+        "stop_id": "8508355",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8508355_8508354": {
+    "signature": "8508355_8508354",
+    "shape_id": "shp_6_9967",
+    "stations": [
+      {
+        "stop_id": "8508355",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8508354",
+        "shape_percent": 99.96
+      }
+    ],
+    "ok": true
+  },
+  "8530499_8530500": {
+    "signature": "8530499_8530500",
+    "shape_id": "shp_6_2532",
+    "stations": [
+      {
+        "stop_id": "8530499",
+        "shape_percent": 0.07
+      },
+      {
+        "stop_id": "8530500",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530503_8530505": {
+    "signature": "8530503_8530505",
+    "shape_id": "shp_6_3642",
+    "stations": [
+      {
+        "stop_id": "8530503",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530505",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530505_8530503": {
+    "signature": "8530505_8530503",
+    "shape_id": "shp_6_4807",
+    "stations": [
+      {
+        "stop_id": "8530505",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530503",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530500_8530499": {
+    "signature": "8530500_8530499",
+    "shape_id": "shp_6_10241",
+    "stations": [
+      {
+        "stop_id": "8530500",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530499",
+        "shape_percent": 99.93
+      }
+    ],
+    "ok": true
+  },
+  "8530951_8530502": {
+    "signature": "8530951_8530502",
+    "shape_id": "shp_6_2990",
+    "stations": [
+      {
+        "stop_id": "8530951",
+        "shape_percent": 0.32
+      },
+      {
+        "stop_id": "8530502",
+        "shape_percent": 99.12
+      }
+    ],
+    "ok": true
+  },
+  "8509440_8530953": {
+    "signature": "8509440_8530953",
+    "shape_id": "shp_6_3128",
+    "stations": [
+      {
+        "stop_id": "8509440",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530953",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530505_8530506": {
+    "signature": "8530505_8530506",
+    "shape_id": "shp_6_10022",
+    "stations": [
+      {
+        "stop_id": "8530505",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530506",
+        "shape_percent": 99.54
+      }
+    ],
+    "ok": true
+  },
+  "8530506_8530505": {
+    "signature": "8530506_8530505",
+    "shape_id": "shp_6_168",
+    "stations": [
+      {
+        "stop_id": "8530506",
+        "shape_percent": 0.42
+      },
+      {
+        "stop_id": "8530505",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530953_8509440": {
+    "signature": "8530953_8509440",
+    "shape_id": "shp_6_2132",
+    "stations": [
+      {
+        "stop_id": "8530953",
+        "shape_percent": 1.45
+      },
+      {
+        "stop_id": "8509440",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530502_8530951": {
+    "signature": "8530502_8530951",
+    "shape_id": "shp_6_7752",
+    "stations": [
+      {
+        "stop_id": "8530502",
+        "shape_percent": 0.8
+      },
+      {
+        "stop_id": "8530951",
+        "shape_percent": 99.6
+      }
+    ],
+    "ok": true
+  },
+  "8530496_8530497": {
+    "signature": "8530496_8530497",
+    "shape_id": "shp_6_8689",
+    "stations": [
+      {
+        "stop_id": "8530496",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530497",
+        "shape_percent": 99.49
+      }
+    ],
+    "ok": true
+  },
+  "8530497_8530496": {
+    "signature": "8530497_8530496",
+    "shape_id": "shp_6_6944",
+    "stations": [
+      {
+        "stop_id": "8530497",
+        "shape_percent": 0.43
+      },
+      {
+        "stop_id": "8530496",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530497_8530498": {
+    "signature": "8530497_8530498",
+    "shape_id": "shp_6_970",
+    "stations": [
+      {
+        "stop_id": "8530497",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530498",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530498_8530497": {
+    "signature": "8530498_8530497",
+    "shape_id": "shp_6_4330",
+    "stations": [
+      {
+        "stop_id": "8530498",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530497",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530180_8530181_8530182": {
+    "signature": "8530180_8530181_8530182",
+    "shape_id": "shp_6_7385",
+    "stations": [
+      {
+        "stop_id": "8530180",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530181",
+        "shape_percent": 36.23
+      },
+      {
+        "stop_id": "8530182",
+        "shape_percent": 99.67
+      }
+    ],
+    "ok": true
+  },
+  "8530182_8530181_8530180": {
+    "signature": "8530182_8530181_8530180",
+    "shape_id": "shp_6_805",
+    "stations": [
+      {
+        "stop_id": "8530182",
+        "shape_percent": 0.28
+      },
+      {
+        "stop_id": "8530181",
+        "shape_percent": 63.05
+      },
+      {
+        "stop_id": "8530180",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530151_8530152": {
+    "signature": "8530151_8530152",
+    "shape_id": "shp_6_6132",
+    "stations": [
+      {
+        "stop_id": "8530151",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530152",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530152_8530151": {
+    "signature": "8530152_8530151",
+    "shape_id": "shp_6_8389",
+    "stations": [
+      {
+        "stop_id": "8530152",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530151",
+        "shape_percent": 99.95
+      }
+    ],
+    "ok": true
+  },
+  "8501644_8501339": {
+    "signature": "8501644_8501339",
+    "shape_id": "shp_6_124",
+    "stations": [
+      {
+        "stop_id": "8501644",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501339",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501339_8501644": {
+    "signature": "8501339_8501644",
+    "shape_id": "shp_6_3569",
+    "stations": [
+      {
+        "stop_id": "8501339",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501644",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530179_8501339": {
+    "signature": "8530179_8501339",
+    "shape_id": "shp_6_7933",
+    "stations": [
+      {
+        "stop_id": "8530179",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8501339",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8501339_8530179": {
+    "signature": "8501339_8530179",
+    "shape_id": "shp_6_21",
+    "stations": [
+      {
+        "stop_id": "8501339",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530179",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530277_8530757": {
+    "signature": "8530277_8530757",
+    "shape_id": "shp_6_3641",
+    "stations": [
+      {
+        "stop_id": "8530277",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530757",
+        "shape_percent": 99.69
+      }
+    ],
+    "ok": true
+  },
+  "8530757_8530277": {
+    "signature": "8530757_8530277",
+    "shape_id": "shp_6_5558",
+    "stations": [
+      {
+        "stop_id": "8530757",
+        "shape_percent": 0.31
+      },
+      {
+        "stop_id": "8530277",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530268_8530270": {
+    "signature": "8530268_8530270",
+    "shape_id": "shp_6_8690",
+    "stations": [
+      {
+        "stop_id": "8530268",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530270",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530270_8530268": {
+    "signature": "8530270_8530268",
+    "shape_id": "shp_6_5690",
+    "stations": [
+      {
+        "stop_id": "8530270",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530268",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530206_8530207": {
+    "signature": "8530206_8530207",
+    "shape_id": "shp_6_2169",
+    "stations": [
+      {
+        "stop_id": "8530206",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530207",
+        "shape_percent": 98.5
+      }
+    ],
+    "ok": true
+  },
+  "8530207_8530206": {
+    "signature": "8530207_8530206",
+    "shape_id": "shp_6_7782",
+    "stations": [
+      {
+        "stop_id": "8530207",
+        "shape_percent": 1.5
+      },
+      {
+        "stop_id": "8530206",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530207_8530208": {
+    "signature": "8530207_8530208",
+    "shape_id": "shp_6_4639",
+    "stations": [
+      {
+        "stop_id": "8530207",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530208",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530208_8530207": {
+    "signature": "8530208_8530207",
+    "shape_id": "shp_6_8762",
+    "stations": [
+      {
+        "stop_id": "8530208",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530207",
+        "shape_percent": 100.05
+      }
+    ],
+    "ok": true
+  },
+  "8530207_8530211": {
+    "signature": "8530207_8530211",
+    "shape_id": "shp_6_1550",
+    "stations": [
+      {
+        "stop_id": "8530207",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530211",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530211_8530207": {
+    "signature": "8530211_8530207",
+    "shape_id": "shp_6_1988",
+    "stations": [
+      {
+        "stop_id": "8530211",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530207",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530208_8530211": {
+    "signature": "8530208_8530211",
+    "shape_id": "shp_6_1388",
+    "stations": [
+      {
+        "stop_id": "8530208",
+        "shape_percent": 2.17
+      },
+      {
+        "stop_id": "8530211",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530211_8530208": {
+    "signature": "8530211_8530208",
+    "shape_id": "shp_6_1888",
+    "stations": [
+      {
+        "stop_id": "8530211",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530208",
+        "shape_percent": 97.83
+      }
+    ],
+    "ok": true
+  },
+  "8530211_8530210": {
+    "signature": "8530211_8530210",
+    "shape_id": "shp_6_10147",
+    "stations": [
+      {
+        "stop_id": "8530211",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530210",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530210_8530211": {
+    "signature": "8530210_8530211",
+    "shape_id": "shp_6_8140",
+    "stations": [
+      {
+        "stop_id": "8530210",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530211",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530214_8530217": {
+    "signature": "8530214_8530217",
+    "shape_id": "shp_6_5858",
+    "stations": [
+      {
+        "stop_id": "8530214",
+        "shape_percent": 3.23
+      },
+      {
+        "stop_id": "8530217",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530217_8530214": {
+    "signature": "8530217_8530214",
+    "shape_id": "shp_6_98",
+    "stations": [
+      {
+        "stop_id": "8530217",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530214",
+        "shape_percent": 96.77
+      }
+    ],
+    "ok": true
+  },
+  "8530217_8530215": {
+    "signature": "8530217_8530215",
+    "shape_id": "shp_6_8932",
+    "stations": [
+      {
+        "stop_id": "8530217",
+        "shape_percent": 0.2
+      },
+      {
+        "stop_id": "8530215",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530215_8530217": {
+    "signature": "8530215_8530217",
+    "shape_id": "shp_6_10317",
+    "stations": [
+      {
+        "stop_id": "8530215",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530217",
+        "shape_percent": 99.71
+      }
+    ],
+    "ok": true
+  },
+  "8531081_8531082": {
+    "signature": "8531081_8531082",
+    "shape_id": "shp_6_2303",
+    "stations": [
+      {
+        "stop_id": "8531081",
+        "shape_percent": 1.27
+      },
+      {
+        "stop_id": "8531082",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8531082_8531081": {
+    "signature": "8531082_8531081",
+    "shape_id": "shp_6_5232",
+    "stations": [
+      {
+        "stop_id": "8531082",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8531081",
+        "shape_percent": 98.73
+      }
+    ],
+    "ok": true
+  },
+  "8530005_8530004": {
+    "signature": "8530005_8530004",
+    "shape_id": "shp_6_3093",
+    "stations": [
+      {
+        "stop_id": "8530005",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530004",
+        "shape_percent": 99.91
+      }
+    ],
+    "ok": true
+  },
+  "8530004_8530005": {
+    "signature": "8530004_8530005",
+    "shape_id": "shp_6_4361",
+    "stations": [
+      {
+        "stop_id": "8530004",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530005",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530014_8530017": {
+    "signature": "8530014_8530017",
+    "shape_id": "shp_6_280",
+    "stations": [
+      {
+        "stop_id": "8530014",
+        "shape_percent": 0.24
+      },
+      {
+        "stop_id": "8530017",
+        "shape_percent": 99.59
+      }
+    ],
+    "ok": true
+  },
+  "8530017_8530014": {
+    "signature": "8530017_8530014",
+    "shape_id": "shp_6_6352",
+    "stations": [
+      {
+        "stop_id": "8530017",
+        "shape_percent": 0.33
+      },
+      {
+        "stop_id": "8530014",
+        "shape_percent": 99.76
+      }
+    ],
+    "ok": true
+  },
+  "8504749_8504748": {
+    "signature": "8504749_8504748",
+    "shape_id": "shp_6_6252",
+    "stations": [
+      {
+        "stop_id": "8504749",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8504748",
+        "shape_percent": 97.67
+      }
+    ],
+    "ok": true
+  },
+  "8504748_8504749": {
+    "signature": "8504748_8504749",
+    "shape_id": "shp_6_9862",
+    "stations": [
+      {
+        "stop_id": "8504748",
+        "shape_percent": 2.33
+      },
+      {
+        "stop_id": "8504749",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530758_8530759": {
+    "signature": "8530758_8530759",
+    "shape_id": "shp_6_8041",
+    "stations": [
+      {
+        "stop_id": "8530758",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530759",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530759_8530758": {
+    "signature": "8530759_8530758",
+    "shape_id": "shp_6_8807",
+    "stations": [
+      {
+        "stop_id": "8530759",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530758",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530040_8530041": {
+    "signature": "8530040_8530041",
+    "shape_id": "shp_6_3255",
+    "stations": [
+      {
+        "stop_id": "8530040",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530041",
+        "shape_percent": 98.19
+      }
+    ],
+    "ok": true
+  },
+  "8530041_8530040": {
+    "signature": "8530041_8530040",
+    "shape_id": "shp_6_2711",
+    "stations": [
+      {
+        "stop_id": "8530041",
+        "shape_percent": 1.81
+      },
+      {
+        "stop_id": "8530040",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530042_8530043": {
+    "signature": "8530042_8530043",
+    "shape_id": "shp_6_4209",
+    "stations": [
+      {
+        "stop_id": "8530042",
+        "shape_percent": 0.05
+      },
+      {
+        "stop_id": "8530043",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530043_8530042": {
+    "signature": "8530043_8530042",
+    "shape_id": "shp_6_727",
+    "stations": [
+      {
+        "stop_id": "8530043",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530042",
+        "shape_percent": 99.91
+      }
+    ],
+    "ok": true
+  },
+  "8531173_8531174": {
+    "signature": "8531173_8531174",
+    "shape_id": "shp_6_8253",
+    "stations": [
+      {
+        "stop_id": "8531173",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8531174",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8531174_8531173": {
+    "signature": "8531174_8531173",
+    "shape_id": "shp_6_2390",
+    "stations": [
+      {
+        "stop_id": "8531174",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8531173",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530087_8530088": {
+    "signature": "8530087_8530088",
+    "shape_id": "shp_6_10023",
+    "stations": [
+      {
+        "stop_id": "8530087",
+        "shape_percent": 0.18
+      },
+      {
+        "stop_id": "8530088",
+        "shape_percent": 99.56
+      }
+    ],
+    "ok": true
+  },
+  "8530088_8530087": {
+    "signature": "8530088_8530087",
+    "shape_id": "shp_6_4640",
+    "stations": [
+      {
+        "stop_id": "8530088",
+        "shape_percent": 0.36
+      },
+      {
+        "stop_id": "8530087",
+        "shape_percent": 99.73
+      }
+    ],
+    "ok": true
+  },
+  "8530584_8530585": {
+    "signature": "8530584_8530585",
+    "shape_id": "shp_6_1419",
+    "stations": [
+      {
+        "stop_id": "8530584",
+        "shape_percent": 0.24
+      },
+      {
+        "stop_id": "8530585",
+        "shape_percent": 99.2
+      }
+    ],
+    "ok": true
+  },
+  "8530585_8530584": {
+    "signature": "8530585_8530584",
+    "shape_id": "shp_6_4560",
+    "stations": [
+      {
+        "stop_id": "8530585",
+        "shape_percent": 0.72
+      },
+      {
+        "stop_id": "8530584",
+        "shape_percent": 99.76
+      }
+    ],
+    "ok": true
+  },
+  "8530585_8530586": {
+    "signature": "8530585_8530586",
+    "shape_id": "shp_6_7275",
+    "stations": [
+      {
+        "stop_id": "8530585",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530586",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530586_8530585": {
+    "signature": "8530586_8530585",
+    "shape_id": "shp_6_10341",
+    "stations": [
+      {
+        "stop_id": "8530586",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530585",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530108_8530109": {
+    "signature": "8530108_8530109",
+    "shape_id": "shp_6_5945",
+    "stations": [
+      {
+        "stop_id": "8530108",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530109",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530109_8530108": {
+    "signature": "8530109_8530108",
+    "shape_id": "shp_6_1715",
+    "stations": [
+      {
+        "stop_id": "8530109",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530108",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530113_8530862": {
+    "signature": "8530113_8530862",
+    "shape_id": "shp_6_3999",
+    "stations": [
+      {
+        "stop_id": "8530113",
+        "shape_percent": 1.03
+      },
+      {
+        "stop_id": "8530862",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530862_8530113": {
+    "signature": "8530862_8530113",
+    "shape_id": "shp_6_1845",
+    "stations": [
+      {
+        "stop_id": "8530862",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530113",
+        "shape_percent": 98.91
+      }
+    ],
+    "ok": true
+  },
+  "8530113_8530115": {
+    "signature": "8530113_8530115",
+    "shape_id": "shp_6_775",
+    "stations": [
+      {
+        "stop_id": "8530113",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530115",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530115_8530113": {
+    "signature": "8530115_8530113",
+    "shape_id": "shp_6_1551",
+    "stations": [
+      {
+        "stop_id": "8530115",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530113",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530113_8530116": {
+    "signature": "8530113_8530116",
+    "shape_id": "shp_6_9902",
+    "stations": [
+      {
+        "stop_id": "8530113",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530116",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530116_8530113": {
+    "signature": "8530116_8530113",
+    "shape_id": "shp_6_146",
+    "stations": [
+      {
+        "stop_id": "8530116",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530113",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530099_8530101": {
+    "signature": "8530099_8530101",
+    "shape_id": "shp_6_3975",
+    "stations": [
+      {
+        "stop_id": "8530099",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530101",
+        "shape_percent": 99.9
+      }
+    ],
+    "ok": true
+  },
+  "8530101_8530099": {
+    "signature": "8530101_8530099",
+    "shape_id": "shp_6_10135",
+    "stations": [
+      {
+        "stop_id": "8530101",
+        "shape_percent": 0.06
+      },
+      {
+        "stop_id": "8530099",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530101_8530102": {
+    "signature": "8530101_8530102",
+    "shape_id": "shp_6_1060",
+    "stations": [
+      {
+        "stop_id": "8530101",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530102",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530102_8530101": {
+    "signature": "8530102_8530101",
+    "shape_id": "shp_6_4851",
+    "stations": [
+      {
+        "stop_id": "8530102",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530101",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530119_8530120": {
+    "signature": "8530119_8530120",
+    "shape_id": "shp_6_4720",
+    "stations": [
+      {
+        "stop_id": "8530119",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530120",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530120_8530119": {
+    "signature": "8530120_8530119",
+    "shape_id": "shp_6_450",
+    "stations": [
+      {
+        "stop_id": "8530120",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530119",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8503250_8530406": {
+    "signature": "8503250_8530406",
+    "shape_id": "shp_6_2762",
+    "stations": [
+      {
+        "stop_id": "8503250",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530406",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530406_8503250": {
+    "signature": "8530406_8503250",
+    "shape_id": "shp_6_511",
+    "stations": [
+      {
+        "stop_id": "8530406",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8503250",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530124_8531394": {
+    "signature": "8530124_8531394",
+    "shape_id": "shp_6_5356",
+    "stations": [
+      {
+        "stop_id": "8530124",
+        "shape_percent": 0.21
+      },
+      {
+        "stop_id": "8531394",
+        "shape_percent": 99.86
+      }
+    ],
+    "ok": true
+  },
+  "8531394_8530124": {
+    "signature": "8531394_8530124",
+    "shape_id": "shp_6_5031",
+    "stations": [
+      {
+        "stop_id": "8531394",
+        "shape_percent": 0.07
+      },
+      {
+        "stop_id": "8530124",
+        "shape_percent": 99.79
+      }
+    ],
+    "ok": true
+  },
+  "8530127_8530128": {
+    "signature": "8530127_8530128",
+    "shape_id": "shp_6_2553",
+    "stations": [
+      {
+        "stop_id": "8530127",
+        "shape_percent": 0.33
+      },
+      {
+        "stop_id": "8530128",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530128_8530127": {
+    "signature": "8530128_8530127",
+    "shape_id": "shp_6_8562",
+    "stations": [
+      {
+        "stop_id": "8530128",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530127",
+        "shape_percent": 99.5
+      }
+    ],
+    "ok": true
+  },
+  "8530129_8530130": {
+    "signature": "8530129_8530130",
+    "shape_id": "shp_6_5431",
+    "stations": [
+      {
+        "stop_id": "8530129",
+        "shape_percent": 0.24
+      },
+      {
+        "stop_id": "8530130",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530130_8530129": {
+    "signature": "8530130_8530129",
+    "shape_id": "shp_6_586",
+    "stations": [
+      {
+        "stop_id": "8530130",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530129",
+        "shape_percent": 99.7
+      }
+    ],
+    "ok": true
+  },
+  "8530853_8530854_8530855": {
+    "signature": "8530853_8530854_8530855",
+    "shape_id": "shp_6_4826",
+    "stations": [
+      {
+        "stop_id": "8530853",
+        "shape_percent": 0.21
+      },
+      {
+        "stop_id": "8530854",
+        "shape_percent": 28.68
+      },
+      {
+        "stop_id": "8530855",
+        "shape_percent": 99.82
+      }
+    ],
+    "ok": true
+  },
+  "8530855_8530854_8530853": {
+    "signature": "8530855_8530854_8530853",
+    "shape_id": "shp_6_9748",
+    "stations": [
+      {
+        "stop_id": "8530855",
+        "shape_percent": 0.18
+      },
+      {
+        "stop_id": "8530854",
+        "shape_percent": 71.32
+      },
+      {
+        "stop_id": "8530853",
+        "shape_percent": 99.79
+      }
+    ],
+    "ok": true
+  },
+  "8530149_8530150": {
+    "signature": "8530149_8530150",
+    "shape_id": "shp_6_3775",
+    "stations": [
+      {
+        "stop_id": "8530149",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530150",
+        "shape_percent": 99.72
+      }
+    ],
+    "ok": true
+  },
+  "8530150_8530149": {
+    "signature": "8530150_8530149",
+    "shape_id": "shp_6_3332",
+    "stations": [
+      {
+        "stop_id": "8530150",
+        "shape_percent": 0.21
+      },
+      {
+        "stop_id": "8530149",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530675_8501556": {
+    "signature": "8530675_8501556",
+    "shape_id": "shp_6_8362",
+    "stations": [
+      {
+        "stop_id": "8530675",
+        "shape_percent": 1.22
+      },
+      {
+        "stop_id": "8501556",
+        "shape_percent": 99.92
+      }
+    ],
+    "ok": true
+  },
+  "8501556_8530675": {
+    "signature": "8501556_8530675",
+    "shape_id": "shp_6_7832",
+    "stations": [
+      {
+        "stop_id": "8501556",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530675",
+        "shape_percent": 98.7
+      }
+    ],
+    "ok": true
+  },
+  "8530192_8530193": {
+    "signature": "8530192_8530193",
+    "shape_id": "shp_6_8264",
+    "stations": [
+      {
+        "stop_id": "8530192",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530193",
+        "shape_percent": 99.91
+      }
+    ],
+    "ok": true
+  },
+  "8530193_8530192": {
+    "signature": "8530193_8530192",
+    "shape_id": "shp_6_4461",
+    "stations": [
+      {
+        "stop_id": "8530193",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530192",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530601_8530602": {
+    "signature": "8530601_8530602",
+    "shape_id": "shp_6_119",
+    "stations": [
+      {
+        "stop_id": "8530601",
+        "shape_percent": 0.52
+      },
+      {
+        "stop_id": "8530602",
+        "shape_percent": 99.87
+      }
+    ],
+    "ok": true
+  },
+  "8530602_8530601": {
+    "signature": "8530602_8530601",
+    "shape_id": "shp_6_3896",
+    "stations": [
+      {
+        "stop_id": "8530602",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530601",
+        "shape_percent": 99.35
+      }
+    ],
+    "ok": true
+  },
+  "8530194_8530195": {
+    "signature": "8530194_8530195",
+    "shape_id": "shp_6_6511",
+    "stations": [
+      {
+        "stop_id": "8530194",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530195",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530195_8530194": {
+    "signature": "8530195_8530194",
+    "shape_id": "shp_6_7887",
+    "stations": [
+      {
+        "stop_id": "8530195",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530194",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530198_8530199": {
+    "signature": "8530198_8530199",
+    "shape_id": "shp_6_6829",
+    "stations": [
+      {
+        "stop_id": "8530198",
+        "shape_percent": 0.79
+      },
+      {
+        "stop_id": "8530199",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530199_8530198": {
+    "signature": "8530199_8530198",
+    "shape_id": "shp_6_9795",
+    "stations": [
+      {
+        "stop_id": "8530199",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530198",
+        "shape_percent": 99.08
+      }
+    ],
+    "ok": true
+  },
+  "8507500_8507460": {
+    "signature": "8507500_8507460",
+    "shape_id": "shp_6_7278",
+    "stations": [
+      {
+        "stop_id": "8507500",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507460",
+        "shape_percent": 99.81
+      }
+    ],
+    "ok": true
+  },
+  "8507460_8507500": {
+    "signature": "8507460_8507500",
+    "shape_id": "shp_6_1491",
+    "stations": [
+      {
+        "stop_id": "8507460",
+        "shape_percent": 0.1
+      },
+      {
+        "stop_id": "8507500",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530252_8530253": {
+    "signature": "8530252_8530253",
+    "shape_id": "shp_6_1673",
+    "stations": [
+      {
+        "stop_id": "8530252",
+        "shape_percent": 0.06
+      },
+      {
+        "stop_id": "8530253",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530253_8530252": {
+    "signature": "8530253_8530252",
+    "shape_id": "shp_6_8427",
+    "stations": [
+      {
+        "stop_id": "8530253",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530252",
+        "shape_percent": 99.94
+      }
+    ],
+    "ok": true
+  },
+  "8530253_8530254": {
+    "signature": "8530253_8530254",
+    "shape_id": "shp_6_10283",
+    "stations": [
+      {
+        "stop_id": "8530253",
+        "shape_percent": 2.99
+      },
+      {
+        "stop_id": "8530254",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530254_8530253": {
+    "signature": "8530254_8530253",
+    "shape_id": "shp_6_284",
+    "stations": [
+      {
+        "stop_id": "8530254",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530253",
+        "shape_percent": 97.01
+      }
+    ],
+    "ok": true
+  },
+  "8530343_8530344": {
+    "signature": "8530343_8530344",
+    "shape_id": "shp_6_8166",
+    "stations": [
+      {
+        "stop_id": "8530343",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530344",
+        "shape_percent": 99.35
+      }
+    ],
+    "ok": true
+  },
+  "8530344_8530343": {
+    "signature": "8530344_8530343",
+    "shape_id": "shp_6_7411",
+    "stations": [
+      {
+        "stop_id": "8530344",
+        "shape_percent": 0.65
+      },
+      {
+        "stop_id": "8530343",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530298_8530299": {
+    "signature": "8530298_8530299",
+    "shape_id": "shp_6_8936",
+    "stations": [
+      {
+        "stop_id": "8530298",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530299",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530299_8530298": {
+    "signature": "8530299_8530298",
+    "shape_id": "shp_6_3836",
+    "stations": [
+      {
+        "stop_id": "8530299",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530298",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530304_8530305": {
+    "signature": "8530304_8530305",
+    "shape_id": "shp_6_6239",
+    "stations": [
+      {
+        "stop_id": "8530304",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530305",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530305_8530304": {
+    "signature": "8530305_8530304",
+    "shape_id": "shp_6_9868",
+    "stations": [
+      {
+        "stop_id": "8530305",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530304",
+        "shape_percent": 99.93
+      }
+    ],
+    "ok": true
+  },
+  "8530308_8530309": {
+    "signature": "8530308_8530309",
+    "shape_id": "shp_6_465",
+    "stations": [
+      {
+        "stop_id": "8530308",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530309",
+        "shape_percent": 98.32
+      }
+    ],
+    "ok": true
+  },
+  "8530309_8530308": {
+    "signature": "8530309_8530308",
+    "shape_id": "shp_6_2357",
+    "stations": [
+      {
+        "stop_id": "8530309",
+        "shape_percent": 1.44
+      },
+      {
+        "stop_id": "8530308",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530309_8530311": {
+    "signature": "8530309_8530311",
+    "shape_id": "shp_6_2172",
+    "stations": [
+      {
+        "stop_id": "8530309",
+        "shape_percent": 0.22
+      },
+      {
+        "stop_id": "8530311",
+        "shape_percent": 99.76
+      }
+    ],
+    "ok": true
+  },
+  "8530311_8530309": {
+    "signature": "8530311_8530309",
+    "shape_id": "shp_6_8959",
+    "stations": [
+      {
+        "stop_id": "8530311",
+        "shape_percent": 0.24
+      },
+      {
+        "stop_id": "8530309",
+        "shape_percent": 99.78
+      }
+    ],
+    "ok": true
+  },
+  "8530314_8530315": {
+    "signature": "8530314_8530315",
+    "shape_id": "shp_6_6864",
+    "stations": [
+      {
+        "stop_id": "8530314",
+        "shape_percent": 1.14
+      },
+      {
+        "stop_id": "8530315",
+        "shape_percent": 99.64
+      }
+    ],
+    "ok": true
+  },
+  "8530315_8530314": {
+    "signature": "8530315_8530314",
+    "shape_id": "shp_6_4284",
+    "stations": [
+      {
+        "stop_id": "8530315",
+        "shape_percent": 0.28
+      },
+      {
+        "stop_id": "8530314",
+        "shape_percent": 98.79
+      }
+    ],
+    "ok": true
+  },
+  "8530533_8530534": {
+    "signature": "8530533_8530534",
+    "shape_id": "shp_6_679",
+    "stations": [
+      {
+        "stop_id": "8530533",
+        "shape_percent": 0.28
+      },
+      {
+        "stop_id": "8530534",
+        "shape_percent": 99.81
+      }
+    ],
+    "ok": true
+  },
+  "8530534_8530533": {
+    "signature": "8530534_8530533",
+    "shape_id": "shp_6_6295",
+    "stations": [
+      {
+        "stop_id": "8530534",
+        "shape_percent": 0.14
+      },
+      {
+        "stop_id": "8530533",
+        "shape_percent": 99.68
+      }
+    ],
+    "ok": true
+  },
+  "8530364_8530365": {
+    "signature": "8530364_8530365",
+    "shape_id": "shp_6_8895",
+    "stations": [
+      {
+        "stop_id": "8530364",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530365",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530365_8530364": {
+    "signature": "8530365_8530364",
+    "shape_id": "shp_6_5716",
+    "stations": [
+      {
+        "stop_id": "8530365",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530364",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530374_8530375": {
+    "signature": "8530374_8530375",
+    "shape_id": "shp_6_4664",
+    "stations": [
+      {
+        "stop_id": "8530374",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530375",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530375_8530374": {
+    "signature": "8530375_8530374",
+    "shape_id": "shp_6_3190",
+    "stations": [
+      {
+        "stop_id": "8530375",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530374",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530376_8530377": {
+    "signature": "8530376_8530377",
+    "shape_id": "shp_6_3912",
+    "stations": [
+      {
+        "stop_id": "8530376",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530377",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530377_8530376": {
+    "signature": "8530377_8530376",
+    "shape_id": "shp_6_2442",
+    "stations": [
+      {
+        "stop_id": "8530377",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530376",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530385_8530386": {
+    "signature": "8530385_8530386",
+    "shape_id": "shp_6_10215",
+    "stations": [
+      {
+        "stop_id": "8530385",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530386",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530386_8530385": {
+    "signature": "8530386_8530385",
+    "shape_id": "shp_6_3755",
+    "stations": [
+      {
+        "stop_id": "8530386",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530385",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530196_8530197": {
+    "signature": "8530196_8530197",
+    "shape_id": "shp_6_45",
+    "stations": [
+      {
+        "stop_id": "8530196",
+        "shape_percent": 1.5
+      },
+      {
+        "stop_id": "8530197",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530197_8530196": {
+    "signature": "8530197_8530196",
+    "shape_id": "shp_6_6927",
+    "stations": [
+      {
+        "stop_id": "8530197",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530196",
+        "shape_percent": 98.5
+      }
+    ],
+    "ok": true
+  },
+  "8530391_8530392": {
+    "signature": "8530391_8530392",
+    "shape_id": "shp_6_617",
+    "stations": [
+      {
+        "stop_id": "8530391",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530392",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530392_8530391": {
+    "signature": "8530392_8530391",
+    "shape_id": "shp_6_9641",
+    "stations": [
+      {
+        "stop_id": "8530392",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530391",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530840_8530839": {
+    "signature": "8530840_8530839",
+    "shape_id": "shp_6_979",
+    "stations": [
+      {
+        "stop_id": "8530840",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530839",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530839_8530840": {
+    "signature": "8530839_8530840",
+    "shape_id": "shp_6_5219",
+    "stations": [
+      {
+        "stop_id": "8530839",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530840",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530402_8530403": {
+    "signature": "8530402_8530403",
+    "shape_id": "shp_6_6134",
+    "stations": [
+      {
+        "stop_id": "8530402",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530403",
+        "shape_percent": 99.93
+      }
+    ],
+    "ok": true
+  },
+  "8530403_8530402": {
+    "signature": "8530403_8530402",
+    "shape_id": "shp_6_3144",
+    "stations": [
+      {
+        "stop_id": "8530403",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530402",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530407_8530408": {
+    "signature": "8530407_8530408",
+    "shape_id": "shp_6_5411",
+    "stations": [
+      {
+        "stop_id": "8530407",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530408",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530408_8530407": {
+    "signature": "8530408_8530407",
+    "shape_id": "shp_6_1674",
+    "stations": [
+      {
+        "stop_id": "8530408",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530407",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530418_8530420": {
+    "signature": "8530418_8530420",
+    "shape_id": "shp_6_8570",
+    "stations": [
+      {
+        "stop_id": "8530418",
+        "shape_percent": 0.32
+      },
+      {
+        "stop_id": "8530420",
+        "shape_percent": 99.24
+      }
+    ],
+    "ok": true
+  },
+  "8530420_8530418": {
+    "signature": "8530420_8530418",
+    "shape_id": "shp_6_1414",
+    "stations": [
+      {
+        "stop_id": "8530420",
+        "shape_percent": 0.69
+      },
+      {
+        "stop_id": "8530418",
+        "shape_percent": 99.62
+      }
+    ],
+    "ok": true
+  },
+  "8530676_8530095": {
+    "signature": "8530676_8530095",
+    "shape_id": "shp_6_9105",
+    "stations": [
+      {
+        "stop_id": "8530676",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530095",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530095_8530676": {
+    "signature": "8530095_8530676",
+    "shape_id": "shp_6_8622",
+    "stations": [
+      {
+        "stop_id": "8530095",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530676",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530095_8530096": {
+    "signature": "8530095_8530096",
+    "shape_id": "shp_6_4188",
+    "stations": [
+      {
+        "stop_id": "8530095",
+        "shape_percent": 0.4
+      },
+      {
+        "stop_id": "8530096",
+        "shape_percent": 99.87
+      }
+    ],
+    "ok": true
+  },
+  "8530096_8530095": {
+    "signature": "8530096_8530095",
+    "shape_id": "shp_6_6724",
+    "stations": [
+      {
+        "stop_id": "8530096",
+        "shape_percent": 0.13
+      },
+      {
+        "stop_id": "8530095",
+        "shape_percent": 99.6
+      }
+    ],
+    "ok": true
+  },
+  "8530096_8530103": {
+    "signature": "8530096_8530103",
+    "shape_id": "shp_6_10202",
+    "stations": [
+      {
+        "stop_id": "8530096",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530103",
+        "shape_percent": 99.84
+      }
+    ],
+    "ok": true
+  },
+  "8530103_8530096": {
+    "signature": "8530103_8530096",
+    "shape_id": "shp_6_771",
+    "stations": [
+      {
+        "stop_id": "8530103",
+        "shape_percent": 0.11
+      },
+      {
+        "stop_id": "8530096",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530103_8530101": {
+    "signature": "8530103_8530101",
+    "shape_id": "shp_6_200",
+    "stations": [
+      {
+        "stop_id": "8530103",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530101",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530101_8530103": {
+    "signature": "8530101_8530103",
+    "shape_id": "shp_6_1154",
+    "stations": [
+      {
+        "stop_id": "8530101",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530103",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530104_8530105": {
+    "signature": "8530104_8530105",
+    "shape_id": "shp_6_1814",
+    "stations": [
+      {
+        "stop_id": "8530104",
+        "shape_percent": 0.14
+      },
+      {
+        "stop_id": "8530105",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530105_8530104": {
+    "signature": "8530105_8530104",
+    "shape_id": "shp_6_2920",
+    "stations": [
+      {
+        "stop_id": "8530105",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530104",
+        "shape_percent": 99.86
+      }
+    ],
+    "ok": true
+  },
+  "8530106_8530105": {
+    "signature": "8530106_8530105",
+    "shape_id": "shp_6_2295",
+    "stations": [
+      {
+        "stop_id": "8530106",
+        "shape_percent": 0.15
+      },
+      {
+        "stop_id": "8530105",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530105_8530106": {
+    "signature": "8530105_8530106",
+    "shape_id": "shp_6_8504",
+    "stations": [
+      {
+        "stop_id": "8530105",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530106",
+        "shape_percent": 99.85
+      }
+    ],
+    "ok": true
+  },
+  "8530421_8530423": {
+    "signature": "8530421_8530423",
+    "shape_id": "shp_6_8616",
+    "stations": [
+      {
+        "stop_id": "8530421",
+        "shape_percent": 0.24
+      },
+      {
+        "stop_id": "8530423",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530423_8530421": {
+    "signature": "8530423_8530421",
+    "shape_id": "shp_6_9930",
+    "stations": [
+      {
+        "stop_id": "8530423",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530421",
+        "shape_percent": 99.72
+      }
+    ],
+    "ok": true
+  },
+  "8530426_8530427": {
+    "signature": "8530426_8530427",
+    "shape_id": "shp_6_8460",
+    "stations": [
+      {
+        "stop_id": "8530426",
+        "shape_percent": 1.4
+      },
+      {
+        "stop_id": "8530427",
+        "shape_percent": 99.84
+      }
+    ],
+    "ok": true
+  },
+  "8530427_8530426": {
+    "signature": "8530427_8530426",
+    "shape_id": "shp_6_6145",
+    "stations": [
+      {
+        "stop_id": "8530427",
+        "shape_percent": 0.16
+      },
+      {
+        "stop_id": "8530426",
+        "shape_percent": 98.52
+      }
+    ],
+    "ok": true
+  },
+  "8505226_8507391_8507371": {
+    "signature": "8505226_8507391_8507371",
+    "shape_id": "shp_6_7815",
+    "stations": [
+      {
+        "stop_id": "8505226",
+        "shape_percent": 2.07
+      },
+      {
+        "stop_id": "8507391",
+        "shape_percent": 50.33
+      },
+      {
+        "stop_id": "8507371",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507371_8507391_8505226": {
+    "signature": "8507371_8507391_8505226",
+    "shape_id": "shp_6_8322",
+    "stations": [
+      {
+        "stop_id": "8507371",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507391",
+        "shape_percent": 49.26
+      },
+      {
+        "stop_id": "8505226",
+        "shape_percent": 97.92
+      }
+    ],
+    "ok": true
+  },
+  "8530745_8530746": {
+    "signature": "8530745_8530746",
+    "shape_id": "shp_6_2682",
+    "stations": [
+      {
+        "stop_id": "8530745",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530746",
+        "shape_percent": 99.78
+      }
+    ],
+    "ok": true
+  },
+  "8530746_8530745": {
+    "signature": "8530746_8530745",
+    "shape_id": "shp_6_7711",
+    "stations": [
+      {
+        "stop_id": "8530746",
+        "shape_percent": 0.16
+      },
+      {
+        "stop_id": "8530745",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530457_8530458": {
+    "signature": "8530457_8530458",
+    "shape_id": "shp_6_3279",
+    "stations": [
+      {
+        "stop_id": "8530457",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530458",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530458_8530457": {
+    "signature": "8530458_8530457",
+    "shape_id": "shp_6_1001",
+    "stations": [
+      {
+        "stop_id": "8530458",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530457",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530603_8530483": {
+    "signature": "8530603_8530483",
+    "shape_id": "shp_6_9448",
+    "stations": [
+      {
+        "stop_id": "8530603",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530483",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530483_8530603": {
+    "signature": "8530483_8530603",
+    "shape_id": "shp_6_4817",
+    "stations": [
+      {
+        "stop_id": "8530483",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530603",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530489_8530490": {
+    "signature": "8530489_8530490",
+    "shape_id": "shp_6_10121",
+    "stations": [
+      {
+        "stop_id": "8530489",
+        "shape_percent": 1.58
+      },
+      {
+        "stop_id": "8530490",
+        "shape_percent": 99.08
+      }
+    ],
+    "ok": true
+  },
+  "8530490_8530489": {
+    "signature": "8530490_8530489",
+    "shape_id": "shp_6_10128",
+    "stations": [
+      {
+        "stop_id": "8530490",
+        "shape_percent": 0.92
+      },
+      {
+        "stop_id": "8530489",
+        "shape_percent": 98.33
+      }
+    ],
+    "ok": true
+  },
+  "8530491_8530492": {
+    "signature": "8530491_8530492",
+    "shape_id": "shp_6_664",
+    "stations": [
+      {
+        "stop_id": "8530491",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530492",
+        "shape_percent": 99.93
+      }
+    ],
+    "ok": true
+  },
+  "8530492_8530491": {
+    "signature": "8530492_8530491",
+    "shape_id": "shp_6_9558",
+    "stations": [
+      {
+        "stop_id": "8530492",
+        "shape_percent": 0.07
+      },
+      {
+        "stop_id": "8530491",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530507_8530508": {
+    "signature": "8530507_8530508",
+    "shape_id": "shp_6_8335",
+    "stations": [
+      {
+        "stop_id": "8530507",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530508",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530508_8530507": {
+    "signature": "8530508_8530507",
+    "shape_id": "shp_6_6114",
+    "stations": [
+      {
+        "stop_id": "8530508",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530507",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530509_8530510": {
+    "signature": "8530509_8530510",
+    "shape_id": "shp_6_7093",
+    "stations": [
+      {
+        "stop_id": "8530509",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530510",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530510_8530509": {
+    "signature": "8530510_8530509",
+    "shape_id": "shp_6_1765",
+    "stations": [
+      {
+        "stop_id": "8530510",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530509",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530515_8530516": {
+    "signature": "8530515_8530516",
+    "shape_id": "shp_6_8369",
+    "stations": [
+      {
+        "stop_id": "8530515",
+        "shape_percent": 0.25
+      },
+      {
+        "stop_id": "8530516",
+        "shape_percent": 99.85
+      }
+    ],
+    "ok": true
+  },
+  "8530516_8530515": {
+    "signature": "8530516_8530515",
+    "shape_id": "shp_6_4972",
+    "stations": [
+      {
+        "stop_id": "8530516",
+        "shape_percent": 0.15
+      },
+      {
+        "stop_id": "8530515",
+        "shape_percent": 99.75
+      }
+    ],
+    "ok": true
+  },
+  "8530519_8530520": {
+    "signature": "8530519_8530520",
+    "shape_id": "shp_6_4097",
+    "stations": [
+      {
+        "stop_id": "8530519",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530520",
+        "shape_percent": 99.14
+      }
+    ],
+    "ok": true
+  },
+  "8530520_8530519": {
+    "signature": "8530520_8530519",
+    "shape_id": "shp_6_3644",
+    "stations": [
+      {
+        "stop_id": "8530520",
+        "shape_percent": 0.72
+      },
+      {
+        "stop_id": "8530519",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530521_8530522": {
+    "signature": "8530521_8530522",
+    "shape_id": "shp_6_224",
+    "stations": [
+      {
+        "stop_id": "8530521",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530522",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530522_8530521": {
+    "signature": "8530522_8530521",
+    "shape_id": "shp_6_1257",
+    "stations": [
+      {
+        "stop_id": "8530522",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530521",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530136_8530137": {
+    "signature": "8530136_8530137",
+    "shape_id": "shp_6_577",
+    "stations": [
+      {
+        "stop_id": "8530136",
+        "shape_percent": 0.04
+      },
+      {
+        "stop_id": "8530137",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530137_8530136": {
+    "signature": "8530137_8530136",
+    "shape_id": "shp_6_5459",
+    "stations": [
+      {
+        "stop_id": "8530137",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530136",
+        "shape_percent": 99.93
+      }
+    ],
+    "ok": true
+  },
+  "8530527_8530528": {
+    "signature": "8530527_8530528",
+    "shape_id": "shp_6_7124",
+    "stations": [
+      {
+        "stop_id": "8530527",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530528",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530528_8530527": {
+    "signature": "8530528_8530527",
+    "shape_id": "shp_6_8309",
+    "stations": [
+      {
+        "stop_id": "8530528",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530527",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530558_8530559": {
+    "signature": "8530558_8530559",
+    "shape_id": "shp_6_2959",
+    "stations": [
+      {
+        "stop_id": "8530558",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530559",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530559_8530558": {
+    "signature": "8530559_8530558",
+    "shape_id": "shp_6_6884",
+    "stations": [
+      {
+        "stop_id": "8530559",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530558",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530562_8530563": {
+    "signature": "8530562_8530563",
+    "shape_id": "shp_6_94",
+    "stations": [
+      {
+        "stop_id": "8530562",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530563",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530563_8530562": {
+    "signature": "8530563_8530562",
+    "shape_id": "shp_6_4509",
+    "stations": [
+      {
+        "stop_id": "8530563",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530562",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530563_8530543": {
+    "signature": "8530563_8530543",
+    "shape_id": "shp_6_7048",
+    "stations": [
+      {
+        "stop_id": "8530563",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530543",
+        "shape_percent": 7.14
+      }
+    ],
+    "ok": true
+  },
+  "8530543_8530563": {
+    "signature": "8530543_8530563",
+    "shape_id": "shp_6_9736",
+    "stations": [
+      {
+        "stop_id": "8530543",
+        "shape_percent": 92.86
+      },
+      {
+        "stop_id": "8530563",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530227_8530230": {
+    "signature": "8530227_8530230",
+    "shape_id": "shp_6_1668",
+    "stations": [
+      {
+        "stop_id": "8530227",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530230",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530230_8530227": {
+    "signature": "8530230_8530227",
+    "shape_id": "shp_6_5691",
+    "stations": [
+      {
+        "stop_id": "8530230",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530227",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530230_8530228": {
+    "signature": "8530230_8530228",
+    "shape_id": "shp_6_1463",
+    "stations": [
+      {
+        "stop_id": "8530230",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530228",
+        "shape_percent": 99.95
+      }
+    ],
+    "ok": true
+  },
+  "8530228_8530230": {
+    "signature": "8530228_8530230",
+    "shape_id": "shp_6_7638",
+    "stations": [
+      {
+        "stop_id": "8530228",
+        "shape_percent": 0.05
+      },
+      {
+        "stop_id": "8530230",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530568_8530569": {
+    "signature": "8530568_8530569",
+    "shape_id": "shp_6_8953",
+    "stations": [
+      {
+        "stop_id": "8530568",
+        "shape_percent": 0.76
+      },
+      {
+        "stop_id": "8530569",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530569_8530568": {
+    "signature": "8530569_8530568",
+    "shape_id": "shp_6_512",
+    "stations": [
+      {
+        "stop_id": "8530569",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530568",
+        "shape_percent": 99.24
+      }
+    ],
+    "ok": true
+  },
+  "8530570_8530571": {
+    "signature": "8530570_8530571",
+    "shape_id": "shp_6_10119",
+    "stations": [
+      {
+        "stop_id": "8530570",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530571",
+        "shape_percent": 99.5
+      }
+    ],
+    "ok": true
+  },
+  "8530571_8530570": {
+    "signature": "8530571_8530570",
+    "shape_id": "shp_6_336",
+    "stations": [
+      {
+        "stop_id": "8530571",
+        "shape_percent": 0.5
+      },
+      {
+        "stop_id": "8530570",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530571_8530572": {
+    "signature": "8530571_8530572",
+    "shape_id": "shp_6_8481",
+    "stations": [
+      {
+        "stop_id": "8530571",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530572",
+        "shape_percent": 99.21
+      }
+    ],
+    "ok": true
+  },
+  "8530572_8530571": {
+    "signature": "8530572_8530571",
+    "shape_id": "shp_6_2696",
+    "stations": [
+      {
+        "stop_id": "8530572",
+        "shape_percent": 0.73
+      },
+      {
+        "stop_id": "8530571",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530587_8530588": {
+    "signature": "8530587_8530588",
+    "shape_id": "shp_6_10189",
+    "stations": [
+      {
+        "stop_id": "8530587",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530588",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530588_8530587": {
+    "signature": "8530588_8530587",
+    "shape_id": "shp_6_3283",
+    "stations": [
+      {
+        "stop_id": "8530588",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530587",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530596_8530597": {
+    "signature": "8530596_8530597",
+    "shape_id": "shp_6_7272",
+    "stations": [
+      {
+        "stop_id": "8530596",
+        "shape_percent": 0.04
+      },
+      {
+        "stop_id": "8530597",
+        "shape_percent": 99.87
+      }
+    ],
+    "ok": true
+  },
+  "8530597_8530596": {
+    "signature": "8530597_8530596",
+    "shape_id": "shp_6_9700",
+    "stations": [
+      {
+        "stop_id": "8530597",
+        "shape_percent": 0.09
+      },
+      {
+        "stop_id": "8530596",
+        "shape_percent": 99.91
+      }
+    ],
+    "ok": true
+  },
+  "8530609_8530610": {
+    "signature": "8530609_8530610",
+    "shape_id": "shp_6_5360",
+    "stations": [
+      {
+        "stop_id": "8530609",
+        "shape_percent": 0.09
+      },
+      {
+        "stop_id": "8530610",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530610_8530609": {
+    "signature": "8530610_8530609",
+    "shape_id": "shp_6_4252",
+    "stations": [
+      {
+        "stop_id": "8530610",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530609",
+        "shape_percent": 99.86
+      }
+    ],
+    "ok": true
+  },
+  "8530782_8530781": {
+    "signature": "8530782_8530781",
+    "shape_id": "shp_6_7378",
+    "stations": [
+      {
+        "stop_id": "8530782",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530781",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530781_8530782": {
+    "signature": "8530781_8530782",
+    "shape_id": "shp_6_4120",
+    "stations": [
+      {
+        "stop_id": "8530781",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530782",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530819_8530820": {
+    "signature": "8530819_8530820",
+    "shape_id": "shp_6_8571",
+    "stations": [
+      {
+        "stop_id": "8530819",
+        "shape_percent": 0.07
+      },
+      {
+        "stop_id": "8530820",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530820_8530819": {
+    "signature": "8530820_8530819",
+    "shape_id": "shp_6_208",
+    "stations": [
+      {
+        "stop_id": "8530820",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530819",
+        "shape_percent": 99.86
+      }
+    ],
+    "ok": true
+  },
+  "8530692_8530693": {
+    "signature": "8530692_8530693",
+    "shape_id": "shp_6_6719",
+    "stations": [
+      {
+        "stop_id": "8530692",
+        "shape_percent": 0.19
+      },
+      {
+        "stop_id": "8530693",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530693_8530692": {
+    "signature": "8530693_8530692",
+    "shape_id": "shp_6_2397",
+    "stations": [
+      {
+        "stop_id": "8530693",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530692",
+        "shape_percent": 99.72
+      }
+    ],
+    "ok": true
+  },
+  "8530393_8505089": {
+    "signature": "8530393_8505089",
+    "shape_id": "shp_6_9416",
+    "stations": [
+      {
+        "stop_id": "8530393",
+        "shape_percent": 0.23
+      },
+      {
+        "stop_id": "8505089",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8531312_8531313": {
+    "signature": "8531312_8531313",
+    "shape_id": "shp_6_8846",
+    "stations": [
+      {
+        "stop_id": "8531312",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8531313",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8531313_8531312": {
+    "signature": "8531313_8531312",
+    "shape_id": "shp_6_9918",
+    "stations": [
+      {
+        "stop_id": "8531313",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8531312",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507377_8507378": {
+    "signature": "8507377_8507378",
+    "shape_id": "shp_6_8052",
+    "stations": [
+      {
+        "stop_id": "8507377",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507378",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507378_8507377": {
+    "signature": "8507378_8507377",
+    "shape_id": "shp_6_2741",
+    "stations": [
+      {
+        "stop_id": "8507378",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507377",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8508356_8508357": {
+    "signature": "8508356_8508357",
+    "shape_id": "shp_6_7961",
+    "stations": [
+      {
+        "stop_id": "8508356",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8508357",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8508357_8508356": {
+    "signature": "8508357_8508356",
+    "shape_id": "shp_6_1210",
+    "stations": [
+      {
+        "stop_id": "8508357",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8508356",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507594_8507593": {
+    "signature": "8507594_8507593",
+    "shape_id": "shp_6_92",
+    "stations": [
+      {
+        "stop_id": "8507594",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507593",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8507593_8507594": {
+    "signature": "8507593_8507594",
+    "shape_id": "shp_6_3630",
+    "stations": [
+      {
+        "stop_id": "8507593",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8507594",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530573_8530574": {
+    "signature": "8530573_8530574",
+    "shape_id": "shp_6_4437",
+    "stations": [
+      {
+        "stop_id": "8530573",
+        "shape_percent": 0.15
+      },
+      {
+        "stop_id": "8530574",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530574_8530573": {
+    "signature": "8530574_8530573",
+    "shape_id": "shp_6_1305",
+    "stations": [
+      {
+        "stop_id": "8530574",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530573",
+        "shape_percent": 99.8
+      }
+    ],
+    "ok": true
+  },
+  "8530070_8530071": {
+    "signature": "8530070_8530071",
+    "shape_id": "shp_6_4445",
+    "stations": [
+      {
+        "stop_id": "8530070",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530071",
+        "shape_percent": 99.55
+      }
+    ],
+    "ok": true
+  },
+  "8530071_8530070": {
+    "signature": "8530071_8530070",
+    "shape_id": "shp_6_9080",
+    "stations": [
+      {
+        "stop_id": "8530071",
+        "shape_percent": 0.38
+      },
+      {
+        "stop_id": "8530070",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530078_8530079": {
+    "signature": "8530078_8530079",
+    "shape_id": "shp_6_1902",
+    "stations": [
+      {
+        "stop_id": "8530078",
+        "shape_percent": 3.55
+      },
+      {
+        "stop_id": "8530079",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530079_8530078": {
+    "signature": "8530079_8530078",
+    "shape_id": "shp_6_1978",
+    "stations": [
+      {
+        "stop_id": "8530079",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530078",
+        "shape_percent": 96.45
+      }
+    ],
+    "ok": true
+  },
+  "8530078_8530751": {
+    "signature": "8530078_8530751",
+    "shape_id": "shp_6_9434",
+    "stations": [
+      {
+        "stop_id": "8530078",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530751",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530751_8530078": {
+    "signature": "8530751_8530078",
+    "shape_id": "shp_6_8112",
+    "stations": [
+      {
+        "stop_id": "8530751",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530078",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530187_8530188": {
+    "signature": "8530187_8530188",
+    "shape_id": "shp_6_1454",
+    "stations": [
+      {
+        "stop_id": "8530187",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530188",
+        "shape_percent": 99.94
+      }
+    ],
+    "ok": true
+  },
+  "8530188_8530187": {
+    "signature": "8530188_8530187",
+    "shape_id": "shp_6_8892",
+    "stations": [
+      {
+        "stop_id": "8530188",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530187",
+        "shape_percent": 99.94
+      }
+    ],
+    "ok": true
+  },
+  "8530752_8530753": {
+    "signature": "8530752_8530753",
+    "shape_id": "shp_6_2339",
+    "stations": [
+      {
+        "stop_id": "8530752",
+        "shape_percent": 0.86
+      },
+      {
+        "stop_id": "8530753",
+        "shape_percent": 99.75
+      }
+    ],
+    "ok": true
+  },
+  "8530753_8530752": {
+    "signature": "8530753_8530752",
+    "shape_id": "shp_6_1451",
+    "stations": [
+      {
+        "stop_id": "8530753",
+        "shape_percent": 0.2
+      },
+      {
+        "stop_id": "8530752",
+        "shape_percent": 99.14
+      }
+    ],
+    "ok": true
+  },
+  "8530404_8530405": {
+    "signature": "8530404_8530405",
+    "shape_id": "shp_6_3321",
+    "stations": [
+      {
+        "stop_id": "8530404",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530405",
+        "shape_percent": 99.77
+      }
+    ],
+    "ok": true
+  },
+  "8530405_8530404": {
+    "signature": "8530405_8530404",
+    "shape_id": "shp_6_2191",
+    "stations": [
+      {
+        "stop_id": "8530405",
+        "shape_percent": 0.19
+      },
+      {
+        "stop_id": "8530404",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530594_8530595": {
+    "signature": "8530594_8530595",
+    "shape_id": "shp_6_10255",
+    "stations": [
+      {
+        "stop_id": "8530594",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530595",
+        "shape_percent": 99.73
+      }
+    ],
+    "ok": true
+  },
+  "8530595_8530594": {
+    "signature": "8530595_8530594",
+    "shape_id": "shp_6_5317",
+    "stations": [
+      {
+        "stop_id": "8530595",
+        "shape_percent": 0.2
+      },
+      {
+        "stop_id": "8530594",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530595_8530738": {
+    "signature": "8530595_8530738",
+    "shape_id": "shp_6_10169",
+    "stations": [
+      {
+        "stop_id": "8530595",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530738",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530738_8530595": {
+    "signature": "8530738_8530595",
+    "shape_id": "shp_6_190",
+    "stations": [
+      {
+        "stop_id": "8530738",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530595",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530139_8530140": {
+    "signature": "8530139_8530140",
+    "shape_id": "shp_6_8323",
+    "stations": [
+      {
+        "stop_id": "8530139",
+        "shape_percent": 0.16
+      },
+      {
+        "stop_id": "8530140",
+        "shape_percent": 99.92
+      }
+    ],
+    "ok": true
+  },
+  "8530140_8530139": {
+    "signature": "8530140_8530139",
+    "shape_id": "shp_6_7139",
+    "stations": [
+      {
+        "stop_id": "8530140",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530139",
+        "shape_percent": 99.76
+      }
+    ],
+    "ok": true
+  },
+  "8530144_8530145": {
+    "signature": "8530144_8530145",
+    "shape_id": "shp_6_1524",
+    "stations": [
+      {
+        "stop_id": "8530144",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530145",
+        "shape_percent": 99.53
+      }
+    ],
+    "ok": true
+  },
+  "8530145_8530144": {
+    "signature": "8530145_8530144",
+    "shape_id": "shp_6_6444",
+    "stations": [
+      {
+        "stop_id": "8530145",
+        "shape_percent": 0.41
+      },
+      {
+        "stop_id": "8530144",
+        "shape_percent": 99.94
+      }
+    ],
+    "ok": true
+  },
+  "8530139_8530859": {
+    "signature": "8530139_8530859",
+    "shape_id": "shp_6_1158",
+    "stations": [
+      {
+        "stop_id": "8530139",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530859",
+        "shape_percent": 99.73
+      }
+    ],
+    "ok": true
+  },
+  "8530859_8530139": {
+    "signature": "8530859_8530139",
+    "shape_id": "shp_6_4934",
+    "stations": [
+      {
+        "stop_id": "8530859",
+        "shape_percent": 0.27
+      },
+      {
+        "stop_id": "8530139",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530580_8530581": {
+    "signature": "8530580_8530581",
+    "shape_id": "shp_6_2594",
+    "stations": [
+      {
+        "stop_id": "8530580",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530581",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530581_8530580": {
+    "signature": "8530581_8530580",
+    "shape_id": "shp_6_9207",
+    "stations": [
+      {
+        "stop_id": "8530581",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530580",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530353_8530354": {
+    "signature": "8530353_8530354",
+    "shape_id": "shp_6_8447",
+    "stations": [
+      {
+        "stop_id": "8530353",
+        "shape_percent": 0.99
+      },
+      {
+        "stop_id": "8530354",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530354_8530353": {
+    "signature": "8530354_8530353",
+    "shape_id": "shp_6_1713",
+    "stations": [
+      {
+        "stop_id": "8530354",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530353",
+        "shape_percent": 98.94
+      }
+    ],
+    "ok": true
+  },
+  "8530301_8530302": {
+    "signature": "8530301_8530302",
+    "shape_id": "shp_6_8608",
+    "stations": [
+      {
+        "stop_id": "8530301",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530302",
+        "shape_percent": 99.47
+      }
+    ],
+    "ok": true
+  },
+  "8530302_8530301": {
+    "signature": "8530302_8530301",
+    "shape_id": "shp_6_3439",
+    "stations": [
+      {
+        "stop_id": "8530302",
+        "shape_percent": 0.42
+      },
+      {
+        "stop_id": "8530301",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530401_8530400": {
+    "signature": "8530401_8530400",
+    "shape_id": "shp_6_3782",
+    "stations": [
+      {
+        "stop_id": "8530401",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530400",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8530400_8530401": {
+    "signature": "8530400_8530401",
+    "shape_id": "shp_6_9543",
+    "stations": [
+      {
+        "stop_id": "8530400",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8530401",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8508364_8508367": {
+    "signature": "8508364_8508367",
+    "shape_id": "shp_6_6782",
+    "stations": [
+      {
+        "stop_id": "8508364",
+        "shape_percent": 0.06
+      },
+      {
+        "stop_id": "8508367",
+        "shape_percent": 100.0
+      }
+    ],
+    "ok": true
+  },
+  "8508367_8508364": {
+    "signature": "8508367_8508364",
+    "shape_id": "shp_6_2662",
+    "stations": [
+      {
+        "stop_id": "8508367",
+        "shape_percent": 0.0
+      },
+      {
+        "stop_id": "8508364",
+        "shape_percent": 99.87
+      }
+    ],
+    "ok": true
+  }
+}

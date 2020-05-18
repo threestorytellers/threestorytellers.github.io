@@ -375,7 +375,7 @@ var simulation_manager = (function(){
         function init() {
             (function(){
                 // var d = new Date();
-                var d = new Date('2020-05-14T10:20:30Z');
+                var d = new Date('2020-05-14T10:21:30Z');
 
                 var hms = config.getParam('hms');
 
