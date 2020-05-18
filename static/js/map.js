@@ -374,8 +374,9 @@ var simulation_manager = (function(){
         
         function init() {
             (function(){
-                var d = new Date();
-                
+                // var d = new Date();
+                var d = new Date('2020-05-14T10:20:30Z');
+
                 var hms = config.getParam('hms');
 
                 // Demo data is set for 9 AM
@@ -600,6 +601,11 @@ var simulation_manager = (function(){
                 $('.vehicle_name', $('#vehicle_info')).css('background-color', route_config.route_color);
                 $('.vehicle_name', $('#vehicle_info')).css('color', route_config.route_text_color);
             }
+            // else {
+            //     route_config = config.getParam('routes')["re"]
+            //     $('.vehicle_name', $('#vehicle_info')).css('background-color', route_config.route_color);
+            //     $('.vehicle_name', $('#vehicle_info')).css('color', route_config.route_text_color);
+            // }
             
             var ts = timer.getTS();
             
@@ -1445,7 +1451,8 @@ var simulation_manager = (function(){
 
                 var routes_config = config.getParam('routes');
                 if ((typeof routes_config[type]) === 'undefined') {
-                    return null;
+                    // return null;
+                    type = "general"
                 }
 
                 if (routes_config[type].icon === false) {
@@ -1919,11 +1926,13 @@ var simulation_manager = (function(){
                 
                 var url = config.getParam('api_paths.trips');
                 url = url.replace(/\[hhmm\]/, hm.replace(':', ''));
-                
+                console.log('url '+ url)
+
                 $.ajax({
                     url: url,
                     dataType: 'json',
                     success: function(vehicles) {
+                        console.log(vehicles)
                         $.each(vehicles, function(index, data) {
                             var vehicle_id = ((typeof data.trip_id) === 'undefined') ? data.id : data.trip_id;
                             
