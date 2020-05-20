@@ -61,224 +61,245 @@
         <!-- Masthead-->
 
         <style>
-                /* START timebar part */
+        /* START timebar part */
 
-                #dashboard {
-                  position: absolute;
-                   float: left; width: calc(100% - 340px); top: 0px; left: 0;
+        #dashboard {
+          position: absolute;
+           float: left; width: calc(100% - 340px); top: 0px; left: 0;
 
-                  /*position: absolute;
-                  float: left;
-                  width: calc(100% - 340px);
-                  top: 0px;
-                  left: 50px;
-                  padding: 5px;
-                  right: 70px;
-                  top: 70px;
-                  background-color: #FAFAFA;
-                  border: 1px solid #717D7D;*/
-                }
-                #dashboard .dashboard-area { display: inline-block; vertical-align: top; text-align: center; }
-                #dashboard #carbon { float: left; }
-                #dashboard #time-holder { position: fixed; left: 200px; text-shadow: 1px 1px 2px rgb(33,60,71); color: rgb(220,245,255); top: 20%; font-weight: bold; margin-top: -1em; }
-                #dashboard #time-holder .result { font-size: 100px; }
-                #dashboard #freight { width: calc(100% - 165px); text-align: center; }
-                #dashboard .stat, #options .option-name { font-size: 13px; display: inline-block; vertical-align: top; }
+          /*position: absolute;
+          float: left;
+          width: calc(100% - 340px);
+          top: 0px;
+          left: 50px;
+          padding: 5px;
+          right: 70px;
+          top: 70px;
+          background-color: #FAFAFA;
+          border: 1px solid #717D7D;*/
+        }
+        #dashboard .dashboard-area { display: inline-block; vertical-align: top; text-align: center; }
+        #dashboard #carbon { float: left; }
+        #dashboard #time-holder { position: absolute; left: 200px; text-shadow: 1px 1px 2px rgb(33,60,71); color: rgb(220,245,255); top: 200px; font-weight: bold; margin-top: -1em; }
+        #dashboard #time-holder .result { font-size: 30px; }
+        #dashboard #freight { width: calc(100% - 165px); text-align: center; }
+        #dashboard .stat, #options .option-name { font-size: 13px; display: inline-block; vertical-align: top; }
 
-                #dashboard #freight .stat { margin-left: 8px; }
-                #dashboard .stat .value { color: rgb(255,255,175); font-family: 'Share Tech Mono'; letter-spacing: -1px; }
-                #dashboard.color-coded .stat .value { color: white; }
-                body.guardian #dashboard .stat .value { font-family: inherit; font-weight: bold; letter-spacing: 0; }
-                #dashboard .stat #result-vehicles { min-width: 74px; }
-                #dashboard .stat .result { display: inline-block; line-height: 1; }
-                #dashboard .filter, #dashboard .radio { font-size: 13px; }
+        #dashboard #freight .stat { margin-left: 8px; }
+        #dashboard .stat .value { color: rgb(255,255,175); font-family: 'Share Tech Mono'; letter-spacing: -1px; }
+        #dashboard.color-coded .stat .value { color: white; }
+        body.guardian #dashboard .stat .value { font-family: inherit; font-weight: bold; letter-spacing: 0  ; }
+        #dashboard .stat #result-vehicles { min-width: 74px; }
+        #dashboard .stat .result { display: inline-block; line-height: 1; }
+        #dashboard .filter, #dashboard .radio { font-size: 13px; }
 
-                #scrubber { height: 50px; width: 100%; background: rgba(255,255,255,0.1); position: absolute; bottom: 50px; -moz-border-radiuseft: 0; cursor: pointer; }
-                #scrubber-inner { height: 30px; position: absolute; }
-                #scrubber-inner .hour { position: absolute; height: 100%; border-right: 1px white rgba(255,255,255,0.1); }
-                #scrubber-inner .hour .label { position: absolute; top: -1.25em; left: 1px; font-size: 13px; }
-                #scrubber-inner .hour .minute { background: rgba(255,255,255,0.25); height: 100%; border-right: 1px solid rgba(0,0,0,0.1); }
-                #scrubber-inner .hour .minute.current { background: rgba(255,255,255,1); }
-                #scrubber-inner .hour .minute:hover { background: black; }
-                #scrubber-inner .hour .minute .load-progress { position: absolute; height: 0; bottom: 0; left: 0; background: rgba(255,255,200,0.33); }
+        #options { display: inline-block; float: right; height: 100%; margin-right: 40px; }
+        #options i { width: 1em; text-align: center; display: inline-block; }
+        #options .option { display: inline-block; vertical-align: top; padding: 0 6px 3px; position: relative; font-size: 13px; height: 100%; }
+        #options .option .option-name { height: 100%; width: 60px; }
+        #options .option .option-menu { display: none; position: absolute; background: rgba(254,226,133,0.35); width: 100%; padding: 3px 6px; text-align: left; }
+        #options .option .option-menu .check.checked i::before { content: "\f00c"; }
+        #options.hoverable .option:hover .option-menu,
+        #options .option.visible .option-menu { display: block; top: 22px; left: 0; }
+        #options .radio i { visibility: hidden; }
+        #options .radio.selected i { visibility: visible; }
+        #options .radio-name { display: inline-block; }
+        #options #filters .option-menu { /*width: 90px;*/ }
 
-                /* END */
+        /* Disable the filters menu if it has the .disabled class */
+        #options #filters.disabled .option-name { color: #666; cursor: default; }
+        #options.hoverable #filters.disabled:hover .option-menu { color: #999; }
+        #options.hoverable #filters.disabled:hover .option-menu .btn:hover { opacity: inherit; cursor: default; }
+        #options #colours .option-menu { width: 80px; }
+
+        #scrubber { height: 50px; width: 100%; background: rgba(255,255,255,0.1); position: absolute; bottom: 50px; -moz-border-radiuseft: 0; cursor: pointer; }
+        #scrubber-inner { height: 30px; position: absolute; }
+        #scrubber-inner .hour { position: absolute; height: 100%; border-right: 1px white rgba(255,255,255,0.1); }
+        #scrubber-inner .hour .label { position: absolute; top: -1.25em; left: 1px; font-size: 13px; }
+        #scrubber-inner .hour .minute { background: rgba(255,255,255,0.25); height: 100%; border-right: 1px solid rgba(0,0,0,0.1); }
+        #scrubber-inner .hour .minute.current { background: rgba(255,255,255,1); }
+        #scrubber-inner .hour .minute:hover { background: black; }
+        #scrubber-inner .hour .minute .load-progress { position: absolute; height: 0; bottom: 0; left: 0; background: rgba(255,255,200,0.33); }
+
+        /* END */
+
         </style>
 
-
-
         <!-- <header class="masthead"> -->
-            <div id="map_canvas"></div>
-            <div id="panel" class="hidden">
-                <div style="">
-                    <h3>Map Filters and Info</h3>
-                </div>
-                <div class="section">
-                    <b>Time:</b> <span id="day_time"></span>
-                    <select id="time_multiply">
-                        <option value="1" selected="selected">1x</option>
-                        <option value="5">5x</option>
-                        <option value="10">10x</option>
-                        <option value="100">100x</option>
-                    </select>
-                    <!-- <br/>
-                    <input type="button" id="geolocation_click" />
-                    <input type="text" id="user_location" / > -->
-                </div>
+        <div id="map_canvas"></div>
+        <div id="dashboard" >
+          <div class="s tat" id="time-holder"><span class="result">Time <span id="day_time"></span></span></div>
+        </div>
+        <div id="panel" class = "hidden">
+          <div style="">
+              <h3>Map Filters and Info</h3>
+          </div>
+          <div class="section">
+              <b>Speedup</b>
+              <select id="time_multiply">
+                  <option value="1" selected="selected">1x</option>
+                  <option value="5">5x</option>
+                  <option value="10">10x</option>
+                  <option value="100">100x</option>
+              </select>
+              <!-- <br/>
+              <input type="button" id="geolocation_click" />
+              <input type="text" id="user_location" / > -->
+          </div>
+          <div id="vehicle_info" class="hidden section" data-type="panel">
+              <div>
+                  <b>Vehicle:</b> <span class="vehicle_name"></span> <input type="button" class="panel_collapsible expanded" />
+              </div>
+              <div class="panel_content">
+                  <div>
+                      <input id="follow_trigger" type="button" value="Follow" data-value-toggle="STOP" />
+                      <input id="route_show_trigger" type="button" value="Draw route" data-value-toggle="HIDE route" />
+                  </div>
 
-                <div class="section">
-                    <!-- change the types of boutons -->
-                    <div id="options" class="hoverable">
-                      <b><span class="nav-subhead">Options</span></b>
-                      <div id="togglers" class="option">
-                        <div class="option-name">Show <i class="fa fa-chevron-down"></i></div>
-                        <div class="option-menu">
-                          <div id="station-toggler" class="btn check"><i class="fa fa-check-square"></i> <span class="radio-name">Stations</span></div>
-                          <div id="route-toggler" class="btn check"><i class="fa fa-check-square"></i> <span class="radio-name">Routes</span></div>
-                          <div id="train-toggler" class="btn check checked"><i class="fa fa-check-square"></i> <span class="radio-name">Trains</span></div>
-                          <div id="bus-toggler" class="btn check checked"><i class="fa fa-check-square"></i> <span class="radio-name">Bus</span></div>
-                          <div id="ship-toggler" class="btn check checked"><i class="fa fa-check-square"></i> <span class="radio-name">Ships</span></div>
-                          <div id="map-toggler" class="btn check checked"><i class="fa fa-check-square"></i> <span class="radio-name">Map</span></div>
-                        </div>
-                      </div>
-                      <div id="colours" class="option">
-                        <div class="option-name">Colours <i class="fa fa-chevron-down"></i></div>
-                        <div class="option-menu">
-                          <div data-value="shade-uniform" class="btn radio selected"><i class="fa fa-check-square" aria-hidden="true"></i> <span class="radio-name">Uniform</span></div>
-                          <div data-value="shade-type" class="btn radio"><i class="fa fa-check-square"></i> <span class="radio-name">traffic type</span></div>
-                        </div>
-                      </div>
-                      <div id="filters" class="option">
-                        <div class="option-name">Filters <i class="fa fa-chevron-down"></i></div>
-                        <div class="option-menu">
-                          <div id="filter-type-3" data-ship-type="3" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> a </div>
-                          <div id="filter-type-0" data-ship-type="0" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> b </div>
-                          <div id="filter-type-1" data-ship-type="1" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> c </div>
-                          <div id="filter-type-2" data-ship-type="2" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> d </div>
-                          <div id="filter-type-4" data-ship-type="4" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> e </div>
-                        </div>
-                      </div>
-                    </div>
+                  <div id="vehicle_timetable_container">
+                      <table id="vehicle_timetable" class="panel_table">
+                          <thead>
+                              <tr>
+                                  <td>#</td>
+                                  <td class="station">Station</td>
+                                  <td>Arr.</td>
+                                  <td>Dep.</td>
+                              </tr>
+                          </thead>
+                          <tbody>
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
+          <div id="station_info" class="hidden section" data-type="panel">
+              <div>
+                  <b>Station:</b> <span class="station_name"></span> <input type="button" class="panel_collapsible expanded" />
+              </div>
+              <div class="panel_content">
+                  <table id="station_departures" class="panel_table">
+                      <thead>
+                          <tr>
+                              <td>#</td>
+                              <td class="wide">Vehicle</td>
+                              <td>To</td>
+                              <td>Dep.</td>
+                          </tr>
+                      </thead>
+                      <tbody>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+          <div  class="section">
+            <div id="options" class="hoverable">
+              <b><span class="nav-subhead">Options</span></b>
+              <div id="togglers" class="option">
+                <div class="option-name">Show <i class="fa fa-chevron-down"></i></div>
+                <div class="option-menu">
+                  <div id="station-toggler" class="btn check"><i class="fa fa-check-square"></i> <span class="radio-name">Stations</span></div>
+                  <div id="route-toggler" class="btn check"><i class="fa fa-check-square"></i> <span class="radio-name">Routes</span></div>
+                  <div id="train-toggler" class="btn check checked"><i class="fa fa-check-square"></i> <span class="radio-name">Trains</span></div>
+                  <div id="bus-toggler" class="btn check checked"><i class="fa fa-check-square"></i> <span class="radio-name">Bus</span></div>
+                  <div id="ship-toggler" class="btn check checked"><i class="fa fa-check-square"></i> <span class="radio-name">Ships</span></div>
+                  <div id="map-toggler" class="btn check checked"><i class="fa fa-check-square"></i> <span class="radio-name">Map</span></div>
                 </div>
-
-                <div id="vehicle_info" class="hidden section" data-type="panel">
-                    <div>
-                        <b>Vehicle:</b> <span class="vehicle_name"></span> <input type="button" class="panel_collapsible expanded" />
-                    </div>
-                    <div class="panel_content">
-                        <div>
-                            <input id="follow_trigger" type="button" value="Follow" data-value-toggle="STOP" />
-                            <input id="route_show_trigger" type="button" value="Draw route" data-value-toggle="HIDE route" />
-                        </div>
-
-                        <div id="vehicle_timetable_container">
-                            <table id="vehicle_timetable" class="panel_table">
-                                <thead>
-                                    <tr>
-                                        <td>#</td>
-                                        <td class="station">Station</td>
-                                        <td>Arr.</td>
-                                        <td>Dep.</td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+              </div>
+              <div id="colours" class="option">
+                <div class="option-name">Colors <i class="fa fa-chevron-down"></i></div>
+                <div class="option-menu">
+                  <div data-value="shade-uniform" class="btn radio selected"><i class="fa fa-check-square" aria-hidden="true"></i> <span class="radio-name">Uniform</span></div>
+                  <div data-value="shade-type" class="btn radio"><i class="fa fa-check-square"></i> <span class="radio-name">traffic type</span></div>
                 </div>
-                <div id="station_info" class="hidden section" data-type="panel">
-                    <div>
-                        <b>Station:</b> <span class="station_name"></span> <input type="button" class="panel_collapsible expanded" />
-                    </div>
-                    <div class="panel_content">
-                        <table id="station_departures" class="panel_table">
-                            <thead>
-                                <tr>
-                                    <td>#</td>
-                                    <td class="wide">Vehicle</td>
-                                    <td>To</td>
-                                    <td>Dep.</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                            </tbody>
-                        </table>
-                    </div>
+              </div>
+              <div id="filters" class="option">
+                <div class="option-name">Filters <i class="fa fa-chevron-down"></i></div>
+                <div class="option-menu">
+                  <div id="filter-type-3" data-ship-type="3" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> a </div>
+                  <div id="filter-type-0" data-ship-type="0" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> b </div>
+                  <div id="filter-type-1" data-ship-type="1" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> c </div>
+                  <div id="filter-type-2" data-ship-type="2" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> d </div>
+                  <div id="filter-type-4" data-ship-type="4" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> e </div>
                 </div>
+              </div>
             </div>
-            <div id="vehicle_popup_container" class="hidden">
-                <div id="vehicle_popup">
-                    <span class="vehicle_name"></span>
-                    <br />
-                    <p class="status"></p>
-                </div>
-            </div>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyzNxxrLPxkfe2Jz1Iue1rKbNY5iw5JCQ&amp;v=3.20&amp;sensor=false&amp;libraries=geometry,places"></script>
-            <script type="text/javascript" src="static/js/stamen.js"></script>
-
-            <script src="static/js/infobox_packed.js"></script>
-            <script src="static/js/map.js"></script>
+          </div>
+        </div>
+        <div id="vehicle_popup_container" class="hidden">
+          <div id="vehicle_popup">
+            <span class="vehicle_name"></span>
+            <br />
+            <p class="status"></p>
+          </div>
+        </div>
 
 
-            <div id="scrubber"></div>
-            <script>
 
-            // we build the minutes as the setInterval of 5 mins
-            var HOURS = [
-              { name: "00:00", minutes: 12 },
-              { name: "01:00", minutes: 12 },
-              { name: "02:00", minutes: 12 },
-              { name: "03:00", minutes: 12 },
-              { name: "04:00", minutes: 12 },
-              { name: "05:00", minutes: 12 },
-              { name: "06:00", minutes: 12 },
-              { name: "07:00", minutes: 12 },
-              { name: "08:00", minutes: 12 },
-              { name: "09:00", minutes: 12 },
-              { name: "10:00", minutes: 12 },
-              { name: "11:00", minutes: 12 }
-            ];
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyzNxxrLPxkfe2Jz1Iue1rKbNY5iw5JCQ&amp;v=3.20&amp;sensor=false&amp;libraries=geometry,places"></script>
+        <script type="text/javascript" src="static/js/stamen.js"></script>
 
-            function initScrubber() {
-              var $scrubber_inner = $("<div />").attr("id", "scrubber-inner").appendTo("#scrubber");
+        <script src="static/js/infobox_packed.js"></script>
+        <script src="static/js/map.js"></script>
 
-              var minute_number = 0,
-                  minute_width = Math.floor(window.innerWidth/(12*12 + 12)),
-                  scrolling = minute_width < 2;
-              if (scrolling) minute_width = 2;
-              var calendar_width = minute_width*(12*12) + 12,
-                  margin = scrolling ? 0 : (window.innerWidth - calendar_width)/2;
-              for (var i = 0; i < HOURS.length; i++) {
-                var $hour = $("<div />")
-                    .attr("class", "hour " + HOURS[i].name)
-                    .css("left" , margin + minute_number * minute_width + (i * 1) + "px")
-                    .css("width" ,minute_width * HOURS[i].minutes + 1 + "px")
-                    .appendTo($scrubber_inner);
-                $("<div />").attr("class", "label").text(HOURS[i].name).appendTo($hour);
-                for (var j = 0; j < HOURS[i].minutes; j++) {
-                  var $minute = $("<div />").attr("class", "minute").attr("id", "minute-" + minute_number)
-                    .css("position", "absolute")
-                    .css("top", 0)
-                    .css( "left" , j * minute_width + "px")
-                    .css( "width", minute_width + "px")
-                    .appendTo($hour);
-                    //.on("click", clickDay);
-                  $("<div />").attr("class", "label").text(j).appendTo($minute);
-                  $("<div />").attr("class", "load-progress")
-                  .css( "width", minute_width + "px")
-                  .css("height","0px")
-                  .appendTo($minute);
-                  minute_number++;
-                }
-              }
 
+        <div id="scrubber"></div>
+        <script>
+
+        // we build the minutes as the setInterval of 5 mins
+        var HOURS = [
+          { name: "00:00", minutes: 12 },
+          { name: "01:00", minutes: 12 },
+          { name: "02:00", minutes: 12 },
+          { name: "03:00", minutes: 12 },
+          { name: "04:00", minutes: 12 },
+          { name: "05:00", minutes: 12 },
+          { name: "06:00", minutes: 12 },
+          { name: "07:00", minutes: 12 },
+          { name: "08:00", minutes: 12 },
+          { name: "09:00", minutes: 12 },
+          { name: "10:00", minutes: 12 },
+          { name: "11:00", minutes: 12 }
+        ];
+
+        function initScrubber() {
+          var $scrubber_inner = $("<div />").attr("id", "scrubber-inner").appendTo("#scrubber");
+
+          var minute_number = 0,
+              minute_width = Math.floor(window.innerWidth/(12*12 + 12)),
+              scrolling = minute_width < 2;
+          if (scrolling) minute_width = 2;
+          var calendar_width = minute_width*(12*12) + 12,
+              margin = scrolling ? 0 : (window.innerWidth - calendar_width)/2;
+          for (var i = 0; i < HOURS.length; i++) {
+            var $hour = $("<div />")
+                .attr("class", "hour " + HOURS[i].name)
+                .css("left" , margin + minute_number * minute_width + (i * 1) + "px")
+                .css("width" ,minute_width * HOURS[i].minutes + 1 + "px")
+                .appendTo($scrubber_inner);
+            $("<div />").attr("class", "label").text(HOURS[i].name).appendTo($hour);
+            for (var j = 0; j < HOURS[i].minutes; j++) {
+              var $minute = $("<div />").attr("class", "minute").attr("id", "minute-" + minute_number)
+                .css("position", "absolute")
+                .css("top", 0)
+                .css( "left" , j * minute_width + "px")
+                .css( "width", minute_width + "px")
+                .appendTo($hour);
+                //.on("click", clickDay);
+              $("<div />").attr("class", "label").text(j).appendTo($minute);
+              $("<div />").attr("class", "load-progress")
+              .css( "width", minute_width + "px")
+              .css("height","0px")
+              .appendTo($minute);
+              minute_number++;
             }
+          }
 
-            initScrubber();
+        }
 
-            </script>
+        initScrubber();
+
+        </script>
             <!-- <div class="container">
                 <div class="masthead-subheading">Welcome To Our Studio!</div>
                 <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>

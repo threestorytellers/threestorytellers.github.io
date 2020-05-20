@@ -23,11 +23,11 @@ body {
 /* SIMULATION PANEL */
 #panel {
     position: absolute;
-    width: 300px;
+    /*width: 400px;*/
     padding: 5px;
-    right: 70px;
+    right: 100px;
     top: 70px;
-    background-color: #FAFAFA;
+    background-color: #fed136;
     border: 1px solid #717D7D;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 #panel > div.section {
-    background-color: #F2F2F2;
+    background-color: #ffe796;
     border: 1px solid #CACACA;
 }
 
@@ -74,15 +74,15 @@ div.panel_content > div {
 /* Source of collapsible icons: http://www.shapes4free.com/vector-icons/expand-collapse-icons/ */
 input.panel_collapsible {
     background: transparent url(../images/panel_expand.png) no-repeat top;
-    
+
     width: 12px;
     height: 12px;
     border: none;
-    
+
     display: block;
     float: right;
     right: 0px;
-    top: 0px;    
+    top: 0px;
 }
 
 input.expanded {
@@ -117,7 +117,7 @@ table.panel_table tbody td {
     background-color: #FFFFFF;
 }
 
-table.panel_table tbody tr.passed td, 
+table.panel_table tbody tr.passed td,
 table.panel_table tbody tr.passed td a {
     color: #CACACA;
 }
@@ -131,7 +131,7 @@ td.station {
 #vehicle_popup {
     width: 180px;
     padding: 5px 0px 5px 10px;
-    
+
     background-color: #F2F2F2;
     border: 1px solid #111111;
 }
