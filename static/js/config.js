@@ -22,7 +22,7 @@
   "ft_layer_ids.gtfs_stops": null,
   "ft_layer_ids.topology_edges": null,
   "ft_layer_ids.topology_stations": null,
-  "api_paths.trips": "api/inc/controllers/trips.php?hhmm=[hhmm]",
+  "api_paths.trips": "api/inc/controllers/trips.php?hhmm=[hhmm]&ymd=[ymd]",
   "api_paths.departures": null,
   "geojson.gtfs_shapes": "api/gtfs-data/gtfs_shapes.geojson",
   "geojson.gtfs_stops": "api/gtfs-data/gtfs_stops.geojson",
