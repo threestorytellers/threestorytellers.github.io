@@ -19,7 +19,7 @@ var z = d3.scaleOrdinal()
 
 var zClasses = ['The number of starting transportation', 'The number of finishing transportation'];
 
-d3.csv("data/time_routine.csv", function(d, i, columns) {
+d3.csv("data/time_routine1.csv", function(d, i, columns) {
   d.start = (+d.start);
   d.end =  (+d.end);
   return d;
