@@ -100,7 +100,7 @@ input.toggled {
 #vehicle_timetable_container {
     overflow-x: hidden;
     overflow-y: auto;
-    max-height: 500px;
+    max-height: 200px;
 }
 
 table.panel_table {
