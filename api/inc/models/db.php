@@ -123,7 +123,7 @@ class DB {
         $rows = self::parseDBResult($result, $cache_file);
         return $rows;
     }
-    
+
     public static function getTripsByMinute($hhmm, $service_ids) {
 //        $cache_file = APP_FOLDER_PATH . '/tmp/cache/db/trips_' . sha1(implode('', $service_ids)) . '_' . $hhmm . '.json';
         $cache_file = APP_FOLDER_PATH . '/tmp/cache/db/trips_service_id_' . $hhmm . '.json';
@@ -133,9 +133,9 @@ class DB {
         if ($cached_results) {
             return $cached_results;
         }
-        
+
         $db = self::getDB();
-        
+
         $hhmm_seconds = substr($hhmm, 0, 2) * 3600 + substr($hhmm, 2) * 60;
         $hhmm_seconds_midnight = $hhmm_seconds + 24 * 3600;
 
@@ -145,27 +145,58 @@ class DB {
 
         $rows = array();
         $tripids = array();
-        $lim_count = 1000;
         while($row = $result->fetchArray(SQLITE3_ASSOC)) {
 //            $tripid = strtok($row['trip_id'], ':');
             $tripid =$row['service_id'];
             if (empty($service_ids) || !in_array($row['service_id'], $service_ids)) {
                 if (!in_array($tripid, $tripids)) {
-//                    if ($lim_count>0) {
-
-                        array_push($rows, $row);
-                        array_push($tripids, $tripid);
-//                        $lim_count -= 1;
-//                    }
+                    array_push($rows, $row);
+                    array_push($tripids, $tripid);
                 }
             }
         }
-//        echo ($full_count."\n\n");
-        
+
         if ($cache_file) {
             self::cacheResults($cache_file, $rows);
         }
-        
+
+        return $rows;
+    }
+    public static function getSpecificTripsByMinute($hhmm, $service_ids, $vtype) {
+        $cache_file = APP_FOLDER_PATH . '/tmp/cache/db/trips_service_id_' . $hhmm . '.json';
+        $cached_results = self::getCachedResults(array(
+            'cache_file' => $cache_file
+        ));
+        if ($cached_results) {
+            return $cached_results;
+        }
+
+        $db = self::getDB();
+
+        $hhmm_seconds = substr($hhmm, 0, 2) * 3600 + substr($hhmm, 2) * 60;
+        $hhmm_seconds_midnight = $hhmm_seconds + 24 * 3600;
+
+        $sql = "SELECT trip_id, route_short_name,route_type, route_long_name, route_color, route_text_color, trip_headsign, shape_id, service_id FROM trips, routes WHERE trips.route_id = routes.route_id AND routes.route_type=".$vtype." AND ((trip_start_seconds < " . $hhmm_seconds . " AND trip_end_seconds > " . $hhmm_seconds . ") OR (trip_start_seconds < " . $hhmm_seconds_midnight . " AND trip_end_seconds > " . $hhmm_seconds_midnight . "))";
+        $stmt = $db->prepare($sql);
+        $result = $stmt->execute();
+
+        $rows = array();
+        $tripids = array();
+        while($row = $result->fetchArray(SQLITE3_ASSOC)) {
+            $tripid =$row['service_id'];
+            if (empty($service_ids) || !in_array($row['service_id'], $service_ids)) {
+                if (!in_array($tripid, $tripids)) {
+
+                    array_push($rows, $row);
+                    array_push($tripids, $tripid);
+                }
+            }
+        }
+
+        if ($cache_file) {
+            self::cacheResults($cache_file, $rows);
+        }
+
         return $rows;
     }
     

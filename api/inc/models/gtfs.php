@@ -43,19 +43,19 @@ class GTFS {
         }
         return $service_ids;
     }
-    
-    public static function getTripsByMinute($hhmm,$ymd) {
+    private static function getAllServiceIds($ymd) {
         $service_ids = self::getDayServiceIds($ymd);
         $not_service_ids = self::getNonDayServiceIds($ymd);
         $new_service_ids = self::getNewDayServiceIds($ymd);
 //        print_r ($service_ids);
 //        echo (sizeof($service_ids)."\n");
-//        echo (sizeof($not_service_ids)."\n");
         $service_ids = array_diff($service_ids, $not_service_ids);
-//        echo (sizeof($service_ids)."\n");
         $service_ids = array_merge($service_ids,$new_service_ids);
-//        echo (sizeof($service_ids)."\n");
-//        print_r($not_service_ids);
+        return $service_ids;
+    }
+
+    public static function getTripsByMinute($hhmm,$ymd) {
+        $service_ids = self::getAllServiceIds($ymd);
         $trips = DB::getTripsByMinute($hhmm, $service_ids);
         $new_trips = array();
         foreach ($trips as $k => $row) {
@@ -67,7 +67,22 @@ class GTFS {
             $trips[$k]['stops'] = $stops;
             array_push($new_trips, $trips[$k]);
         }
+        return $new_trips;
+    }
 
+    public static function getSpecificTripsByMinute($hhmm,$ymd,$vtype) {
+        $service_ids = self::getAllServiceIds($ymd);
+        $trips = DB::getSpecificTripsByMinute($hhmm, $service_ids,$vtype);
+        $new_trips = array();
+        foreach ($trips as $k => $row) {
+            $stops = DB::getStopsByTripId($row['trip_id']);
+            foreach ($stops as $k1 => $stop) {
+                $stops[$k1]['arrival_time'] = self::renderTime($stop['arrival_time']);
+                $stops[$k1]['departure_time'] = self::renderTime($stop['departure_time']);
+            }
+            $trips[$k]['stops'] = $stops;
+            array_push($new_trips, $trips[$k]);
+        }
         return $new_trips;
     }
     

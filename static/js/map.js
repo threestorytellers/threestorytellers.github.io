@@ -365,7 +365,7 @@ var simulation_manager = (function(){
     // Roles:
     // - manages the current number of seconds that passed since midnight
     var timer = (function(){
-        var timer_refresh = 1000;
+        var timer_refresh = 100;
         var ts_midnight = null;
         var ts_now = null;
         var ts_minute = null;
