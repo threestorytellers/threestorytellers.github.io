@@ -402,10 +402,60 @@ var simulation_manager = (function(){
                 ts_midnight = d.getTime() / 1000;
             })();
 
+            if($('#one-time').hasClass('checked')){
+              seconds_multiply = 1;
+            }else if ($('#five-times').hasClass('checked')) {
+              seconds_multiply = 5;
+            }else if ($('#ten-times').hasClass('checked')) {
+              seconds_multiply = 10;
+            }else {
+              seconds_multiply = 1;
+            }
+
+            /* FLAG : SPEED*/
+
+            $('#one-time').on('click',onetime);
+            $('#five-times').on('click',fivetimes);
+            $('#ten-times').on('click',tentimes);
+
+            function onetime() {
+              if(seconds_multiply == 1) return;
+              $('#one-time').addClass('checked');
+              seconds_multiply = 1;
+              if($('#five-times').hasClass('checked')){
+                $('#five-times').removeClass('checked');
+              }else if ($('#ten-times').hasClass('checked')) {
+                $('#ten-times').removeClass('checked');
+              }
+            }
+
+            function fivetimes(){
+              if(seconds_multiply == 5) return;
+              $('#five-times').addClass('checked');
+              seconds_multiply = 5;
+              if($('#one-time').hasClass('checked')){
+                $('#one-time').removeClass('checked');
+              }else if ($('#ten-times').hasClass('checked')) {
+                $('#ten-times').removeClass('checked');
+              }
+            }
+
+            function tentimes(){
+              if(seconds_multiply == 10) return;
+              $('#five-times').addClass('checked');
+              seconds_multiply = 10;
+              if($('#one-time').hasClass('checked')){
+                $('#one-time').removeClass('checked');
+              }else if ($('#five-times').hasClass('checked')) {
+                $('#five-times').removeClass('checked');
+              }
+            }
+/*
             seconds_multiply = parseFloat($('#time_multiply').val());
             $('#time_multiply').change(function(){
                 seconds_multiply = parseInt($(this).val(), 10);
             });
+*/
 
             var timeContainer = $('#day_time');
 
@@ -1165,91 +1215,44 @@ var simulation_manager = (function(){
             stamen_map.set('name', 'Stamen watercolor');
             map.mapTypes.set('stamen', stamen_map);
 
+            var stations_showing = true,
+                trains_showing = false,
+                map_showing = true,
+                routes_showing = false,
+                trams_showing = false,
+                ships_showing = false,
+                buses_showing = false,
+                shade_type = "uniform";
+                //speed = "1x";
+
             function map_layers_add(){
                 var edges_layer;
                 var stations_layer;
                 var ft_id;
 
-                /*
-                // Graph topology layers - EDGES
-                ft_id = config.getParam('ft_layer_ids.topology_edges');
-                if (ft_id !== null) {
-                    edges_layer = new google.maps.FusionTablesLayer({
-                        query: {
-                            select: 'geometry',
-                            from: ft_id
-                        },
-                        clickable: false,
-                        map: map,
-                        styles: [
-                            {
-                                polylineOptions: {
-                                    strokeColor: "#FF0000",
-                                    strokeWeight: 2
-                                }
-                            },{
-                                where: "type = 'tunnel'",
-                                polylineOptions: {
-                                    strokeColor: "#FAAFBE",
-                                    strokeWeight: 1.5
-                                }
-                            }
-                        ]
-                    });
-                }
 
-                // Graph topology layers - STATIONS
-                ft_id = config.getParam('ft_layer_ids.topology_stations');
-                if (ft_id !== null) {
-                    stations_layer = new google.maps.FusionTablesLayer({
-                        query: {
-                            select: 'geometry',
-                            from: ft_id
-                        },
-                        suppressInfoWindows: true,
-                        map: map
-                    });
-
-                    google.maps.event.addListener(stations_layer, 'click', function(ev){
-                        var station_id = ev.row.id.value;
-                        simulation_panel.displayStation(station_id);
-                    });
-                }
-                */
 
                 // GTFS layers - shapes.txt
                 ft_id = config.getParam('ft_layer_ids.gtfs_shapes');
                 if (ft_id !== null) {
-                  /*
-                    edges_layer = new google.maps.FusionTablesLayer({
-                        query: {
-                            select: 'geometry',
-                            from: ft_id
-                        },
-                        clickable: false,
-                        map: map
-                    });
-                    */
-                    edges_layer = new google.maps.Data();
 
+                    edges_layer = new google.maps.Data();
+                    edges_layer.loadGeoJson(config.getParam('geojson.gtfs_shapes'));
+                    edges_layer.setStyle({
+                      strokeWeight: 1,
+                      strokeColor: 'green'
+                    });
                 }
 
                 // GTFS layers - stops.txt
+                // GTFS layers - stops.txt
                 ft_id = config.getParam('ft_layer_ids.gtfs_stops');
                 if (ft_id !== null) {
-                  /*
-                    stations_layer = new google.maps.FusionTablesLayer({
-                        query: {
-                            select: 'geometry',
-                            from: ft_id
-                        },
-                        suppressInfoWindows: true,
-                        map: map
-                    });*/
+
                     stations_layer = new google.maps.Data();
                     stations_layer.loadGeoJson(config.getParam('geojson.gtfs_stops'));
                     stations_layer.setStyle({
-                      icon: 'static/images/stations.png'
+                      icon: 'static/images/stationsicon.png'
                       //fillColor: 'green'
                       //strokeWeight: 1
                     });
@@ -1262,20 +1265,69 @@ var simulation_manager = (function(){
                     });
                 }
 
-                // Area mask
-                /*
-                ft_id = config.getParam('ft_layer_ids.mask');
-                if (ft_id !== null) {
-                    var layer = new google.maps.FusionTablesLayer({
-                      query: {
-                        select: 'geometry',
-                        from: ft_id
-                      },
-                      clickable: false,
-                      map: map
-                    });
+                /* FLAG: SHOW */
+                $("#station-toggler").on("click", toggleStations);
+                $("#route-toggler").on("click", toggleRoutes);
+                //$("#ship-toggler").on("click", toggleShips);
+                //$("#train-toggler").on("click", toggleTrains);
+
+                function toggleStations() {
+                  if (stations_showing) hideStations();
+                  else showStations();
                 }
-                */
+
+                function showStations() {
+                  if (stations_showing) return;
+                  //toggleLayerVisibility(stations_layer,false);
+                  stations_layer.setMap(map);
+                  $("#station-toggler").addClass("checked");
+                  stations_showing = true;
+                }
+
+                function hideStations() {
+                  if (!stations_showing) return;
+                  stations_layer.setMap(null);
+                  //toggleLayerVisibility(stations_layer, true);
+                  $("#station-toggler").removeClass("checked");
+                  stations_showing = false;
+                }
+
+
+
+                // FLAG : Routes control
+                function toggleRoutes() {
+                  /*for(r_id in linesPool.routes){
+                    var allpath = linesPool.route_highlight.setPath(r_id.points);
+                    if (routes_showing) hideRoutes();
+                    else showRoutes();
+                  }*/
+                  if (routes_showing) hideRoutes();
+                  else showRoutes();
+                }
+                function showRoutes() {
+                  if (routes_showing) return;
+                  //map.removeLayer(blank_layer);
+                  //map.addLayer(shade_type == "uniform" ? position_layer : coloured_position_layer);
+                  $("#route-toggler").addClass("checked");
+                  //allpath.setMap(map);
+                  edges_layer.setMap(map);
+                  //linesPool.routeHighlight(simulation_vehicles[v_id]);
+                  routes_showing = true;
+                  //hideShips();
+                }
+
+                function hideRoutes() {
+                  if (!routes_showing) return;
+                  //map.removeLayer(shade_type == "uniform" ? position_layer : coloured_position_layer);
+                  //if (!map_showing) map.addLayer(blank_layer);
+                  $("#route-toggler").removeClass("checked");
+                  //allpath.setMap(null);
+                  edges_layer.setMap(null);
+                  routes_showing = false;
+                }
+
+
+
 
                 function trigger_toggleLayerVisibility() {
                   if (config.getParam('debug') !== null) {
@@ -1327,40 +1379,8 @@ var simulation_manager = (function(){
                   });
 
                   // FLAG : showStations or hideStations
-
-                  var stations_showing = true,
-                      trains_showing = false,
-                      map_showing = true,
-                      routes_showing = false,
-                      trams_showing = false,
-                      ships_showing = false,
-                      buses_showing = false,
-                      shade_type = "uniform",
-                      speed = "1x";
                   if(stations_showing) toggleLayerVisibility(stations_layer,false);
-                  $("#station-toggler").on("click", toggleStations);
-                  //$("#route-toggler").on("click", toggleRoutes);
-                  //$("#ship-toggler").on("click", toggleShips);
-                  //$("#train-toggler").on("click", toggleTrains);
 
-                  function toggleStations() {
-                    if (stations_showing) hideStations();
-                    else showStations();
-                  }
-
-                  function showStations() {
-                    if (stations_showing) return;
-                    toggleLayerVisibility(stations_layer,false);
-                    //$("#station-toggler").classed("checked", false);
-                    stations_showing = true;
-                  }
-
-                  function hideStations() {
-                    if (!stations_showing) return;
-                    toggleLayerVisibility(stations_layer, true);
-                    //$("#station-toggler").classed("checked", true);
-                    stations_showing = false;
-                  }
                 } // end of trigger_toggleLayerVisibility
 
                 google.maps.event.addListener(map, 'idle', trigger_toggleLayerVisibility);
@@ -2101,11 +2121,12 @@ var simulation_manager = (function(){
         if (panel_display) {
             $('#panel').removeClass('hidden');
         }
-
+/*
         var time_multiply = config.getParam('time_multiply');
         if (time_multiply !== null) {
             $('#time_multiply').val(time_multiply);
         }
+        */
     }
 
     return {

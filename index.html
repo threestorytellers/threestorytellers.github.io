@@ -8,7 +8,8 @@
         <title>Swiss Transport Map- Stroy Tellers</title>
         <link rel="icon" type="image/x-icon" href="static/template_assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+        <!--<script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>-->
+        <link href="static/template_assets/fontawesome-free-5.13.0-web/css/fontawesome.css" rel="stylesheet" type="text/css"></link>
         <!-- jquery.js -->
         <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
         <!-- Google fonts-->
@@ -98,7 +99,7 @@
         #options .option { display: inline-block; vertical-align: top; padding: 0 6px 3px; position: relative; font-size: 13px; height: 100%; }
         #options .option .option-name { height: 100%; width: 60px; }
         #options .option .option-menu { display: none; position: absolute; background: rgba(254,226,133,0.00); width: 100%; padding: 3px 6px; text-align: left; }
-        #options .option .option-menu .check.checked i::before { content: "\f00c"; }
+        #options .option .option-menu .check.checked i::before{ content: "\f00c";}
         #options.hoverable .option:hover .option-menu,
         #options .option.visible .option-menu { display: block; top: 22px; left: 0; }
         #options .radio i { visibility: hidden; }
@@ -144,6 +145,8 @@
               <h3>Map Filters and Info</h3>
           </div>
           <div class="section">
+            <b>Your location</b>
+<!--
               <b>Speedup</b>
               <select id="time_multiply">
                   <option value="1" selected="selected">1x</option>
@@ -151,6 +154,7 @@
                   <option value="10">10x</option>
                   <option value="100">100x</option>
               </select>
+            -->
               <!-- <br/>
               <input type="button" id="geolocation_click" />
               <input type="text" id="user_location" / > -->
@@ -381,208 +385,9 @@
         		d3.event.preventDefault();
         	});
 
-        	$("#station-toggler").on("click", toggleStations);
-        	$("#route-toggler").on("click", toggleRoutes);
-        	$("#ship-toggler").on("click", toggleShips);
-          $("#train-toggler").on("click", toggleTrains);
-          $("#bus-toggler").on("click", toggleBuses);
-        	$("#map-toggler").on("click", toggleMap);
-        	$$(".radio").on("click", function() {
-        		var clicked = this,
-        		    menu = this.parentNode,
-        		    topic = menu.parentNode.id;
-        		$(menu).selectAll(".radio").classed("selected", function() { return clicked == this; });
-        		if (topic == "colours") {
-        			shade_type = this.getAttribute("data-value").substr("shade-".length);
-        			if (shade_type == "type") shadeByType();
-        			else shadeUniform();
-        		}
-        	});
 
-
-        	//$("#map").on("click", movePlayButtonToCorner);
-        	//$("#info-open").on("click", toggleInfoPanel);
-        	//$$(".info-close").on("click", hideInfoPanel);
-        	/*$(document).on("keyup", function() {
-        		if (d3.event.keyCode != 32) return;
-        		if (audio.paused) audio.play();
-        		else audio.pause();
-        	});
-          */
-          /*
-
-        	$(".fa-twitter").on("click", clickTwitter);
-        	$(".fa-facebook").on("click", clickFacebook);
-        	$(".fa-code").on("click", showInfoPanel);
-          */
-        }
-/*
-        var info_panel_showing = false;
-        function toggleInfoPanel() {
-        	if (info_panel_showing) hideInfoPanel();
-        	else showInfoPanel();
         }
 
-        function showInfoPanel() {
-        	$("#info-panel")
-        		.classed("open", true)
-        		.style("overflow-y", "scroll")
-        		.transition().duration(750)
-        		.style("width", window.innerWidth + "px")
-        		.style("height", window.innerHeight + "px")
-        		.transition().duration(0)
-        		.style("width", "100%")
-        		.style("height", "100%");
-        	info_panel_showing = true;
-        }
-
-        function hideInfoPanel() {
-        	var info = document.getElementById("info-panel");
-        	info.scrollTop = 0;
-        	$(info).classed("open", false)
-        		.style("overflow-y", "hidden")
-        		.style("width", window.innerWidth + "px")
-        		.style("height", window.innerHeight + "px")
-        		.transition().duration(750)
-        		.style("width", "40px") // Do not change here without also changing the initial CSS
-        		.style("height", document.getElementById("nav").getBoundingClientRect().height + "px");
-        	info_panel_showing = false;
-        }
-        */
-
-        /*
-        function toggleTrafficType(vessel_type) {
-        	if ($("#filter-type-" + vessel_type).classed("checked")) hideTrafficType(vessel_type);
-        	else showTrafficType(vessel_type);
-        }
-
-        // change the type_filter(array), update the color by gl.uniform1fv
-        function hideTrafficType(vessel_type) {
-        	$("#filter-type-" + vessel_type).classed("checked", false);
-        	type_filter[vessel_type] = 0.0;
-        	gl.uniform1fv(uAlphaMultByType, type_filter);
-        }
-
-        function showShipType(vessel_type) {
-        	$("#filter-type-" + vessel_type).classed("checked", true);
-        	type_filter[vessel_type] = 1.0;
-        	gl.uniform1fv(uAlphaMultByType, type_filter);
-        };
-
-        function toggleRoutes() {
-        	if (routes_showing) hideRoutes();
-        	else showRoutes();
-        }
-
-        function showRoutes() {
-        	if (routes_showing) return;
-        	map.removeLayer(blank_layer);
-        	map.addLayer(shade_type == "uniform" ? position_layer : coloured_position_layer);
-        	$("#route-toggler").classed("checked", true);
-        	routes_showing = true;
-        	hideShips();
-        }
-
-        function hideRoutes() {
-        	if (!routes_showing) return;
-        	map.removeLayer(shade_type == "uniform" ? position_layer : coloured_position_layer);
-        	if (!map_showing) map.addLayer(blank_layer);
-        	$("#route-toggler").classed("checked", false);
-        	routes_showing = false;
-        }
-
-        function toggleMap() {
-        	if (map_showing) hideMap();
-        	else showMap();
-        }
-
-        function showMap() {
-        	if (map_showing) return;
-        	map.removeLayer(blank_layer);
-        	tile_layer.addTo(map).bringToBack();
-        	$("#map-toggler").classed("checked", true);
-        	map_showing = true;
-        	timeline.setUndo(hideMap);
-        }
-
-        function hideMap() {
-        	if (!map_showing) return;
-        	if (!routes_showing) map.addLayer(blank_layer);
-        	map.removeLayer(tile_layer);
-        	$("#map-toggler").classed("checked", false);
-        	map_showing = false;
-        	timeline.setUndo(showMap);
-        }
-
-        function toggleShips() {
-        	if (ships_showing) hideShips();
-        	else showShips();
-        }
-
-        function showShips() {
-        	if (ships_showing) return;
-        	canvas.style.display = "block";
-        	$("#ships-toggler").classed("checked", true);
-        	$("#dashboard").style("display", "block");
-        	$("#filters").classed("disabled", false);
-        	beginAnimation();
-        	ships_showing = true;
-        }
-
-        function hideShips() {
-        	if (!ships_showing) return;
-        	pauseAnimation();
-        	canvas.style.display = "none";
-        	$("#ships-toggler").classed("checked", false);
-        	$("#dashboard").style("display", "none");
-        	$("#filters").classed("disabled", true);
-        	ships_showing = false;
-        }
-
-        function toggleStations() {
-        	if (stations_showing) hideStations();
-        	else showStations();
-        }
-
-        function showStations() {
-        	if (stations_showing) return;
-        	// show the geojson layer
-        	$("#station-toggler").classed("checked", true);
-        	stations_showing = true;
-        }
-
-        function hideStations() {
-        	if (!stations_showing) return;
-        	// hide the geojson layer
-        	$("#station-toggler").classed("checked", false);
-        	stations_showing = false;
-        }
-
-        function initLabels() {
-        	d3.csv("ports.csv", function(loaded_ports_data) {
-        		var LABELS = loaded_ports_data;
-        		var V_OFFSET = 8,
-        		    H_OFFSET = 12
-        		for (var i = 0; i < LABELS.length; i++) {
-        			var port = LABELS[i],
-        			    name = port.port_name,
-        				v = port.label_position.charAt(0),
-        				h = port.label_position.charAt(1);
-        			if (name == "CUETA") name = "CEUTA"; // Fix typo in the Ports dataset
-        			var lab = L.divIcon({ className: "geography-label port port-" + i + " " + port.harborsize });
-        			L.marker([port.latitude, port.longitude], { icon: lab }).addTo(map);
-        			$(".geography-label.port-" + i)
-        				.style("text-align", function() { return h == "W" ? "left" : "right"; })
-        				.append("div")
-        				.attr("class", "port-label")
-        				.text(name.replace(/ /g, " "))
-        				.style("top", function() { return (v == "S" ? -V_OFFSET : V_OFFSET) + "px"; })
-        				.style("left", function() { return h == "W" ? H_OFFSET + "px" : "auto"; })
-        				.style("right", function() { return h == "E" ? H_OFFSET + "px" : "auto"; });
-        		}
-        	});
-        }
-        */
 
 
         </script>
