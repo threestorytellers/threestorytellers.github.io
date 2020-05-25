@@ -373,12 +373,95 @@ var simulation_manager = (function(){
         var seconds_multiply = null;
 
         function init() {
+
+          var HOURS = [
+          { name: "00:00", minutes: 6 },
+          { name: "01:00", minutes: 6 },
+          { name: "02:00", minutes: 6 },
+          { name: "03:00", minutes: 6 },
+          { name: "04:00", minutes: 6 },
+          { name: "05:00", minutes: 6 },
+          { name: "06:00", minutes: 6 },
+          { name: "07:00", minutes: 6 },
+          { name: "08:00", minutes: 6 },
+          { name: "09:00", minutes: 6 },
+          { name: "10:00", minutes: 6 },
+          { name: "11:00", minutes: 6 },
+          { name: "12:00", minutes: 6 },
+          { name: "13:00", minutes: 6 },
+          { name: "14:00", minutes: 6 },
+          { name: "15:00", minutes: 6 },
+          { name: "16:00", minutes: 6 },
+          { name: "17:00", minutes: 6 },
+          { name: "18:00", minutes: 6 },
+          { name: "19:00", minutes: 6 },
+          { name: "20:00", minutes: 6 },
+          { name: "21:00", minutes: 6 },
+          { name: "22:00", minutes: 6 },
+          { name: "23:00", minutes: 6 }
+
+        ];
+
+        var type_filter = [ 1.0, 1.0, 1.0, 1.0, 1.0 ];
+
+
+
+
+        function initScrubber() {
+          var $scrubber_inner = $("<div />").attr("id", "scrubber-inner").appendTo("#scrubber");
+
+          var minute_number = 0,
+              minute_width = Math.floor(window.innerWidth/(24*6 + 24)),
+              scrolling = minute_width < 2;
+          if (scrolling) minute_width = 2;
+          var calendar_width = minute_width*(24*6),
+              margin = scrolling ? 0 : (window.innerWidth - calendar_width)/2;
+          for (var i = 0; i < HOURS.length; i++) {
+            var $hour = $("<div />")
+                .attr("class", "hour " + HOURS[i].name)
+                .css("left" , margin + minute_number * minute_width + (i * 1) - 105 + "px")
+                // here the calculation could be optimized , because 105 here is a not a fixed Number
+                .css("width" ,minute_width * HOURS[i].minutes + 1 + "px")
+                .appendTo($scrubber_inner);
+            $("<div />").attr("class", "label").text(HOURS[i].name).appendTo($hour);
+            for (var j = 0; j < HOURS[i].minutes; j++) {
+              var $minute = $("<div />").attr("class", "minute").attr("id", "minute-" + minute_number)
+                .css("position", "absolute")
+                .css("top", 0)
+                .css( "left" , j * minute_width + "px")
+                .css( "width", minute_width + "px")
+                .appendTo($hour)
+                .on("click", clickminute);
+              //$("<div />").attr("class", "label").text(j).appendTo($minute);
+              //$("<div />").attr("class", "label").appendTo($minute);
+              $("<div />").attr("class", "load-progress")
+              .css( "width", minute_width + "px")
+              .css("height","0px")
+              .appendTo($minute);
+              minute_number++;
+            }
+          }
+
+        }
+        function clickminute(){
+            var minute_number = this.id.substring("minute-".length);
+            var hour_id = parseInt(minute_number/6);
+            var minute_id = (minute_number % 6 )*10;
+            var d_new = new Date(ts_now * 1000);
+            d_new.setHours(hour_id);
+            d_new.setMinutes(minute_id);
+            d_new.setSeconds(0);
+            d_new.setMilliseconds(0);
+            ts_now = d_new.getTime()/1000;
+          }
+
+
             (function(){
                 // var d = new Date();
-                var d = new Date('2020-05-14T10:21:30Z');
+                var d = new Date('2020-05-14T10:00:00Z');
 
                 var hms = config.getParam('hms');
-
+/*
                 // Demo data is set for 9 AM
                 if (config.getParam('api_paths.trips') === 'api/demo/trips.json') {
                     hms = '09:00:00';
@@ -392,7 +475,7 @@ var simulation_manager = (function(){
                         d.setSeconds(parseInt(hms_matches[3], 10));
                     }
                 }
-
+*/
                 ts_now = d.getTime() / 1000;
 
                 d.setHours(0);
@@ -475,6 +558,7 @@ var simulation_manager = (function(){
                 ts_now += (timer_refresh / 1000) * seconds_multiply;
                 setTimeout(timeIncrement, timer_refresh);
             }
+            initScrubber();
             timeIncrement();
         }
 
