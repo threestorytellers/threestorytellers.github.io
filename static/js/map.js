@@ -442,7 +442,7 @@ var simulation_manager = (function(){
 
             function tentimes(){
               if(seconds_multiply == 10) return;
-              $('#five-times').addClass('checked');
+              $('#ten-times').addClass('checked');
               seconds_multiply = 10;
               if($('#one-time').hasClass('checked')){
                 $('#one-time').removeClass('checked');
