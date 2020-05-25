@@ -126,7 +126,7 @@ d3v4.csv("data/time_routine1.csv", function(d, i, columns) {
       .attr("fill", z);
 
   legend.append("text")
-      .attr("x", 15)
+      .attr("x", 100)
       .attr("y", 0)
       .attr("dy", "0.35em")
       .text(function(d) { return d; });
