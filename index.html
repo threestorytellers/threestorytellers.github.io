@@ -81,10 +81,11 @@
         }
         #dashboard .dashboard-area { display: inline-block; vertical-align: top; text-align: center; }
         #dashboard #carbon { float: left; }
-        #dashboard #time-holder { position: absolute; left: 200px; text-shadow: 1px 1px 2px rgb(33,60,71); color: rgb(220,245,255); top: 200px; font-weight: bold; margin-top: -1em; }
+        #dashboard #time-holder { position: absolute; left: 200px; text-shadow: 1px 1px 2px rgb(33,60,71);opacity: 0.5; color: rgb(220,245,255); top: 200px; font-weight: bold; margin-top: -1em; }
         #dashboard #time-holder .result { font-size: 30px; }
         #dashboard #freight { width: calc(100% - 165px); text-align: center; }
         #dashboard .stat, #options .option-name { font-size: 13px; display: inline-block; vertical-align: top; }
+        #dashboard #time-holder:hover {opacity: 1;}
 
         #dashboard #freight .stat { margin-left: 8px; }
         #dashboard .stat .value { color: rgb(255,255,175); font-family: 'Share Tech Mono'; letter-spacing: -1px; }
@@ -268,7 +269,7 @@
         <script>
 
         // we build the minutes as the setInterval of 5 mins
-        
+
 
 
 

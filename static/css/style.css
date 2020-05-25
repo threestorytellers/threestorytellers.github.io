@@ -33,6 +33,18 @@ body {
     right: 100px;
     top: 70px;
     background-color: #fed136;
+    opacity: 0.3;
+    border: 1px solid #717D7D;
+}
+
+#panel:hover {
+    position: absolute;
+    /*width: 400px;*/
+    padding: 5px;
+    right: 100px;
+    top: 70px;
+    background-color: #fed136;
+    opacity: 1;
     border: 1px solid #717D7D;
 }
 
