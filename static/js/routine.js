@@ -1,4 +1,7 @@
-var svg1 = d3.select("#svg1"),
+var d3v4 = window.d3;
+window.d3 = null;
+
+var svg1 = d3v4.select("#svg1"),
     width = +svg1.attr("width"),
     height = +svg1.attr("height"),
     innerRadius = 180,
@@ -7,19 +10,19 @@ var svg1 = d3.select("#svg1"),
 
 
 var xScaleOffset = 0;
-var x = d3.scaleBand()
+var x = d3v4.scaleBand()
     .range([xScaleOffset, 2 * Math.PI + xScaleOffset])
     .align(0);
 
-var y = d3.scaleLinear()
+var y = d3v4.scaleLinear()
     .range([innerRadius, outerRadius]);
 
-var z = d3.scaleOrdinal()
+var z = d3v4.scaleOrdinal()
     .range(["#98abc5", "#8a89a6"]);
 
 var zClasses = ['The number of starting transportation', 'The number of finishing transportation'];
 
-d3.csv("data/time_routine1.csv", function(d, i, columns) {
+d3v4.csv("data/time_routine1.csv", function(d, i, columns) {
   d.start = (+d.start);
   d.end =  (+d.end);
   return d;
@@ -27,22 +30,22 @@ d3.csv("data/time_routine1.csv", function(d, i, columns) {
   if (error) throw error;
 
   var keys = data.columns.slice(1);
-  var meanTransports = d3.mean(data, function(d) { return d3.sum(keys, function(key) { return d[key]; }); })
+  var meanTransports = d3v4.mean(data, function(d) { return d3v4.sum(keys, function(key) { return d[key]; }); })
 
   x.domain(data.map(function(d) { return d.time; }));
-  y.domain([0, d3.max(data, function(d) { return (d.start + d.end); })]);
+  y.domain([0, d3v4.max(data, function(d) { return (d.start + d.end); })]);
   z.domain(data.columns.slice(1));
 
   // transports
   g1.append('g')
       .selectAll("g")
-    .data(d3.stack().keys(data.columns.slice(1))(data))
+    .data(d3v4.stack().keys(data.columns.slice(1))(data))
     .enter().append("g")
       .attr("fill", function(d) { return z(d.key); })
     .selectAll("path")
     .data(function(d) { return d; })
     .enter().append("path")
-      .attr("d", d3.arc()
+      .attr("d", d3v4.arc()
           .innerRadius(function(d) { return y(d[0]); })
           .outerRadius(function(d) { return y(d[1]); })
           .startAngle(function(d) { return x(d.data.time); })
@@ -55,7 +58,7 @@ d3.csv("data/time_routine1.csv", function(d, i, columns) {
   var yAxis = g1.append("g")
       .attr("text-anchor", "middle");
 
-  var yTicksValues = d3.ticks(0, 30000, 4);
+  var yTicksValues = d3v4.ticks(0, 30000, 4);
 
   console.log('Mean: ', meanTransports);
 
@@ -119,11 +122,11 @@ d3.csv("data/time_routine1.csv", function(d, i, columns) {
       .attr("transform", function(d, i) { return "translate(-50," + (i - (zClasses.length - 1) / 2) * 25+ ")"; });
 
   legend.append("circle")
-      .attr("r", 8)
+      .attr("r", 10)
       .attr("fill", z);
 
   legend.append("text")
-      .attr("x", 15)
+      .attr("x", 100)
       .attr("y", 0)
       .attr("dy", "0.35em")
       .text(function(d) { return d; });

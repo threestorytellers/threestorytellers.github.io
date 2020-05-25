@@ -8,7 +8,8 @@
         <title>Swiss Transport Map- Stroy Tellers</title>
         <link rel="icon" type="image/x-icon" href="static/template_assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+        <!--<script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>-->
+        <link href="static/template_assets/fontawesome-free-5.13.0-web/css/all.min.css" rel="stylesheet" type="text/css"></link>
         <!-- jquery.js -->
         <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
         <!-- Google fonts-->
@@ -65,7 +66,7 @@
 
         #dashboard {
           position: absolute;
-           float: left; width: calc(100% - 340px); top: 0px; left: 0;
+          float: left; width: calc(100% - 340px); top: 0px; left: 0;
 
           /*position: absolute;
           float: left;
@@ -80,10 +81,11 @@
         }
         #dashboard .dashboard-area { display: inline-block; vertical-align: top; text-align: center; }
         #dashboard #carbon { float: left; }
-        #dashboard #time-holder { position: absolute; left: 200px; text-shadow: 1px 1px 2px rgb(33,60,71); color: rgb(220,245,255); top: 200px; font-weight: bold; margin-top: -1em; }
+        #dashboard #time-holder { position: absolute; left: 200px; text-shadow: 1px 1px 2px rgb(33,60,71);opacity: 0.5; color: rgb(220,245,255); top: 200px; font-weight: bold; margin-top: -1em; }
         #dashboard #time-holder .result { font-size: 30px; }
         #dashboard #freight { width: calc(100% - 165px); text-align: center; }
         #dashboard .stat, #options .option-name { font-size: 13px; display: inline-block; vertical-align: top; }
+        #dashboard #time-holder:hover {opacity: 1;}
 
         #dashboard #freight .stat { margin-left: 8px; }
         #dashboard .stat .value { color: rgb(255,255,175); font-family: 'Share Tech Mono'; letter-spacing: -1px; }
@@ -97,20 +99,25 @@
         #options i { width: 1em; text-align: center; display: inline-block; }
         #options .option { display: inline-block; vertical-align: top; padding: 0 6px 3px; position: relative; font-size: 13px; height: 100%; }
         #options .option .option-name { height: 100%; width: 60px; }
-        #options .option .option-menu { display: none; position: absolute; background: rgba(254,226,133,0.35); width: 100%; padding: 3px 6px; text-align: left; }
-        #options .option .option-menu .check.checked i::before { content: "\f00c"; }
+        #options .option .option-menu { display: none; position: absolute; background: rgba(254,226,133,0.00); width: 100%; padding: 3px 6px; text-align: left; }
+        #options .option .option-menu .check.checked i::before{ content: "\f00c";}
         #options.hoverable .option:hover .option-menu,
         #options .option.visible .option-menu { display: block; top: 22px; left: 0; }
         #options .radio i { visibility: hidden; }
         #options .radio.selected i { visibility: visible; }
-        #options .radio-name { display: inline-block; }
-        #options #filters .option-menu { /*width: 90px;*/ }
+        #options .radio-name { display: inline-block; font-size: 8px ; color: yellow}
+        #options #filters .option-menu { width: 90px; }
 
         /* Disable the filters menu if it has the .disabled class */
         #options #filters.disabled .option-name { color: #666; cursor: default; }
         #options.hoverable #filters.disabled:hover .option-menu { color: #999; }
         #options.hoverable #filters.disabled:hover .option-menu .btn:hover { opacity: inherit; cursor: default; }
-        #options #colours .option-menu { width: 80px; }
+        #options #colours .option-menu { width: 120px; }
+        #options #togglers .option-menu { width: 100px; }
+        #options #Speedup .option-menu { width: 90px; }
+        #options #Speedup.disabled .option-name { color: #666; cursor: default; }
+        #options.hoverable #Speedup.disabled:hover .option-menu { color: #999; }
+        #options.hoverable #Speedup.disabled:hover .option-menu .btn:hover { opacity: inherit; cursor: default; }
 
         #scrubber { height: 40px; left: 5% ; width: 90%; background: rgba(255,255,255,0.1); position: absolute; bottom: 40px; -moz-border-radiuseft: 0; cursor: pointer; }
         #scrubber-inner { height: 30px; position: absolute; }
@@ -120,6 +127,10 @@
         #scrubber-inner .hour .minute.current { background: rgba(255,255,255,1); }
         #scrubber-inner .hour .minute:hover { background: black; }
         #scrubber-inner .hour .minute .load-progress { position: absolute; height: 0; bottom: 0; left: 0; background: rgba(255,255,200,0.33); }
+
+        .btn { cursor: pointer; }
+        .btn:hover { opacity: 0.5; }
+        .btn.selected, .btn.selected:hover { opacity: 1; cursor: default; }
 
         /* END */
 
@@ -135,6 +146,8 @@
               <h3>Map Filters and Info</h3>
           </div>
           <div class="section">
+            <b>Your location</b>
+<!--
               <b>Speedup</b>
               <select id="time_multiply">
                   <option value="1" selected="selected">1x</option>
@@ -142,9 +155,10 @@
                   <option value="10">10x</option>
                   <option value="100">100x</option>
               </select>
-              <!-- <br/>
+            -->
+               <br/>
               <input type="button" id="geolocation_click" />
-              <input type="text" id="user_location" / > -->
+              <input type="text" id="user_location" / >
           </div>
           <div id="vehicle_info" class="hidden section" data-type="panel">
               <div>
@@ -191,39 +205,49 @@
                   </table>
               </div>
           </div>
-          <div  class="section">
+          <!-- FLAG: Options -->
             <div id="options" class="hoverable">
               <b><span class="nav-subhead">Options</span></b>
               <div id="togglers" class="option">
                 <div class="option-name">Show <i class="fa fa-chevron-down"></i></div>
                 <div class="option-menu">
-                  <div id="station-toggler" class="btn check"><i class="fa fa-check-square"></i> <span class="radio-name">Stations</span></div>
-                  <div id="route-toggler" class="btn check"><i class="fa fa-check-square"></i> <span class="radio-name">Routes</span></div>
-                  <div id="train-toggler" class="btn check checked"><i class="fa fa-check-square"></i> <span class="radio-name">Trains</span></div>
-                  <div id="bus-toggler" class="btn check checked"><i class="fa fa-check-square"></i> <span class="radio-name">Bus</span></div>
-                  <div id="ship-toggler" class="btn check checked"><i class="fa fa-check-square"></i> <span class="radio-name">Ships</span></div>
-                  <div id="map-toggler" class="btn check checked"><i class="fa fa-check-square"></i> <span class="radio-name">Map</span></div>
+                  <!-- btn decides the showing of click, checked decides the showing of toggler and fontawesome-->
+                  <div id="station-toggler" class="btn check checked"><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Stations</span></div>
+                  <div id="route-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Routes</span></div>
+                  <div id="train-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Trains</span></div>
+                  <div id="bus-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Bus</span></div>
+                  <div id="ship-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Ships</span></div>
+                  <div id="map-toggler" class="btn check checked"><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Map</span></div>
                 </div>
               </div>
               <div id="colours" class="option">
                 <div class="option-name">Colors <i class="fa fa-chevron-down"></i></div>
                 <div class="option-menu">
-                  <div data-value="shade-uniform" class="btn radio selected"><i class="fa fa-check-square" aria-hidden="true"></i> <span class="radio-name">Uniform</span></div>
-                  <div data-value="shade-type" class="btn radio"><i class="fa fa-check-square"></i> <span class="radio-name">traffic type</span></div>
+                  <div data-value="shade-uniform" class="btn radio selected"><i class="fa fa-check" aria-hidden="true"  style="color:yellow"></i> <span class="radio-name">Uniform</span></div>
+                  <div data-value="shade-type" class="btn radio"><i class="fa fa-check" style="color:yellow"></i> <span class="radio-name">traffic type</span></div>
                 </div>
               </div>
               <div id="filters" class="option">
                 <div class="option-name">Filters <i class="fa fa-chevron-down"></i></div>
                 <div class="option-menu">
-                  <div id="filter-type-3" data-ship-type="3" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> a </div>
-                  <div id="filter-type-0" data-ship-type="0" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> b </div>
-                  <div id="filter-type-1" data-ship-type="1" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> c </div>
-                  <div id="filter-type-2" data-ship-type="2" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> d </div>
-                  <div id="filter-type-4" data-ship-type="4" class="btn check checked filter color"><i class="fa fa-check-square color-by-ship-type"></i> e </div>
+                  <!-- Here the data-traffic-type may should be changed -->
+                  <div id="filter-type-3" data-traffic-type="3" class="btn check checked filter color"><i class="fa fa-times color-by-traffic-type" style="color:yellow"></i> <span class="radio-name">a</span> </div>
+                  <div id="filter-type-0" data-traffic-type="0" class="btn check checked filter color"><i class="fa fa-times color-by-traffic-type" style="color:yellow"></i> <span class="radio-name">a</span> </div>
+                  <div id="filter-type-1" data-traffic-type="1" class="btn check checked filter color"><i class="fa fa-times color-by-traffic-type" style="color:yellow"></i> <span class="radio-name">a</span> </div>
+                  <div id="filter-type-2" data-traffic-type="2" class="btn check checked filter color"><i class="fa fa-times color-by-traffic-type" style="color:yellow"></i> <span class="radio-name">a</span> </div>
+                  <div id="filter-type-4" data-traffic-type="4" class="btn check checked filter color"><i class="fa fa-times color-by-traffic-type" style="color:yellow"></i> <span class="radio-name">a</span> </div>
+                </div>
+              </div>
+              <div id="Speedup" class="option">
+                <div class="option-name">Speed <i class="fa fa-chevron-down"></i></div>
+                <div class="option-menu">
+                  <div id="one-time" class="btn check checked"><i class="fa fa-times" style="color:yellow"></i> <span class="radio-name">1x</span></div>
+                  <div id="five-times" class="btn check"><i class="fa fa-times" style="color:yellow"></i> <span class="radio-name">5x</span></div>
+                  <div id="ten-times" class="btn check"><i class="fa fa-times" style="color:yellow"></i> <span class="radio-name">10x</span></div>
                 </div>
               </div>
             </div>
-          </div>
+
         </div>
         <div id="vehicle_popup_container" class="hidden">
           <div id="vehicle_popup">
@@ -245,72 +269,57 @@
         <script>
 
         // we build the minutes as the setInterval of 5 mins
-        var HOURS = [
-          { name: "00:00", minutes: 6 },
-          { name: "01:00", minutes: 6 },
-          { name: "02:00", minutes: 6 },
-          { name: "03:00", minutes: 6 },
-          { name: "04:00", minutes: 6 },
-          { name: "05:00", minutes: 6 },
-          { name: "06:00", minutes: 6 },
-          { name: "07:00", minutes: 6 },
-          { name: "08:00", minutes: 6 },
-          { name: "09:00", minutes: 6 },
-          { name: "10:00", minutes: 6 },
-          { name: "11:00", minutes: 6 },
-          { name: "12:00", minutes: 6 },
-          { name: "13:00", minutes: 6 },
-          { name: "14:00", minutes: 6 },
-          { name: "15:00", minutes: 6 },
-          { name: "16:00", minutes: 6 },
-          { name: "17:00", minutes: 6 },
-          { name: "18:00", minutes: 6 },
-          { name: "19:00", minutes: 6 },
-          { name: "20:00", minutes: 6 },
-          { name: "21:00", minutes: 6 },
-          { name: "22:00", minutes: 6 },
-          { name: "23:00", minutes: 6 }
 
-        ];
 
-        function initScrubber() {
-          var $scrubber_inner = $("<div />").attr("id", "scrubber-inner").appendTo("#scrubber");
 
-          var minute_number = 0,
-              minute_width = Math.floor(window.innerWidth/(24*6 + 24)),
-              scrolling = minute_width < 2;
-          if (scrolling) minute_width = 2;
-          var calendar_width = minute_width*(24*6),
-              margin = scrolling ? 0 : (window.innerWidth - calendar_width)/2;
-          for (var i = 0; i < HOURS.length; i++) {
-            var $hour = $("<div />")
-                .attr("class", "hour " + HOURS[i].name)
-                .css("left" , margin + minute_number * minute_width + (i * 1) - 105 + "px")
-                // here the calculation could be optimized , because 105 here is a not a fixed Number
-                .css("width" ,minute_width * HOURS[i].minutes + 1 + "px")
-                .appendTo($scrubber_inner);
-            $("<div />").attr("class", "label").text(HOURS[i].name).appendTo($hour);
-            for (var j = 0; j < HOURS[i].minutes; j++) {
-              var $minute = $("<div />").attr("class", "minute").attr("id", "minute-" + minute_number)
-                .css("position", "absolute")
-                .css("top", 0)
-                .css( "left" , j * minute_width + "px")
-                .css( "width", minute_width + "px")
-                .appendTo($hour);
-                //.on("click", clickDay);
-              //$("<div />").attr("class", "label").text(j).appendTo($minute);
-              $("<div />").attr("class", "label").appendTo($minute);
-              $("<div />").attr("class", "load-progress")
-              .css( "width", minute_width + "px")
-              .css("height","0px")
-              .appendTo($minute);
-              minute_number++;
-            }
-          }
+
+        // Set the color of fonts by different traffic
+        function uncolorDashboardByTrafficType() {
+        	$$("#dashboard .stat .color-by-traffic-type")
+        		.style("color", "white");
+        }
+
+        function colorDashboardByTrafficType() {
+        	$$("#dashboard .stat").each(colorTrafficTypeNames);
+        }
+
+
+        function colorTrafficTypeNames(d, i) {
+        	var vessel_type = this.getAttribute("data-traffic-type");
+        	$(this).select(".color-by-traffic-type").style("color", function() {
+        		var rgb_start_index = vessel_type * 3;
+        		var toRGB = function(raw) { return Math.floor(COLORS_BY_TYPE[raw]*255); }
+        		return "rgb(" + toRGB(rgb_start_index) + "," + toRGB(rgb_start_index+1) + "," + toRGB(rgb_start_index+2) + ")";
+        	});
+        }
+        // set different colors of filters
+        function initControls() {
+        	$$(".filter.color")
+        		.each(colorTrafficTypeNames)
+        		.each(function() {
+        			var vessel_type = this.getAttribute("data-traffic-type");  // the number
+        			$(this).on("click", function() { toggleTrafficType(vessel_type); }) // call funtion // flag stop ..
+        		});
+
+        	$$("#options .option > .option-name").on("touchstart", function() {
+        		var option_element = this.parentNode,
+        		    option_id = option_element.id,
+        		    $option = $(option_element),
+        		    is_visible = $option.classed("visible");
+
+        		if ($option.classed("disabled")) return;
+
+        		$("#options").classed("hoverable", false);
+        		$$("#options .option").classed("visible",
+        			is_visible ? false : function() { return this.id == option_id; }
+        		);
+        		d3.event.preventDefault();
+        	});
+
 
         }
 
-        initScrubber();
+
 
         </script>
             <!-- <div class="container">
@@ -325,7 +334,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Travel Routine</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Radial barchart representing the number of initiating and terminating transports.</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-10">
@@ -337,9 +346,9 @@
 
                     </div>
                     <div class="col-md-2">
-                        <h4 class="my-3">Filters and some Analysis</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                        <span class="fa-stack fa-4x" style="margin-top: 10%;"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-lock fa-stack-1x fa-inverse"></i></span>
+                        <h4 class="my-3">Quiz 1: Any idea about the pick time in travel routine?</h4>
+                        <p class="text-muted">The Radial barchart shows the number of initiating and terminating transportation at each half hour.
+                           Thus, the answer can be read from the graph: it is 7-9am morning and 4-7pm evening commutes! </p>
                     </div>
                 </div>
             </div>
@@ -350,7 +359,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Connectivity</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Bundling Graph for direct train connections beetween cities.</h3>
 
                 <div class="col-md-10">
 
@@ -378,13 +387,15 @@
 
 
 
-                <!--<div class="row text-center">
-                    <div class="col-md-4">
-                        <h4 class="my-3">Filters and some Analysis</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                        <span class="fa-stack fa-4x" style="margin-top: 10%;"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-lock fa-stack-1x fa-inverse"></i></span>
+                <div class="row text-center">
+                    <div class="col-md-2">
+                        <h4 class="my-3">Quiz 2: Which city is more accessible to other cities by train?</h4>
+                        <p class="text-muted">Well, you have to hover around the map and stations a bit to find it out
+                          . Overall the power of bundling edge defines the number of trains running between the stations in a day.
+                          Hover around the Basel, Geneve, Zurich, Lausanne to connectivities.
+                        </p>
                     </div>
-                </div> -->
+                </div>
 
             </div>
         </section>
@@ -392,21 +403,29 @@
         <section class="page-section" id="resources">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Number of Stations by type in each Canton</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Stations' capacity</h2>
+                    <h3 class="section-subheading text-muted">Timeline graph for the number of incoming transportation for stations in each time of the day.</h3>
                 </div>
 
                 <div class="text-center">
                    <div class="col-md-8">
-                   <div id="my_dataviz_3"></div>
-                   <link href="static/css/bubble_style.css" rel="stylesheet">
-                   <script src="https://d3js.org/d3.v4.min.js"></script>
-                   <svg width="960" height="960" id = "svg3"></svg>
+                     <div id="map-container"></div>
+                     <div id="timeline-container"></div>
+                     <script src="//d3js.org/d3.v3.min.js"></script>
+                     <script src="https://unpkg.com/topojson@3"></script>
+                     <script src="https://unpkg.com/d3-delaunay@4"></script>
+                     <script src="https://unpkg.com/d3-geo-voronoi@1"></script>
+                     <link href="static/css/capacity_style.css" rel="stylesheet" />
+                     <script src="static/js/capacity.js"></script>
+                   </div>
 
-                   <script type="text/javascript" src="static/js/bubble.js"></script>
-
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-2">
+                        <h4 class="my-3">Quiz 3: </h4>
+                        <p class="text-muted">Need to discuss this graph.
+                        </p>
                     </div>
-
                 </div>
 
             </div>
