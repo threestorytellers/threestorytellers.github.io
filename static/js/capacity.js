@@ -12,7 +12,7 @@ var mapSvg = d3v3.select("#map-container").append("svg")
 var title = mapSvg.append("text")
                   .attr("class", "vis-title")
                   .attr("transform", "translate(" + marginTitle.left + "," + marginTitle.top + ")")
-                  .text("Data loading, Select a time range in the timebar afterwards");
+                  .text("Data load in progress");
 
 const projection4 = d3v3.geo.albers()
                       .rotate([0, 0])
@@ -46,12 +46,14 @@ d3v3.json( "data/suisse_cantons.json", function(error, swiss){
 
 });
 
-console.log("map");
+console.log("map plotted");
 
 
 var colorScale  = d3v3.scale.category10();
+//.range(["#D6D3D3", "#6B87AD", "#5F5E7C", "#3E2C4B", "#C87BC8"]);
 
-var radiusScale = d3v3.scale.sqrt().range([2, 15]);
+
+var radiusScale = d3v3.scale.sqrt().range([4, 18]);
 // Add the tooltip container to the vis container
 // it's invisible and its position/contents are defined during mouseover
 
@@ -90,7 +92,7 @@ function tipMouseout(d) {
 function getData() {
       console.log("start to read data for stations capacity");
 
-      d3v3.csv("data/station_capacity.csv", function(error, dataForMap) {
+      d3v3.csv("data/station_capacity_no_bus.csv", function(error, dataForMap) {
       if (error) return console.log("error");
 
       console.log("finished reading");
@@ -122,7 +124,7 @@ function getData() {
       radiusScale.domain(d3v3.extent(dataForMap, function(transport) { return + transport.number_of_transport; }));
 
       makeTimeline(dataForMap, dataForTimeline);
-      makeLegend();
+      makeLegend(dataForMap);
       });
 };
 // Creates the event timeline and sets up callbacks for brush changes
@@ -185,11 +187,12 @@ function makeTimeline(dataForMap, dataForTimeline) {
                     .style("text-anchor", "end")
                     .text("# transports");
 
+            var parseHourMin = d3v3.time.format("%H:%M").parse
             // Add brush to timeline, hook up to callback
             var brush = d3v3.svg.brush()
                     .x(x)
                     .on("brush", function() { brushCallback(brush, dataForMap); })
-                    .extent([new Date("12/1/2013"), new Date("1/1/2014")]); // initial value
+                    .extent([parseHourMin("03:00"), parseHourMin("06:00")]); // initial value
 
             timeline3.append("g")
                     .attr("class", "x brush")
@@ -220,10 +223,47 @@ function brushCallback(brush, dataForMap) {
               updateTitleText(newDateRange);
           }
 };
+var filtered = [];
+function update(d0, legends, dataForMap){
+  console.log("start click update");
+  // add the clicked key if not included:
+    if (filtered.indexOf(d0) == -1) {
+        filtered.push(d0);
+      // if all bars are un-checked, reset:
+      if(filtered.length == 5) filtered = [];
+    }
+    // otherwise remove it:
+    else {
+      filtered.splice(filtered.indexOf(d0), 1);
+      filteredData = []
+      dataForMap.forEach(function(d){
+            if (filtered.indexOf(d.arrival_time) == -1) {
+                    filteredData.push(d);
+            }
+      });
+      updateMapPoints(filteredData);
+
+    }
+    // update legend:
+    legends.selectAll("rect")
+            .transition()
+            .attr("fill",function(d) {
+              if (filtered.length) {
+              if (filtered.indexOf(d) == -1) {
+                return colorScale(d);
+        }
+         else { return "white";}
+      }
+      else {
+       return colorScale(d);
+      }
+    })
+    .duration(100);
+}
 // Updates the vis title text to include the passed date array: [start Date, end Date]
 function updateTitleText(newDateArray) {
         if (!newDateArray) {
-              title.text("Data loading, Select a time range in the timebar afterwards");
+              title.text("Data load in progress");
         } else {
               var from = (newDateArray[0].getHours()) + ":" +
                                (newDateArray[0].getMinutes()),
@@ -235,37 +275,40 @@ function updateTitleText(newDateArray) {
 
 // Updates the points displayed on the map, to those in the passed data array
 function updateMapPoints(data) {
-        var circles = mapSvg.selectAll("circle").data(data, function(d) { return d.arrival_time + d.number_of_transport; });
+      // adjust scale
+      var circles = mapSvg.selectAll("circle").data(data, d => d.station_id);
 
             circles // update existing points
                     .on("mouseover", tipMouseover)
                     .on("mouseout", tipMouseout)
-                    .attr("fill", function(d) { return colorScale(d.route_type); })
+                    .attr("fill", d => colorScale(d.route_type))
+                    .attr("opacity", 0.7)
                     .attr("cx", function(d) { return projection4([+d.longitude, +d.latitude])[0]; })
                     .attr("cy", function(d) { return projection4([+d.longitude, +d.latitude])[1]; })
-                    .attr("r",  function(d) { return radiusScale(+d.number_of_transport); });
+                    .attr("r",  d => radiusScale(+d.number_of_transport))
+                    .each(function(d) {
+                      // adds the circle object to our station
+                      // makes it fast to select stations on hover
+                      d.bubble = this;
+                    });
 
 
             circles.enter().append("circle") // new entering points
                     .on("mouseover", tipMouseover)
                     .on("mouseout", tipMouseout)
                     .attr("fill", function(d) { return colorScale(d.route_type); })
+                    .attr("opacity", 0.7)
                     .attr("cx", function(d) { return projection4([+d.longitude, +d.latitude])[0]; })
                     .attr("cy", function(d) { return projection4([+d.longitude, +d.latitude])[1]; })
-                    .attr("r",  0)
-                  .transition()
-                    .duration(500)
                     .attr("r",  function(d) { return radiusScale(+d.number_of_transport); });
 
             circles.exit() // exiting points
                     .attr("r",  function(d) { return radiusScale(+d.number_of_transport); })
-                  .transition()
-                    .duration(500)
-                    .attr("r", 0).remove();
-            };
+                    .attr("r", 10).remove();
+};
 // Creates a legend showing the mapping from transport type to color
 // **nb: the domain of colorScale should include all transport types when this is called
-function makeLegend() {
+function makeLegend(dataForMap) {
         var margin = { top: 50, left: -10 },
                 legendWidth  = 250,
                 legendHeight = 150;
@@ -281,12 +324,14 @@ function makeLegend() {
                       .attr("class", "legend")
                       .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
+        console.log("legend apply click");
         // draw legend colored rectangles
         legends.append("rect")
                   .attr("x", legendWidth - 18)
                   .attr("width", 18)
                   .attr("height", 18)
                   .style("fill", colorScale);
+                //  .on("click", function(d) { update(d, legends, dataForMap) });
 
         // draw legend text
         legends.append("text")
