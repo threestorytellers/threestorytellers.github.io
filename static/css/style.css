@@ -161,4 +161,29 @@ td.station {
 #vehicle_popup span.vehicle_name {
     font-weight: bold;
 }
+
+.button {
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.95rem;
+  font-family: verdana, sans-serif
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+background-color: #717D7D;
+color: #fed136;
+border: 2px solid white;
+}
+
+.button1:hover {
+background-color: white;
+color: #fed136;
+}
 /* END */
