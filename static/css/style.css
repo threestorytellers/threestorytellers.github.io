@@ -179,7 +179,7 @@ td.station {
 .button1 {
 background-color: #717D7D;
 color: #fed136;
-border: 2px solid white;
+border: 2px solid #717D7D;
 }
 
 .button1:hover {
