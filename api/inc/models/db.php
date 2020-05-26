@@ -4,16 +4,80 @@ class DB {
     private static $db = null;
     private static $use_file_cache = false;
     
+//    private static function getDB() {
+//        if (is_null(self::$db)) {
+//            $db_path = APP_FOLDER_PATH . '/gtfs-data/gtfs.db';
+//            $db = new SQLite3($db_path, SQLITE3_OPEN_READONLY);
+//            self::$db = $db;
+//        }
+//
+//        return self::$db;
+//    }
     private static function getDB() {
-        if (is_null(self::$db)) {
-            $db_path = APP_FOLDER_PATH . '/gtfs-data/gtfs.db';
-            $db = new SQLite3($db_path, SQLITE3_OPEN_READONLY);
-            self::$db = $db;
+        $servername = "localhost";
+        $username = "root";
+        $password = "0112";
+        $database = "wenuka_story_tellers";
+        // Create connection
+        $db = mysqli_connect($servername, $username, $password, $database);
+
+        // Check connection
+        if (!$db) {
+            die("Connection failed: " . mysqli_connect_error());
         }
-        
+        self::$db = $db;
         return self::$db;
     }
-    
+
+    private static function getDB2() {
+        $servername = "localhost";
+        $username = "root";
+        $password = "0112";
+        $database = "wenuka_story_tellers";
+        // Create connection
+
+        $db = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
+        $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        // Check connection
+        if (!$db) {
+            die("Connection failed: " . mysqli_connect_error());
+        }
+        self::$db = $db;
+        return self::$db;
+    }
+
+
+
+    public static function getTest() {
+        $cache_file = APP_FOLDER_PATH . '/tmp/cache/db/calendar2.json';
+        $cached_results = self::getCachedResults(array(
+            'cache_file' => $cache_file
+        ));
+        if ($cached_results) {
+            return $cached_results;
+        }
+
+        $db = self::getDB();
+        $result = $db->query('SELECT * FROM calendar');
+        $rows = self::parseDBResult($result, $cache_file);
+        return $rows;
+
+//
+//        $sql = "SELECT * FROM calendar";
+//        $result = $conn->query($sql);
+//
+//        if ($result->num_rows > 0) {
+//            // output data of each row
+//            while($row = $result->fetch_assoc()) {
+//                print_r($row);
+//            }
+//        } else {
+//            echo "0 results";
+//        }
+
+
+
+    }
     private static function getCachedResults($params) {
         if (self::$use_file_cache === FALSE) {
             return null;
@@ -47,7 +111,8 @@ class DB {
     
     private static function parseDBResult($result, $cache_file = null) {
         $rows = array();
-        while($row = $result->fetchArray(SQLITE3_ASSOC)) {
+        while($row = $result->fetch_assoc()) {
+//        while($row = $result->fetchArray(SQLITE3_ASSOC)) {
             array_push($rows, $row);
         }
         
@@ -55,6 +120,22 @@ class DB {
             self::cacheResults($cache_file, $rows);
         }
         
+        return $rows;
+    }
+
+
+    private static function parsePDODBResult($stmt, $cache_file = null) {
+        $rows = array();
+        while( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
+
+            $row['stop_name']= utf8_encode($row['stop_name']);
+            array_push($rows, $row);
+        }
+
+        if ($cache_file) {
+            self::cacheResults($cache_file, $rows);
+        }
+
         return $rows;
     }
     
@@ -145,7 +226,8 @@ class DB {
 
         $rows = array();
         $tripids = array();
-        while($row = $result->fetchArray(SQLITE3_ASSOC)) {
+        while($row = $result->fetch_assoc()) {
+//        while($row = $result->fetchArray(SQLITE3_ASSOC)) {
 //            $tripid = strtok($row['trip_id'], ':');
             $tripid =$row['service_id'];
             if (empty($service_ids) || !in_array($row['service_id'], $service_ids)) {
@@ -171,18 +253,25 @@ class DB {
             return $cached_results;
         }
 
-        $db = self::getDB();
+        $db = self::getDB2();
 
         $hhmm_seconds = substr($hhmm, 0, 2) * 3600 + substr($hhmm, 2) * 60;
         $hhmm_seconds_midnight = $hhmm_seconds + 24 * 3600;
 
-        $sql = "SELECT trip_id, route_short_name,route_type, route_long_name, route_color, route_text_color, trip_headsign, shape_id, service_id FROM trips, routes WHERE trips.route_id = routes.route_id AND routes.route_type IN ".$vtype." AND ((trip_start_seconds < " . $hhmm_seconds . " AND trip_end_seconds > " . $hhmm_seconds . ") OR (trip_start_seconds < " . $hhmm_seconds_midnight . " AND trip_end_seconds > " . $hhmm_seconds_midnight . "))";
+//        $sql = "SELECT trip_id, route_short_name,route_type, route_long_name, route_color, route_text_color, trip_headsign, shape_id, service_id FROM trips, routes WHERE trips.route_id = routes.route_id AND routes.route_type IN ".$vtype." AND ((trip_start_seconds < " . $hhmm_seconds . " AND trip_end_seconds > " . $hhmm_seconds . ") OR (trip_start_seconds < " . $hhmm_seconds_midnight . " AND trip_end_seconds > " . $hhmm_seconds_midnight . "))";
+        $sql = "SELECT trip_id, route_short_name,route_type, route_long_name, route_color, route_text_color, trip_headsign, shape_id, service_id FROM trips, routes WHERE trips.route_id = routes.route_id AND routes.route_type = :vtype AND ((trip_start_seconds < :hhmm_seconds AND trip_end_seconds > :hhmm_seconds) OR (trip_start_seconds < :hhmm_seconds_midnight AND trip_end_seconds > :hhmm_seconds_midnight))";
         $stmt = $db->prepare($sql);
-        $result = $stmt->execute();
+//        print_r($stmt);
+        $stmt->bindParam(':vtype', $vtype, PDO::PARAM_INT);
+        $stmt->bindParam(':hhmm_seconds', $hhmm_seconds, PDO::PARAM_INT);
+        $stmt->bindParam(':hhmm_seconds_midnight', $hhmm_seconds_midnight, PDO::PARAM_INT);
+        $stmt->execute();
 
         $rows = array();
         $tripids = array();
-        while($row = $result->fetchArray(SQLITE3_ASSOC)) {
+
+
+        while( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
             $tripid =$row['service_id'];
             if (empty($service_ids) || !in_array($row['service_id'], $service_ids)) {
                 if (!in_array($tripid, $tripids)) {
@@ -209,13 +298,13 @@ class DB {
             return $cached_results;
         }
         
-        $db = self::getDB();
+        $db = self::getDB2();
         
         $stmt = $db->prepare('SELECT stops.stop_id, stops.stop_name, arrival_time, departure_time, stop_shape_percent FROM stop_times, stops WHERE stops.stop_id = stop_times.stop_id AND stop_times.trip_id = :trip_id ORDER BY stop_sequence;');
-        $stmt->bindValue(':trip_id', $trip_id, SQLITE3_TEXT);
-        $result = $stmt->execute();
+        $stmt->bindValue(':trip_id', $trip_id, PDO::PARAM_INT);
+        $stmt->execute();
         
-        $rows = self::parseDBResult($result, $cache_file);
+        $rows = self::parsePDODBResult($stmt, $cache_file);
         return $rows;
     }
 }

@@ -1,5 +1,5 @@
 <?php
-//error_reporting(E_ERROR | E_PARSE);
+error_reporting(E_ERROR | E_PARSE);
 ini_set('memory_limit', '-1');
 ini_set('max_execution_time', 300);
 set_time_limit(300);
@@ -72,7 +72,9 @@ class GTFS {
 
     public static function getSpecificTripsByMinute($hhmm,$ymd,$vtype) {
         $service_ids = self::getAllServiceIds($ymd);
+//        print_r($service_ids);
         $trips = DB::getSpecificTripsByMinute($hhmm, $service_ids,$vtype);
+//        print_r($trips);
         $new_trips = array();
         foreach ($trips as $k => $row) {
             $stops = DB::getStopsByTripId($row['trip_id']);
@@ -83,7 +85,14 @@ class GTFS {
             $trips[$k]['stops'] = $stops;
             array_push($new_trips, $trips[$k]);
         }
+//        print_r($new_trips);
         return $new_trips;
+    }
+
+    public static function test() {
+        $ymd = '20200521';
+        $service_ids = DB::getTest();
+        return $service_ids;
     }
     
     private static function renderTime($hms) {
