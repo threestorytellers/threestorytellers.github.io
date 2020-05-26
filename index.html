@@ -99,20 +99,25 @@
         #options i { width: 1em; text-align: center; display: inline-block; }
         #options .option { display: inline-block; vertical-align: top; padding: 0 6px 3px; position: relative; font-size: 13px; height: 100%; }
         #options .option .option-name { height: 100%; width: 60px; }
-        #options .option .option-menu { display: none; position: absolute; background: rgba(254,226,133,0.35); width: 100%; padding: 3px 6px; text-align: left; }
-        #options .option .option-menu .check.checked i::before { content: "\f00c"; }
+        #options .option .option-menu { display: none; position: absolute; background: rgba(254,226,133,0.00); width: 100%; padding: 3px 6px; text-align: left; }
+        #options .option .option-menu .check.checked i::before{ content: "\f00c";}
         #options.hoverable .option:hover .option-menu,
         #options .option.visible .option-menu { display: block; top: 22px; left: 0; }
         #options .radio i { visibility: hidden; }
         #options .radio.selected i { visibility: visible; }
-        #options .radio-name { display: inline-block; }
-        #options #filters .option-menu { /*width: 90px;*/ }
+        #options .radio-name { display: inline-block; font-size: 8px ; color: yellow}
+        #options #filters .option-menu { width: 90px; }
 
         /* Disable the filters menu if it has the .disabled class */
         #options #filters.disabled .option-name { color: #666; cursor: default; }
         #options.hoverable #filters.disabled:hover .option-menu { color: #999; }
         #options.hoverable #filters.disabled:hover .option-menu .btn:hover { opacity: inherit; cursor: default; }
-        #options #colours .option-menu { width: 80px; }
+        #options #colours .option-menu { width: 120px; }
+        #options #togglers .option-menu { width: 100px; }
+        #options #Speedup .option-menu { width: 90px; }
+        #options #Speedup.disabled .option-name { color: #666; cursor: default; }
+        #options.hoverable #Speedup.disabled:hover .option-menu { color: #999; }
+        #options.hoverable #Speedup.disabled:hover .option-menu .btn:hover { opacity: inherit; cursor: default; }
 
         #scrubber { height: 40px; left: 5% ; width: 90%; background: rgba(255,255,255,0.1); position: absolute; bottom: 40px; -moz-border-radiuseft: 0; cursor: pointer; }
         #scrubber-inner { height: 30px; position: absolute; }
@@ -122,6 +127,10 @@
         #scrubber-inner .hour .minute.current { background: rgba(255,255,255,1); }
         #scrubber-inner .hour .minute:hover { background: black; }
         #scrubber-inner .hour .minute .load-progress { position: absolute; height: 0; bottom: 0; left: 0; background: rgba(255,255,200,0.33); }
+
+        .btn { cursor: pointer; }
+        .btn:hover { opacity: 0.5; }
+        .btn.selected, .btn.selected:hover { opacity: 1; cursor: default; }
 
         /* END */
 
