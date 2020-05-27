@@ -9,7 +9,7 @@ var svg1 = d3v4.select("#svg1"),
     g1 = svg1.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 
-var xScaleOffset = 0;
+var xScaleOffset = -0.06;
 var x = d3v4.scaleBand()
     .range([xScaleOffset, 2 * Math.PI + xScaleOffset])
     .align(0);
@@ -54,19 +54,16 @@ d3v4.csv("data/time_routine1.csv", function(d, i, columns) {
           .padRadius(innerRadius));
 
   //yAxis and Mean
-
   var yAxis = g1.append("g")
       .attr("text-anchor", "middle");
 
   var yTicksValues = d3v4.ticks(0, 30000, 4);
 
-  console.log('Mean: ', meanTransports);
 
   // Mean value line
   var yMeanTick = yAxis
     .append("g")
     .datum([meanTransports]);
-
 
 
   var yTick = yAxis
