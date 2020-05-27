@@ -402,10 +402,6 @@ var simulation_manager = (function(){
 
         ];
 
-        var type_filter = [ 1.0, 1.0, 1.0, 1.0, 1.0 ];
-
-
-
 
         function initScrubber() {
           var $scrubber_inner = $("<div />").attr("id", "scrubber-inner").appendTo("#scrubber");
@@ -1732,28 +1728,23 @@ var simulation_manager = (function(){
             // create the basic map,  with the map_options
             map = new google.maps.Map(document.getElementById("map_canvas"), map_options);
 
-            var stamen_map = new google.maps.StamenMapType('watercolor');
-            stamen_map.set('name', 'Stamen watercolor');
-            map.mapTypes.set('stamen', stamen_map);
 
             var stations_showing = true,
                 trains_showing = false,
                 map_showing = true,
                 routes_showing = false,
-                trams_showing = false,
-                ships_showing = false,
-                buses_showing = false,
                 shade_type = "uniform";
                 //speed = "1x";
+
+            var type_filter = [ 1.0, 1.0, 1.0, 1.0, 1.0];
 
             function map_layers_add(){
                 var edges_layer;
                 var stations_layer;
-                var switzerland_layer;
                 var ft_id;
+                var switzerland_layer;
                 var stations_train_layer;
                 var stations_tram_layer;
-                var stations_bus_layer;
                 var stations_ferry_layer;
                 var stations_gondola_layer;
 
