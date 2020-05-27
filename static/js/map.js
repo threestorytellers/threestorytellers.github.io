@@ -1751,6 +1751,11 @@ var simulation_manager = (function(){
                 var stations_layer;
                 var switzerland_layer;
                 var ft_id;
+                var stations_train_layer;
+                var stations_tram_layer;
+                var stations_bus_layer;
+                var stations_ferry_layer;
+                var stations_gondola_layer;
 
 
 
@@ -1770,20 +1775,53 @@ var simulation_manager = (function(){
                 // GTFS layers - stops.txt
                 ft_id = config.getParam('ft_layer_ids.gtfs_stops');
                 if (ft_id !== null) {
-
+                  /*
+                    stations_layer = new google.maps.FusionTablesLayer({
+                        query: {
+                            select: 'geometry',
+                            from: ft_id
+                        },
+                        suppressInfoWindows: true,
+                        map: map
+                    });*/
                     stations_layer = new google.maps.Data();
                     stations_layer.loadGeoJson(config.getParam('geojson.gtfs_stops'));
                     stations_layer.setStyle({
-                      icon: 'static/images/stationsicon.png'
+                      icon: 'static/images/stations_icons/stationsicon.png'
                       //fillColor: 'green'
                       //strokeWeight: 1
                     });
 
-                    /*stations_layer.setMap(map);*/
+                    stations_train_layer = new google.maps.Data();
+                    stations_train_layer.loadGeoJson(config.getParam('geojson.gtfs_stops_train'));
+                    stations_train_layer.setStyle({
+                      icon: 'static/images/stations_icons/stationsicon-train.png'
+                      //fillColor: 'green'
+                      //strokeWeight: 1
+                    });
 
-                    google.maps.event.addListener(stations_layer, 'click', function(ev){
-                        var station_id = ev.row.stop_id.value;
-                        simulation_panel.displayStation(station_id);
+                    stations_tram_layer = new google.maps.Data();
+                    stations_tram_layer.loadGeoJson(config.getParam('geojson.gtfs_stops_tram'));
+                    stations_tram_layer.setStyle({
+                      icon: 'static/images/stations_icons/stationsicon-tram.png'
+                      //fillColor: 'green'
+                      //strokeWeight: 1
+                    });
+
+                    stations_ferry_layer = new google.maps.Data();
+                    stations_ferry_layer.loadGeoJson(config.getParam('geojson.gtfs_stops_ferry'));
+                    stations_ferry_layer.setStyle({
+                      icon: 'static/images/stations_icons/stationsicon-ferry.png'
+                      //fillColor: 'green'
+                      //strokeWeight: 1
+                    });
+
+                    stations_gondola_layer = new google.maps.Data();
+                    stations_gondola_layer.loadGeoJson(config.getParam('geojson.gtfs_stops_gondola'));
+                    stations_gondola_layer.setStyle({
+                      icon: 'static/images/stations_icons/stationsicon-gondola.png'
+                      //fillColor: 'green'
+                      //strokeWeight: 1
                     });
                 }
 
@@ -1805,6 +1843,43 @@ var simulation_manager = (function(){
                 $("#map-toggler").on("click",toggleMap);
                 //$("#ship-toggler").on("click", toggleShips);
                 //$("#train-toggler").on("click", toggleTrains);
+                $(".radio").on("click", function() {
+              		var clicked = this,
+              		    menu = this.parentNode,
+              		    topic = menu.parentNode.id;
+              		//if(clicked.hasClass("selected")) return;
+                  //else clicked.addClass("selected");
+
+              		if (topic == "colours") {
+              			shade_type = this.getAttribute("data-value").substr("shade-".length);
+              			if (shade_type == "type") shadeByType();
+              			else shadeUniform();
+              		}
+              	});
+                $(".filter.color")
+              		.each(function() {
+              			var station_type = this.getAttribute("data-traffic-type");
+              			$(this).on("click", function() { toggleTrafficType(station_type); })
+              		});
+                  function shadeByType() {
+                  	$("#dashboard").addClass("color-coded");
+                      resetColor();
+                  	//}
+                  	if(!$('#type').hasClass("selected")) $('#type').addClass("selected");
+                    if($('#uniform').hasClass("selected"))$('#uniform').removeClass("selected");
+                  	shade_type = "type";
+
+                  }
+
+                  function shadeUniform() {
+
+                  	$("#dashboard").removeClass("color-coded");
+                      uniformColor();
+                  	shade_type = "uniform";
+                    if($('#type').hasClass("selected")) $('#type').removeClass("selected");
+                    if(!$('#uniform').hasClass("selected"))$('#uniform').addClass("selected");
+
+                  }
 
                 function toggleStations() {
                   if (stations_showing) hideStations();
@@ -1813,16 +1888,21 @@ var simulation_manager = (function(){
 
                 function showStations() {
                   if (stations_showing) return;
-                  stations_layer.setMap(map);
+                  if(shade_type == "uniform"){
+                    uniformColor();
+                  }
                   $("#station-toggler").addClass("checked");
+                  $("#filters").removeClass("disabled");
                   stations_showing = true;
+                  filterMap();
                 }
 
                 function hideStations() {
                   if (!stations_showing) return;
-                  stations_layer.setMap(null);
                   $("#station-toggler").removeClass("checked");
+                  $("#filters").addClass("disabled");
                   stations_showing = false;
+                  filterMap();
                 }
 
                 // FLAG : Routes control
@@ -1878,10 +1958,63 @@ var simulation_manager = (function(){
                   map_showing = false;
                 }
 
+                function toggleTrafficType(station_type) {
+                	if ($("#filter-type-" + station_type).hasClass("checked")) hideTrafficType(station_type);
+                	else showTrafficType(station_type);
+                }
+
+                function hideTrafficType(station_type) {
+                	$("#filter-type-" + station_type).removeClass("checked");
+                	type_filter[station_type] = 0.0;
+                	filterMap();
+                }
+
+                function showTrafficType(station_type) {
+                	$("#filter-type-" + station_type).addClass("checked");
+                	type_filter[station_type] = 1.0;
+                	filterMap();
+                };
+
+                function uniformColor(){
+                  stations_train_layer.setStyle({icon: 'static/images/stations_icons/stationsicon.png'});
+                  stations_tram_layer.setStyle({icon: 'static/images/stations_icons/stationsicon.png'});
+                  stations_ferry_layer.setStyle({icon: 'static/images/stations_icons/stationsicon.png'});
+                  stations_gondola_layer.setStyle({icon: 'static/images/stations_icons/stationsicon.png'});
+                }
+
+                function resetColor(){
+                  stations_train_layer.setStyle({icon: 'static/images/stations_icons/stationsicon-train.png'});
+                  stations_tram_layer.setStyle({icon: 'static/images/stations_icons/stationsicon-tram.png'});
+                  stations_ferry_layer.setStyle({icon: 'static/images/stations_icons/stationsicon-ferry.png'});
+                  stations_gondola_layer.setStyle({icon: 'static/images/stations_icons/stationsicon-gondola.png'});
+                }
+
+                function filterMap(){
+                  if(stations_showing){
+                    if(type_filter[0] == 1.0) stations_tram_layer.setMap(map);
+                    else stations_tram_layer.setMap(null);
+                    if(type_filter[1] == 1.0) stations_ferry_layer.setMap(map)
+                    else stations_ferry_layer.setMap(null);
+                    if(type_filter[2] == 1.0) stations_gondola_layer.setMap(map)
+                    else stations_gondola_layer.setMap(null);
+                    if(type_filter[3] == 1.0) stations_train_layer.setMap(map)
+                    else stations_train_layer.setMap(null);
+                  }
+                  else {
+                    stations_tram_layer.setMap(null);
+                    stations_ferry_layer.setMap(null);
+                    stations_gondola_layer.setMap(null);
+                    stations_train_layer.setMap(null);
+                  }
+                }
+
+                /*  Map initialization*/
+
                 if(map_showing) switzerland_layer.setMap(map);
-
-
-
+                if(stations_showing) {
+                  uniformColor();
+                  filterMap();
+                }
 
                 function trigger_toggleLayerVisibility() {
                   if (config.getParam('debug') !== null) {
@@ -1933,7 +2066,7 @@ var simulation_manager = (function(){
                   });
 
                   // FLAG : showStations or hideStations
-                  if(stations_showing) toggleLayerVisibility(stations_layer,false);
+                  //if(stations_showing) toggleLayerVisibility(stations_layer,false);
 
                 } // end of trigger_toggleLayerVisibility
 

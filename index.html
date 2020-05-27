@@ -96,19 +96,20 @@
         #options .option .option-menu { display: none; position: absolute; background: rgba(254,226,133,0.00); width: 100%; padding: 3px 6px; text-align: left; }
         #options .option .option-menu .check.checked i::before{ content: "\f00c";}
         #options.hoverable .option:hover .option-menu,
-        #options .option.visible .option-menu { display: block; top: 22px; left: 0; }
+        #options .option.visible .option-menu { display: block; top: 22px; left: -5px; }
         #options .radio i { visibility: hidden; }
+        #options .radio.checked i::before{content: "\f00c";}
         #options .radio.selected i { visibility: visible; }
-        #options .radio-name { display: inline-block; font-size: 8px ; color: yellow}
-        #options #filters .option-menu { width: 90px; }
+        #options .radio-name { display: inline-block; font-size: 11px ; color: yellow}
+        #options #filters .option-menu { width: 120px; }
 
         /* Disable the filters menu if it has the .disabled class */
         #options #filters.disabled .option-name { color: #666; cursor: default; }
         #options.hoverable #filters.disabled:hover .option-menu { color: #999; }
         #options.hoverable #filters.disabled:hover .option-menu .btn:hover { opacity: inherit; cursor: default; }
         #options #colours .option-menu { width: 120px; }
-        #options #togglers .option-menu { width: 100px; }
-        #options #Speedup .option-menu { width: 90px; }
+        #options #togglers .option-menu { width: 120px; }
+        #options #Speedup .option-menu { width: 120px; }
         #options #Speedup.disabled .option-name { color: #666; cursor: default; }
         #options.hoverable #Speedup.disabled:hover .option-menu { color: #999; }
         #options.hoverable #Speedup.disabled:hover .option-menu .btn:hover { opacity: inherit; cursor: default; }
@@ -116,7 +117,7 @@
         #scrubber { height: 40px; left: 5% ; width: 90%; background: rgba(255,255,255,0.1); position: absolute; bottom: 40px; -moz-border-radiuseft: 0; cursor: pointer; }
         #scrubber-inner { height: 30px; position: absolute; }
         #scrubber-inner .hour { position: absolute; height: 100%; border-right: 1px white rgba(255,255,255,0.1); }
-        #scrubber-inner .hour .label { position: absolute; top: -1.25em; left: 1px; font-size: 13px; color: rgba(255,255,255,0.6);}
+        #scrubber-inner .hour .label { position: absolute; top: -1.25em; left: 1px; font-size: 13px; color: rgba(255,255,255,0.6); }
         #scrubber-inner .hour .minute { background: rgba(255,255,255,0.25); height: 100%; border-right: 1px solid rgba(0,0,0,0.1); }
         #scrubber-inner .hour .minute.current { background: rgba(255,255,255,1); }
         #scrubber-inner .hour .minute:hover { background: black; }
@@ -204,27 +205,27 @@
                 <div class="option-menu">
                   <div id="station-toggler" class="btn check checked"><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Stations</span></div>
                   <div id="route-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Routes</span></div>
-                  <div id="train-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Trains</span></div>
-                  <div id="bus-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Bus</span></div>
-                  <div id="ship-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Ships</span></div>
+                  <!--<div id="train-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Trains</span></div>-->
+                  <!--<div id="bus-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Bus</span></div>-->
+                  <!-- <div id="ship-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Ships</span></div> -->
                   <div id="map-toggler" class="btn check checked"><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Map</span></div>
                 </div>
               </div>
               <div id="colours" class="option">
                 <div class="option-name">Colors <i class="fa fa-chevron-down"></i></div>
                 <div class="option-menu">
-                  <div data-value="shade-uniform" class="btn radio selected"><i class="fas fa-check" aria-hidden="true"  style="color:yellow"></i> <span class="radio-name">Uniform</span></div>
-                  <div data-value="shade-type" class="btn radio"><i class="fas fa-check" style="color:yellow"></i> <span class="radio-name">traffic type</span></div>
+                  <div id = "uniform" data-value="shade-uniform" class="btn radio selected"><i class="fas fa-check" aria-hidden="true"  style="color:yellow"></i> <span class="radio-name">Uniform</span></div>
+                  <div id = "type" data-value="shade-type" class="btn radio"><i class="fas fa-check" style="color:yellow"></i> <span class="radio-name">Color</span></div>
                 </div>
               </div>
               <div id="filters" class="option">
                 <div class="option-name">Filters <i class="fa fa-chevron-down"></i></div>
                 <div class="option-menu">
-                  <div id="filter-type-3" data-traffic-type="3" class="btn check checked filter color"><i class="fa fa-times color-by-traffic-type" style="color:yellow"></i> <span class="radio-name">a</span> </div>
-                  <div id="filter-type-0" data-traffic-type="0" class="btn check checked filter color"><i class="fa fa-times color-by-traffic-type" style="color:yellow"></i> <span class="radio-name">a</span> </div>
-                  <div id="filter-type-1" data-traffic-type="1" class="btn check checked filter color"><i class="fa fa-times color-by-traffic-type" style="color:yellow"></i> <span class="radio-name">a</span> </div>
-                  <div id="filter-type-2" data-traffic-type="2" class="btn check checked filter color"><i class="fa fa-times color-by-traffic-type" style="color:yellow"></i> <span class="radio-name">a</span> </div>
-                  <div id="filter-type-4" data-traffic-type="4" class="btn check checked filter color"><i class="fa fa-times color-by-traffic-type" style="color:yellow"></i> <span class="radio-name">a</span> </div>
+                  <div id="filter-type-3" data-traffic-type="3" class="btn check checked filter color"><i class="fa fa-times color-by-traffic-type" style="color:#EA4335"></i> <span class="radio-name" style="color:#EA4335">train</span> </div>
+                  <div id="filter-type-0" data-traffic-type="0" class="btn check checked filter color"><i class="fa fa-times color-by-traffic-type" style="color:#FBBC05"></i> <span class="radio-name" style="color:#FBBC05">tram</span> </div>
+                  <div id="filter-type-1" data-traffic-type="1" class="btn check checked filter color"><i class="fa fa-times color-by-traffic-type" style="color:#34A853"></i> <span class="radio-name" style="color:#34A853" >ferry</span> </div>
+                  <div id="filter-type-2" data-traffic-type="2" class="btn check checked filter color"><i class="fa fa-times color-by-traffic-type" style="color:#4285F4"></i> <span class="radio-name" style="color:#4285F4">gondola</span> </div>
+                  <div id="filter-type-4" data-traffic-type="4" class="btn check checked filter color"><i class="fa fa-times color-by-traffic-type" style="color:#b6eb00"></i> <span class="radio-name" style="color:#b6eb00">other</span> </div>
                 </div>
               </div>
               <div id="Speedup" class="option">
