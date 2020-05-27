@@ -23,14 +23,16 @@ text {
     fill: #777;
 }
 
-.tooltip4 {
-    position: absolute;
-    font-size: 12px;
-    width:  auto;
-    height: auto;
-    pointer-events: none;
-    background-color: white;
+div.tooltip {
+  position: absolute;
+  font-size: 10pt;
+  font-weight: 900
+  width:  auto;
+  height: auto;
+  pointer-events: none;
+  background-color: white;
 }
+
 
 .circle-hover {
     stroke: #000;
