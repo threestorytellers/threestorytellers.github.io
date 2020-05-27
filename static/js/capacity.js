@@ -65,11 +65,11 @@ function tipMouseover(d) {
             var color = colorScale(d.route_type);
             var text_to_write  = "<span style='color:" + color + ";'>" + d.station_name + "</span><br/>" +
                                         "Count: " + d.number_of_transport;
-            const coords = projection([d.longitude, d.latitude])
+            const coords = projection4([d.longitude, d.latitude])
             tooltip4.html(text_to_write);
             tooltip4.attr("text-anchor", "middle")
-                    .style("left", (coords[0]) + "px")
-                    .style("top", (coords[1]) + "px");
+                    .style("left", (coords[0] + 20) + "px")
+                    .style("top", (coords[1] -50) + "px");
             tooltip4.transition()
                       .duration(500) // ms
                     .style("opacity", .9)
@@ -245,8 +245,8 @@ function updateMapPoints(data) {
                     .on("mouseout", tipMouseout)
                     .attr("fill", d => colorScale(d.route_type))
                     .attr("opacity", 0.5)
-                    .attr("cx", function(d) { return projection([+d.longitude, +d.latitude])[0]; })
-                    .attr("cy", function(d) { return projection([+d.longitude, +d.latitude])[1]; })
+                    .attr("cx", function(d) { return projection4([+d.longitude, +d.latitude])[0]; })
+                    .attr("cy", function(d) { return projection4([+d.longitude, +d.latitude])[1]; })
                     .attr("r",  d => radiusScale(d.number_of_transport));
 
 
@@ -255,8 +255,8 @@ function updateMapPoints(data) {
                     .on("mouseout", tipMouseout)
                     .attr("fill", function(d) { return colorScale(d.route_type); })
                     .attr("opacity", 0.5)
-                    .attr("cx", function(d) { return projection([+d.longitude, +d.latitude])[0]; })
-                    .attr("cy", function(d) { return projection([+d.longitude, +d.latitude])[1]; })
+                    .attr("cx", function(d) { return projection4([+d.longitude, +d.latitude])[0]; })
+                    .attr("cy", function(d) { return projection4([+d.longitude, +d.latitude])[1]; })
                     .attr("r",  function(d) { return radiusScale(d.number_of_transport); });
 
             circles.exit() // exiting points
