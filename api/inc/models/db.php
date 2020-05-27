@@ -176,7 +176,7 @@ class DB {
         $hhmm_seconds = substr($hhmm, 0, 2) * 3600 + substr($hhmm, 2) * 60;
         $hhmm_seconds_midnight = $hhmm_seconds + 24 * 3600;
 // AND routes.route_type IN ".$vtype."
-        $sql = "SELECT trip_id, route_short_name,route_type, route_long_name, route_color, route_text_color, trip_headsign, shape_id, service_id FROM trips, routes WHERE trips.route_id = routes.route_id  AND ((trip_start_seconds < " . $hhmm_seconds . " AND trip_end_seconds > " . $hhmm_seconds . ") OR (trip_start_seconds < " . $hhmm_seconds_midnight . " AND trip_end_seconds > " . $hhmm_seconds_midnight . "))";
+        $sql = "SELECT trip_id, route_short_name,route_type, route_long_name, route_color, route_text_color, trip_headsign, shape_id, service_id FROM trips, routes WHERE trips.route_id = routes.route_id AND routes.route_type NOT IN (1,2)  AND ((trip_start_seconds < " . $hhmm_seconds . " AND trip_end_seconds > " . $hhmm_seconds . ") OR (trip_start_seconds < " . $hhmm_seconds_midnight . " AND trip_end_seconds > " . $hhmm_seconds_midnight . "))";
         $stmt = $db->prepare($sql);
         $result = $stmt->execute();
 
