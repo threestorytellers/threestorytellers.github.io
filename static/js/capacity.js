@@ -245,8 +245,8 @@ function updateMapPoints(data) {
                     .on("mouseout", tipMouseout)
                     .attr("fill", d => colorScale(d.route_type))
                     .attr("opacity", 0.5)
-                    .attr("cx", function(d) { return projection4([+d.longitude, +d.latitude])[0]; })
-                    .attr("cy", function(d) { return projection4([+d.longitude, +d.latitude])[1]; })
+                    .attr("cx", function(d) { return projection([+d.longitude, +d.latitude])[0]; })
+                    .attr("cy", function(d) { return projection([+d.longitude, +d.latitude])[1]; })
                     .attr("r",  d => radiusScale(d.number_of_transport));
 
 
@@ -255,8 +255,8 @@ function updateMapPoints(data) {
                     .on("mouseout", tipMouseout)
                     .attr("fill", function(d) { return colorScale(d.route_type); })
                     .attr("opacity", 0.5)
-                    .attr("cx", function(d) { return projection4([+d.longitude, +d.latitude])[0]; })
-                    .attr("cy", function(d) { return projection4([+d.longitude, +d.latitude])[1]; })
+                    .attr("cx", function(d) { return projection([+d.longitude, +d.latitude])[0]; })
+                    .attr("cy", function(d) { return projection([+d.longitude, +d.latitude])[1]; })
                     .attr("r",  function(d) { return radiusScale(d.number_of_transport); });
 
             circles.exit() // exiting points
