@@ -227,10 +227,9 @@ function updateTitleText(newDateArray) {
         if (!newDateArray) {
               title.text("Data load in progress");
         } else {
-              var from = (newDateArray[0].getHours()) + ":" +
-                               (newDateArray[0].getMinutes()),
-                  to =   (newDateArray[1].getHours()) + ":" +
-                               (newDateArray[1].getMinutes());
+              var from = ('0' + (newDateArray[0].getHours())).slice(-2) + ":" + ('0' + (newDateArray[0].getMinutes())).slice(-2),
+                  to =   ('0'+(newDateArray[1].getHours())).slice(-2) + ":" +
+                            ('0'+(newDateArray[1].getMinutes())).slice(-2);
               title.text("Time period " + from + " - " + to);
           }
 };
