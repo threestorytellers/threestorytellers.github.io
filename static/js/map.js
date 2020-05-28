@@ -1710,8 +1710,8 @@ var simulation_manager = (function(){
 
                 var routes_config = config.getParam('routes');
                 if ((typeof routes_config[type]) === 'undefined') {
-                    return null;
                     type = "general"
+                    // return null;
                 }
 
                 if (routes_config[type].icon === false) {
@@ -2202,7 +2202,7 @@ var simulation_manager = (function(){
                 var url = config.getParam('api_paths.trips');
                 url = url.replace(/\[hhmm\]/, hm.replace(':', ''));
                 url = url.replace(/\[ymd\]/, ymd.replace(':', ''));
-                url = url.replace(/\[vtype\]/, 1); // 1 if all except trains, 2 for trains, else all
+                url = url.replace(/\[vtype\]/, 2); // 1 if all except trains, 2 for trains, else all
                 console.log('url '+ url)
 
                 $.ajax({
