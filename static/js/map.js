@@ -1339,7 +1339,16 @@ var simulation_manager = (function(){
                 $(".filter.color")
               		.each(function() {
               			var station_type = this.getAttribute("data-traffic-type");
-              			$(this).on("click", function() { toggleTrafficType(station_type); })
+              			if(stations_showing) {
+                      $(this).removeClass("disabled");
+                      $(this).on("click", function() { toggleTrafficType(station_type); });
+                      $(".notice").addClass("hidden");
+                    }
+                    else {
+                      $(this).off("click");
+                      $(this).addClass("disabled");
+                      $('.notice').removeClass("hidden");
+                    }
               		});
                   function shadeByType() {
                   	$("#dashboard").addClass("color-coded");
@@ -1372,7 +1381,14 @@ var simulation_manager = (function(){
                     uniformColor();
                   }
                   $("#station-toggler").addClass("checked");
-                  $("#filters").removeClass("disabled");
+                  $(".filter.color")
+                		.each(function() {
+                			var station_type = this.getAttribute("data-traffic-type");
+                			$(this).on("click", function() { toggleTrafficType(station_type); });
+                      $(this).removeClass("disabled")
+                		});
+
+
                   stations_showing = true;
                   filterMap();
                 }
@@ -1380,7 +1396,12 @@ var simulation_manager = (function(){
                 function hideStations() {
                   if (!stations_showing) return;
                   $("#station-toggler").removeClass("checked");
-                  $("#filters").addClass("disabled");
+                  $(".filter.color")
+                		.each(function() {
+                			var station_type = this.getAttribute("data-traffic-type");
+                			$(this).off("click");
+                      $(this).addClass("disabled")
+                		});
                   stations_showing = false;
                   filterMap();
                 }

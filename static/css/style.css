@@ -171,6 +171,14 @@ body.guardian #dashboard .stat .value { font-family: inherit; font-weight: bold;
   /*color: yellow*/
 }
 
+#panel #options_info .check.disabled { color: #666; }
+
+.notice{
+  font-size: 10px;
+  color: #666;
+}
+
+
 div.panel_content {
     padding: 3px;
 }
