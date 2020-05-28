@@ -148,11 +148,11 @@ class DB {
         while($row = $result->fetchArray(SQLITE3_ASSOC)) {
 //            $tripid = strtok($row['trip_id'], ':');
             $tripid =$row['service_id'];
-            if (empty($service_ids) || !in_array($row['service_id'], $service_ids)) {
-                if (!in_array($tripid, $tripids)) {
+            if (empty($service_ids) || in_array($row['service_id'], $service_ids)) {
+//                if (!in_array($tripid, $tripids)) {
                     array_push($rows, $row);
                     array_push($tripids, $tripid);
-                }
+//                }
             }
         }
 
@@ -175,21 +175,28 @@ class DB {
 
         $hhmm_seconds = substr($hhmm, 0, 2) * 3600 + substr($hhmm, 2) * 60;
         $hhmm_seconds_midnight = $hhmm_seconds + 24 * 3600;
-// AND routes.route_type IN ".$vtype."
-        $sql = "SELECT trip_id, route_short_name,route_type,route_desc, route_long_name, route_color, route_text_color, trip_headsign, shape_id, service_id FROM trips, routes WHERE trips.route_id = routes.route_id AND routes.route_type NOT IN (1,2)  AND ((trip_start_seconds < " . $hhmm_seconds . " AND trip_end_seconds > " . $hhmm_seconds . ") OR (trip_start_seconds < " . $hhmm_seconds_midnight . " AND trip_end_seconds > " . $hhmm_seconds_midnight . "))";
+        if ($vtype==2) { // for trains
+            $sql = "SELECT trip_id, route_short_name,route_type,route_desc, route_long_name, route_color, route_text_color, trip_headsign, shape_id, service_id FROM trips, routes WHERE trips.route_id = routes.route_id AND routes.route_type=2  AND ((trip_start_seconds < " . $hhmm_seconds . " AND trip_end_seconds > " . $hhmm_seconds . ") OR (trip_start_seconds < " . $hhmm_seconds_midnight . " AND trip_end_seconds > " . $hhmm_seconds_midnight . "))";
+        }
+        elseif ($vtype==1) {// all except trains
+            $sql = "SELECT trip_id, route_short_name,route_type,route_desc, route_long_name, route_color, route_text_color, trip_headsign, shape_id, service_id FROM trips, routes WHERE trips.route_id = routes.route_id AND routes.route_type!=2  AND ((trip_start_seconds < " . $hhmm_seconds . " AND trip_end_seconds > " . $hhmm_seconds . ") OR (trip_start_seconds < " . $hhmm_seconds_midnight . " AND trip_end_seconds > " . $hhmm_seconds_midnight . "))";
+        }
+        else {
+            $sql = "SELECT trip_id, route_short_name,route_type,route_desc, route_long_name, route_color, route_text_color, trip_headsign, shape_id, service_id FROM trips, routes WHERE trips.route_id = routes.route_id AND ((trip_start_seconds < " . $hhmm_seconds . " AND trip_end_seconds > " . $hhmm_seconds . ") OR (trip_start_seconds < " . $hhmm_seconds_midnight . " AND trip_end_seconds > " . $hhmm_seconds_midnight . "))";
+        }
         $stmt = $db->prepare($sql);
         $result = $stmt->execute();
 
         $rows = array();
-        $tripids = array();
+//        $tripids = array();
         while($row = $result->fetchArray(SQLITE3_ASSOC)) {
-            $tripid =$row['service_id'];
-            if (empty($service_ids) || !in_array($row['service_id'], $service_ids)) {
-                if (!in_array($tripid, $tripids)) {
+//            $tripid =$row['service_id'];
+            if (empty($service_ids) || in_array($row['service_id'], $service_ids)) {
+//                if (!in_array($tripid, $tripids)) {
 
                     array_push($rows, $row);
-                    array_push($tripids, $tripid);
-                }
+//                    array_push($tripids, $tripid);
+//                }
             }
         }
 
