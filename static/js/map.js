@@ -1690,7 +1690,7 @@ var simulation_manager = (function(){
                 var routes_config = config.getParam('routes');
                 if ((typeof routes_config[type]) === 'undefined') {
                     return null;
-                    //type = "general"
+                    type = "general"
                 }
 
                 if (routes_config[type].icon === false) {

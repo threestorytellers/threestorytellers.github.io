@@ -35,6 +35,12 @@
   "geojson.topology_edges": null,
   "geojson.topology_stations": null,
   "routes": {
+    "general": {
+      "icon": "static/images/route_icons/demo/cir.png",
+          "route_short_name": "",
+          "route_color": "0178BC",
+          "route_text_color": "FFFFFF"
+    },
     "Eurocity": {
       "icon": "static/images/route_icons/demo/0.png",
           "route_short_name": "",
