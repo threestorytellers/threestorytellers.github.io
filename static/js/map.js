@@ -773,7 +773,7 @@ var simulation_manager = (function(){
                 }
             });
             $('#vehicle_info').removeClass('hidden');
-            $('#options-info-panel').addClass('hidden');
+            $('#options-info').addClass('hidden');
         }
 
         function vehicle_info_hide() {
@@ -781,7 +781,7 @@ var simulation_manager = (function(){
             vehicle_route.hide();
             selected_vehicle = null;
             $('#vehicle_info').addClass('hidden');
-            $('#options-info-panel').removeClass('hidden');
+            $('#options-info').removeClass('hidden');
 
         }
 
