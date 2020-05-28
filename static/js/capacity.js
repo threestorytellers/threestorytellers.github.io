@@ -55,8 +55,13 @@ var radiusScale = d3v3.scale.sqrt().range([2, 25]);
 // it's invisible and its position/contents are defined during mouseover
 
  var tooltip4 = d3v3.select("#map-container").append("div")
-                .attr("class", "tooltip")
-                .style("opacity", 0);
+                     .style("opacity", 0)
+                     .attr("class", "tooltip")
+                     .style("background-color", "white")
+                     .style("border", "solid")
+                     .style("border-width", "1px")
+                     .style("border-radius", "5px")
+                     .style("padding", "10px");
 
 // tooltip mouseover event handler
 function tipMouseover(d) {

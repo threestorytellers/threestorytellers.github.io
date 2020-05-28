@@ -36,6 +36,38 @@ d3v4.csv("data/time_routine1.csv", function(d, i, columns) {
   y.domain([0, d3v4.max(data, function(d) { return (d.start + d.end); })]);
   z.domain(data.columns.slice(1));
 
+  // ----------------
+    // Create a tooltip
+    // ----------------
+    var tooltip1 = d3v4.select("#my_dataviz_1")
+      .append("div")
+      .style("opacity", 0)
+      .attr("class", "tooltip")
+      .style("background-color", "white")
+      .style("border", "solid")
+      .style("border-width", "1px")
+      .style("border-radius", "5px")
+      .style("padding", "10px")
+
+
+    var mouseover = function(d) {
+      var subgroupName = d3v4.select(this.parentNode).datum().key;
+      var subgroupValue = d.data[subgroupName];
+      tooltip1
+          .html("Class: " + subgroupName + "<br>" + "Number: " + subgroupValue)
+          .style("opacity", 1)
+    }
+    var mousemove = function(d) {
+      tooltip1
+        .style("left", (d3v4.mouse(this)[0] + 500) + "px")
+        .style("top", (d3v4.mouse(this)[1] + 400) + "px")
+    }
+    var mouseleave = function(d) {
+      tooltip1
+        .style("opacity", 0)
+    }
+
+
   // transports
   g1.append('g')
       .selectAll("g")
@@ -51,7 +83,10 @@ d3v4.csv("data/time_routine1.csv", function(d, i, columns) {
           .startAngle(function(d) { return x(d.data.time); })
           .endAngle(function(d) { return x(d.data.time) + x.bandwidth(); })
           .padAngle(0.005)
-          .padRadius(innerRadius));
+          .padRadius(innerRadius))
+    .on("mouseover", mouseover)
+    .on("mousemove", mousemove)
+    .on("mouseleave", mouseleave);
 
   //yAxis and Mean
   var yAxis = g1.append("g")
