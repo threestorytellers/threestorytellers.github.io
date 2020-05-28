@@ -1,8 +1,8 @@
 {
-  "center.x": 8.55,
-  "center.y": 47.26,
+  "center.x": 8.53,
+  "center.y": 47.37,
   "map_type_id": "roadmap",
-  "zoom.start": 8,
+  "zoom.start": 14,
   "zoom.min": 7,
   "zoom.max": 20,
   "zoom.to_stops": 17,
@@ -35,104 +35,74 @@
   "geojson.topology_edges": null,
   "geojson.topology_stations": null,
   "routes": {
-    "general": {
-      "icon": "static/images/route_icons/demo/cir.png",
+    "Eurocity": {
+      "icon": "static/images/route_icons/demo/0.png",
           "route_short_name": "",
           "route_color": "0178BC",
           "route_text_color": "FFFFFF"
     },
-    "cnl": {
-      "icon": "static/images/route_icons/demo/cnl.png",
+    "Extrazug": {
+      "icon": "static/images/route_icons/demo/1.png",
       "route_short_name": "",
       "route_color": "0178BC",
       "route_text_color": "FFFFFF"
     },
-    "d": {
-      "icon": "static/images/route_icons/demo/d.png",
+    "ICE": {
+      "icon": "static/images/route_icons/demo/5.png",
       "route_short_name": "",
       "route_color": "0178BC",
       "route_text_color": "FFFFFF"
     },
-    "ec": {
-      "icon": "static/images/route_icons/demo/ec.png",
+    "InterRegio": {
+      "icon": "static/images/route_icons/demo/g0.png",
       "route_short_name": "",
       "route_color": "0178BC",
       "route_text_color": "FFFFFF"
     },
-    "en": {
-      "icon": "static/images/route_icons/demo/en.png",
+    "Intercity": {
+      "icon": "static/images/route_icons/demo/g2.png",
       "route_short_name": "",
       "route_color": "0178BC",
       "route_text_color": "FFFFFF"
     },
-    "ext": {
-      "icon": "static/images/route_icons/demo/ext.png",
+    "RegioExpress": {
+      "icon": "static/images/route_icons/demo/g3.png",
       "route_short_name": "",
       "route_color": "0178BC",
       "route_text_color": "FFFFFF"
     },
-    "ic": {
-      "icon": "static/images/route_icons/demo/ic.png",
+    "Regionalzug": {
+      "icon": "static/images/route_icons/demo/g4.png",
       "route_short_name": "",
       "route_color": "0178BC",
       "route_text_color": "FFFFFF"
     },
-    "ice": {
-      "icon": "static/images/route_icons/demo/ice.png",
+    "Standseilbahn": {
+      "icon": "static/images/route_icons/demo/g1.png",
       "route_short_name": "",
       "route_color": "0178BC",
       "route_text_color": "FFFFFF"
     },
-    "icn": {
-      "icon": "static/images/route_icons/demo/icn.png",
+    "S-N": {
+      "icon": "static/images/route_icons/demo/g5.png",
       "route_short_name": "",
       "route_color": "0178BC",
       "route_text_color": "FFFFFF"
     },
-    "ir": {
-      "icon": "static/images/route_icons/demo/ir.png",
+    "TER200": {
+      "icon": "static/images/route_icons/demo/2.png",
       "route_short_name": "",
       "route_color": "0178BC",
       "route_text_color": "FFFFFF"
     },
-    "ire": {
-      "icon": "static/images/route_icons/demo/ire.png",
+    "TGV": {
+      "icon": "static/images/route_icons/demo/4.png",
       "route_short_name": "",
       "route_color": "0178BC",
       "route_text_color": "FFFFFF"
     },
-    "r": {
-      "icon": "static/images/route_icons/demo/r.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
-    },
-    "re": {
-      "icon": "static/images/route_icons/demo/re.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
-    },
-    "rj": {
-      "icon": "static/images/route_icons/demo/rj.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
-    },
-    "s": {
-      "icon": "static/images/route_icons/demo/s.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
-    },
-    "tgv": {
-      "icon": "static/images/route_icons/demo/tgv.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
-    },
-    "zug": {
-      "icon": "static/images/route_icons/demo/zug.png",
+    "Zahnradbahn": {
+      "icon": "static/images/route_icons/demo/6.png",
       "route_short_name": "",
       "route_color": "0178BC",
       "route_text_color": "FFFFFF"

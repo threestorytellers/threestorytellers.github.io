@@ -25,6 +25,93 @@ body {
 }
 /* END */
 
+#dashboard {
+  position: absolute;
+   float: left; width: calc(100% - 340px); top: 0px; left: 0;
+
+  /*position: absolute;
+  float: left;
+  width: calc(100% - 340px);
+  top: 0px;
+  left: 50px;
+  padding: 5px;
+  right: 70px;
+  top: 70px;
+  background-color: #FAFAFA;
+  border: 1px solid #717D7D;*/
+}
+#dashboard .dashboard-area { display: inline-block; vertical-align: top; text-align: center; }
+#dashboard #carbon { float: left; }
+#dashboard #time-holder { position: absolute; left: 200px; text-shadow: 1px 1px 2px rgb(33,60,71);opacity: 0.5; color: rgb(220,245,255); top: 200px; font-weight: bold; margin-top: -1em; }
+#dashboard #time-holder .result { font-size: 30px; }
+#dashboard #freight { width: calc(100% - 165px); text-align: center; }
+#dashboard .stat, #options .option-name { font-size: 13px; display: inline-block; vertical-align: top; }
+#dashboard #time-holder:hover {opacity: 1;}
+
+#dashboard #freight .stat { margin-left: 8px; }
+#dashboard .stat .value { color: rgb(255,255,175); font-family: 'Share Tech Mono'; letter-spacing: -1px; }
+#dashboard.color-coded .stat .value { color: white; }
+body.guardian #dashboard .stat .value { font-family: inherit; font-weight: bold; letter-spacing: 0  ; }
+#dashboard .stat #result-vehicles { min-width: 74px; }
+#dashboard .stat .result { display: inline-block; line-height: 1; }
+#dashboard .filter, #dashboard .radio { font-size: 13px; }
+
+#options { display: inline-block; float: right; height: 100%; margin-right: 40px; }
+#options i { width: 1em; text-align: center; display: inline-block; }
+#options .option { display: inline-block; vertical-align: top; padding: 0 6px 3px; position: relative; font-size: 13px; height: 100%; }
+#options .option .option-name { height: 100%; width: 60px; }
+#options .option .option-menu { display: none; position: absolute; background: rgba(254,226,133,0.00); width: 100%; padding: 3px 6px; text-align: left; }
+#options .option .option-menu .check.checked i::before{ content: "\f00c";}
+#options.hoverable .option:hover .option-menu,
+#options .option.visible .option-menu { display: block; top: 22px; left: -5px; }
+#options .radio i { visibility: hidden; }
+#options .radio.checked i::before{content: "\f00c";}
+#options .radio.selected i { visibility: visible; }
+#options .radio-name { display: inline-block; font-size: 11px ; color: yellow}
+#options #filters .option-menu { width: 120px; }
+
+/* Disable the filters menu if it has the .disabled class */
+#options #filters.disabled .option-name { color: #666; cursor: default; }
+#options.hoverable #filters.disabled:hover .option-menu { color: #999; }
+#options.hoverable #filters.disabled:hover .option-menu .btn:hover { opacity: inherit; cursor: default; }
+#options #colours .option-menu { width: 120px; }
+#options #togglers .option-menu { width: 120px; }
+#options #Speedup .option-menu { width: 120px; }
+#options #Speedup.disabled .option-name { color: #666; cursor: default; }
+#options.hoverable #Speedup.disabled:hover .option-menu { color: #999; }
+#options.hoverable #Speedup.disabled:hover .option-menu .btn:hover { opacity: inherit; cursor: default; }
+
+#scrubber { height: 40px; left: 5% ; width: 90%; background: rgba(255,255,255,0.1); position: absolute; bottom: 40px; -moz-border-radiuseft: 0; cursor: pointer; }
+#scrubber-inner { height: 30px; position: absolute; }
+#scrubber-inner .hour { position: absolute; height: 100%; border-right: 1px white rgba(255,255,255,0.1); }
+#scrubber-inner .hour .label { position: absolute; top: -1.25em; left: 1px; font-size: 13px; color: rgba(0,0,0,0.6); }
+#scrubber-inner .hour .minute { background: rgba(255,255,255,0.25); height: 100%; border-right: 1px solid rgba(0,0,0,0.1); }
+#scrubber-inner .hour .minute.current { background: rgba(255,255,255,1); }
+#scrubber-inner .hour .minute:hover { background: black; }
+#scrubber-inner .hour .minute .load-progress { position: absolute; height: 0; bottom: 0; left: 0; background: rgba(255,255,200,0.33); }
+
+.btn { cursor: pointer; }
+.btn:hover { opacity: 0.5; }
+.btn.selected, .btn.selected:hover { opacity: 1; cursor: default; }
+
+
+#recenter {
+    position: absolute;
+    /*width: 400px;*/
+    padding: 5px;
+    right: 10px;
+    top: 525px;
+    background-color: white;
+    opacity: 0.6;
+    border: 1px solid #717D7D;
+}
+
+#recenter h3 {
+    font-size: 7px;
+    font-weight: bold;
+    font-family: Georgia, Helvetica
+}
+
 /* SIMULATION PANEL */
 #panel {
     position: absolute;
@@ -72,6 +159,16 @@ body {
 #panel > div.section {
     /*background-color: #ffe796;*/
     border: 1px solid #CACACA;
+}
+
+#panel #options_info .panel_content .check.checked i::before{ content: "\f00c";}
+/*#panel #options_info .panel_content .radio i { visibility: hidden; }*/
+#panel #options_info .panel_content .radio.checked i::before{content: "\f00c";}
+/*#panel #options_info .panel_content .radio.selected i { visibility: visible; }*/
+#panel #options_info .panel_content label{
+  /*display: inline-block; */
+  font-size: 11px ;
+  /*color: yellow*/
 }
 
 div.panel_content {
@@ -364,7 +461,7 @@ color: #fed136;
 .checkbox-success input[type="radio"]:indeterminate + label::after {
     background-color: #fff;
 }
-
+/*
 .radio {
     padding-left: 20px; }
 .radio label {
@@ -372,6 +469,7 @@ color: #fed136;
     vertical-align: middle;
     position: relative;
     padding-left: 5px; }
+
 .radio label::before {
     content: "";
     display: inline-block;
@@ -410,6 +508,7 @@ color: #fed136;
     z-index: 1;
     cursor: pointer;
 }
+
 .radio input[type="radio"]:focus + label::before {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
@@ -463,10 +562,10 @@ color: #fed136;
     border-color: #5cb85c; }
 .radio-success input[type="radio"]:checked + label::after {
     background-color: #5cb85c; }
+    */
 
 input[type="checkbox"].styled:checked + label:after,
 input[type="radio"].styled:checked + label:after {
-
     content: "\f00c";
     font-weight: 900;
     font-family: 'Font Awesome\ 5 Free';

@@ -54,84 +54,13 @@
         </nav>
         <!-- Masthead-->
 
-        <style>
-        /* START timebar part */
-
-        #dashboard {
-          position: absolute;
-           float: left; width: calc(100% - 340px); top: 0px; left: 0;
-
-          /*position: absolute;
-          float: left;
-          width: calc(100% - 340px);
-          top: 0px;
-          left: 50px;
-          padding: 5px;
-          right: 70px;
-          top: 70px;
-          background-color: #FAFAFA;
-          border: 1px solid #717D7D;*/
-        }
-        #dashboard .dashboard-area { display: inline-block; vertical-align: top; text-align: center; }
-        #dashboard #carbon { float: left; }
-        #dashboard #time-holder { position: absolute; left: 200px; text-shadow: 1px 1px 2px rgb(33,60,71);opacity: 0.5; color: rgb(220,245,255); top: 200px; font-weight: bold; margin-top: -1em; }
-        #dashboard #time-holder .result { font-size: 30px; }
-        #dashboard #freight { width: calc(100% - 165px); text-align: center; }
-        #dashboard .stat, #options .option-name { font-size: 13px; display: inline-block; vertical-align: top; }
-        #dashboard #time-holder:hover {opacity: 1;}
-
-        #dashboard #freight .stat { margin-left: 8px; }
-        #dashboard .stat .value { color: rgb(255,255,175); font-family: 'Share Tech Mono'; letter-spacing: -1px; }
-        #dashboard.color-coded .stat .value { color: white; }
-        body.guardian #dashboard .stat .value { font-family: inherit; font-weight: bold; letter-spacing: 0  ; }
-        #dashboard .stat #result-vehicles { min-width: 74px; }
-        #dashboard .stat .result { display: inline-block; line-height: 1; }
-        #dashboard .filter, #dashboard .radio { font-size: 13px; }
-
-        #options { display: inline-block; float: right; height: 100%; margin-right: 40px; }
-        #options i { width: 1em; text-align: center; display: inline-block; }
-        #options .option { display: inline-block; vertical-align: top; padding: 0 6px 3px; position: relative; font-size: 13px; height: 100%; }
-        #options .option .option-name { height: 100%; width: 60px; }
-        #options .option .option-menu { display: none; position: absolute; background: rgba(254,226,133,0.00); width: 100%; padding: 3px 6px; text-align: left; }
-        #options .option .option-menu .check.checked i::before{ content: "\f00c";}
-        #options.hoverable .option:hover .option-menu,
-        #options .option.visible .option-menu { display: block; top: 22px; left: -5px; }
-        #options .radio i { visibility: hidden; }
-        #options .radio.checked i::before{content: "\f00c";}
-        #options .radio.selected i { visibility: visible; }
-        #options .radio-name { display: inline-block; font-size: 11px ; color: yellow}
-        #options #filters .option-menu { width: 120px; }
-
-        /* Disable the filters menu if it has the .disabled class */
-        #options #filters.disabled .option-name { color: #666; cursor: default; }
-        #options.hoverable #filters.disabled:hover .option-menu { color: #999; }
-        #options.hoverable #filters.disabled:hover .option-menu .btn:hover { opacity: inherit; cursor: default; }
-        #options #colours .option-menu { width: 120px; }
-        #options #togglers .option-menu { width: 120px; }
-        #options #Speedup .option-menu { width: 120px; }
-        #options #Speedup.disabled .option-name { color: #666; cursor: default; }
-        #options.hoverable #Speedup.disabled:hover .option-menu { color: #999; }
-        #options.hoverable #Speedup.disabled:hover .option-menu .btn:hover { opacity: inherit; cursor: default; }
-
-        #scrubber { height: 40px; left: 5% ; width: 90%; background: rgba(255,255,255,0.1); position: absolute; bottom: 40px; -moz-border-radiuseft: 0; cursor: pointer; }
-        #scrubber-inner { height: 30px; position: absolute; }
-        #scrubber-inner .hour { position: absolute; height: 100%; border-right: 1px white rgba(255,255,255,0.1); }
-        #scrubber-inner .hour .label { position: absolute; top: -1.25em; left: 1px; font-size: 13px; color: rgba(255,255,255,0.6); }
-        #scrubber-inner .hour .minute { background: rgba(255,255,255,0.25); height: 100%; border-right: 1px solid rgba(0,0,0,0.1); }
-        #scrubber-inner .hour .minute.current { background: rgba(255,255,255,1); }
-        #scrubber-inner .hour .minute:hover { background: black; }
-        #scrubber-inner .hour .minute .load-progress { position: absolute; height: 0; bottom: 0; left: 0; background: rgba(255,255,200,0.33); }
-
-        .btn { cursor: pointer; }
-        .btn:hover { opacity: 0.5; }
-        .btn.selected, .btn.selected:hover { opacity: 1; cursor: default; }
-
-        /* END */
-
-        </style>
-
         <!-- <header class="masthead"> -->
         <div id="map_canvas"></div>
+        <div id ="recenter">
+          <div style="">
+            <h4>RECENTER</h4>
+          </div>
+        </div>
         <div id="dashboard" >
           <div class="s tat" id="time-holder"><span class="result" style="color:lightyellow">Time <span id="day_time"></span></span></div>
         </div>
@@ -176,20 +105,20 @@
                         </div>
                         <div class="row" style="text-align: left">
 
-                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
-                                <input id="station-toggler" type="checkbox" class="styled" checked>
+                            <div id="station-toggler" class="col-md-4 btn check" style="text-align: left">
+                                <i class="fas fa-times" style="color:orange"></i>
                                 <label for="station-toggler">
                                     Stations
                                 </label>
                             </div>
-                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
-                                <input id="route-toggler" type="checkbox" class="styled">
+                            <div id="route-toggler" class="col-md-4 btn check" style="text-align: left">
+                                <i class="fas fa-times" style="color:orange"></i>
                                 <label for="route-toggler">
                                     Routes
                                 </label>
                             </div>
-                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
-                                <input id="map-toggler" type="checkbox" class="styled" checked>
+                            <div id="map-toggler" class="col-md-4 btn check checked " style="text-align: left">
+                                <i class="fas fa-times" style="color:orange"></i>
                                 <label for="map-toggler">
                                     Maps
                                 </label>
@@ -200,14 +129,14 @@
                             <h2 style="font-weight: bold">Colors</h2>
                         </div>
                         <div class="row" style="text-align: left">
-                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
-                                <input id="uniform" type="checkbox" class="styled" checked>
+                            <div id="uniform" data-value="shade-uniform" class="col-md-4 btn radio checked" style="text-align: left">
+                                <i class="fas fa-times" style="color:orange"></i>
                                 <label for="uniform">
                                     Uniform
                                 </label>
                             </div>
-                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
-                                <input id="type" type="checkbox" class="styled">
+                            <div id="type" data-value="shade-type" class="col-md-4 btn radio" style="text-align: left">
+                                <i class="fas fa-times" style="color:orange"></i>
                                 <label for="type">
                                     Color
                                 </label>
@@ -218,35 +147,35 @@
                             <h2 style="font-weight: bold">Type</h2>
                         </div>
                         <div class="row" style="text-align: left">
-                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
-                                <input id="filter-type-3" type="checkbox" class="styled" checked>
-                                <label for="filter-type-3">
+                            <div id="filter-type-3" data-traffic-type="3" class="col-md-4 btn check checked filter color" style="text-align: left">
+                                <i class="fa fa-times color-by-traffic-type" style="color:#EA4335"></i>
+                                <label for="filter-type-3" style="color:#EA4335">
                                     Train
                                 </label>
                             </div>
-                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
-                                <input id="filter-type-0" type="checkbox" class="styled" checked>
-                                <label for="filter-type-0">
+                            <div id="filter-type-0" data-traffic-type="0" class="col-md-4 btn check checked filter color" style="text-align: left">
+                                <i class="fa fa-times color-by-traffic-type" style="color:#FBBC05"></i>
+                                <label for="filter-type-0" style="color:#FBBC05">
                                     Tram
                                 </label>
                             </div>
-                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
-                                <input id="filter-type-1" type="checkbox" class="styled" checked>
-                                <label for="filter-type-1">
+                            <div id="filter-type-1" data-traffic-type="1" class="col-md-4 btn check checked filter color" style="text-align: left">
+                                <i class="fa fa-times color-by-traffic-type" style="color:#34A853"></i>
+                                <label for="filter-type-1" style="color:#34A853">
                                     Ferry
                                 </label>
                             </div>
                         </div>
                             <div class="row" style="text-align: left">
-                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
-                                <input id="filter-type-2" type="checkbox" class="styled" checked>
-                                <label for="filter-type-2">
+                            <div id="filter-type-2" data-traffic-type="2" class="col-md-4 btn check checked filter color" style="text-align: left">
+                                <i class="fa fa-times color-by-traffic-type" style="color:#4285F4"></i>
+                                <label for="filter-type-2" style="color:#4285F4">
                                     Gondola
                                 </label>
                             </div>
-                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
-                                <input id="filter-type-4" type="checkbox" class="styled" checked>
-                                <label for="filter-type-4">
+                            <div id="filter-type-4" data-traffic-type="4" class="col-md-4 btn check checked filter color" style="text-align: left">
+                                <i class="fa fa-times color-by-traffic-type" style="color:#b6eb00"></i>
+                                <label for="filter-type-4" style="color:#b6eb00">
                                     Other
                                 </label>
                             </div>
@@ -257,20 +186,20 @@
                             <h2 style="font-weight: bold">Speed</h2>
                         </div>
                         <div class="row" style="text-align: left">
-                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
-                                <input id="one-time" type="checkbox" class="styled" checked>
+                            <div id="one-time" class="col-md-4 btn check checked" style="text-align: left">
+                                <i class="fa fa-times" style="color:orange"></i>
                                 <label for="one-time">
                                     1x
                                 </label>
                             </div>
-                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
-                                <input id="five-times" type="checkbox" class="styled">
+                            <div id="five-times" class="col-md-4 btn check" style="text-align: left">
+                                <i class="fa fa-times" style="color:orange"></i>
                                 <label for="five-times">
                                     5x
                                 </label>
                             </div>
-                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
-                                <input id="ten-times" type="checkbox" class="styled">
+                            <div id="ten-times" class="col-md-4 btn check" style="text-align: left">
+                                <i class="fa fa-times" style="color:orange"></i>
                                 <label for="ten-times">
                                     10x
                                 </label>
@@ -497,21 +426,21 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="static/template_assets/img/team/1.jpg" alt="" />
                             <h4>Mariam Hakobyan</h4>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="static/template_assets/img/team/2.jpg" alt="" />
                             <h4>Tianchi Yu</h4>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="static/template_assets/img/team/3.png" alt="" />
                             <h4>Wenuka Gunarathna</h4>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
@@ -525,9 +454,9 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left">Copyright © Your Website 2020</div>
+                    <div class="col-lg-4 text-lg-left">EPFL Datavisualisation Website 2020</div>
                     <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-right">All Rights Reserved</div>
                 </div>
