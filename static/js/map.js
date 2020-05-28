@@ -453,8 +453,8 @@ var simulation_manager = (function(){
 
 
             (function(){
-                // var d = new Date();
-                var d = new Date('2020-05-14T10:00:00Z');
+                var d = new Date();
+                // var d = new Date('2020-05-14T10:00:00Z');
 
                 var hms = config.getParam('hms');
 /*
@@ -786,6 +786,8 @@ var simulation_manager = (function(){
                     $(this).addClass('passed');
                 }
             });
+            $('#vehicle_info').removeClass('hidden');
+            $('#options-info-panel').addClass('hidden');
         }
 
         function vehicle_info_hide() {
@@ -793,6 +795,8 @@ var simulation_manager = (function(){
             vehicle_route.hide();
             selected_vehicle = null;
             $('#vehicle_info').addClass('hidden');
+            $('#options-info-panel').removeClass('hidden');
+
         }
 
         function station_info_display(station_id) {
@@ -2696,6 +2700,7 @@ var simulation_manager = (function(){
                 var url = config.getParam('api_paths.trips');
                 url = url.replace(/\[hhmm\]/, hm.replace(':', ''));
                 url = url.replace(/\[ymd\]/, ymd.replace(':', ''));
+                url = url.replace(/\[vtype\]/, 1); // 1 if all except trains, 2 for trains, else all
                 console.log('url '+ url)
 
                 $.ajax({
