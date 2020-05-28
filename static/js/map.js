@@ -1341,13 +1341,15 @@ var simulation_manager = (function(){
               			var station_type = this.getAttribute("data-traffic-type");
               			if(stations_showing) {
                       $(this).removeClass("disabled");
-                      $(this).on("click", function() { toggleTrafficType(station_type); });
-                      $(".notice").addClass("hidden");
+                      $(".notice").addClass("transparent");
+                      $(this).on("click", function() {
+                        toggleTrafficType(station_type);
+                      });
                     }
                     else {
                       $(this).off("click");
+                      $(this).on("click",function(){$('.notice').removeClass("transparent");});
                       $(this).addClass("disabled");
-                      $('.notice').removeClass("hidden");
                     }
               		});
                   function shadeByType() {
@@ -1381,9 +1383,11 @@ var simulation_manager = (function(){
                     uniformColor();
                   }
                   $("#station-toggler").addClass("checked");
+                  $(".notice").addClass("transparent");
                   $(".filter.color")
                 		.each(function() {
                 			var station_type = this.getAttribute("data-traffic-type");
+                      $(this).off("click");
                 			$(this).on("click", function() { toggleTrafficType(station_type); });
                       $(this).removeClass("disabled")
                 		});
@@ -1396,13 +1400,14 @@ var simulation_manager = (function(){
                 function hideStations() {
                   if (!stations_showing) return;
                   $("#station-toggler").removeClass("checked");
-                  $(".filter.color")
-                		.each(function() {
-                			var station_type = this.getAttribute("data-traffic-type");
-                			$(this).off("click");
-                      $(this).addClass("disabled")
-                		});
                   stations_showing = false;
+                  $(".filter.color")
+                    .each(function() {
+                      var station_type = this.getAttribute("data-traffic-type");
+                        $(this).off("click");
+                        $(this).on("click",function(){$('.notice').removeClass("transparent");});
+                        $(this).addClass("disabled");
+                    });
                   filterMap();
                 }
 

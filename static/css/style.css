@@ -173,11 +173,18 @@ body.guardian #dashboard .stat .value { font-family: inherit; font-weight: bold;
 
 #panel #options_info .check.disabled { color: #666; }
 
-.notice{
+#panel #options_info .notice{
   font-size: 10px;
   color: #666;
 }
 
+#panel #options_info .notice.hidden {
+    display: none;
+}
+
+#panel #options_info .notice.transparent{
+    visibility: hidden;
+}
 
 div.panel_content {
     padding: 3px;
