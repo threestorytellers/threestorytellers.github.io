@@ -2065,7 +2065,7 @@ var simulation_manager = (function(){
                             if (map.getZoom() < config.getParam('zoom.vehicle_follow')) {
                                 map.setZoom(config.getParam('zoom.vehicle_follow'));
                             }
-                            map.setMapTypeId(google.maps.MapTypeId.SATELLITE);
+                            //map.setMapTypeId(google.maps.MapTypeId.SATELLITE);
 
                             map.bindTo('center', that.marker, 'position');
                         }
