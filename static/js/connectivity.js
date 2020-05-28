@@ -152,7 +152,7 @@ function drawPolygons(stations) {
   const polygons = d3v5.geoVoronoi().polygons(geojson);
   console.log(polygons);
 
-  g2.voronoi.selectAll("path")
+ g2.voronoi.selectAll("path")
     .data(polygons.features)
     .enter()
     .append("path")

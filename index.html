@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Swiss Transport Map- Stroy Tellers</title>
+        <title>Swiss Transport Map - Stroy Tellers</title>
         <link rel="icon" type="image/x-icon" href="static/template_assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <!--<script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>-->
@@ -26,6 +26,13 @@
             opacity: 0 !important;
             }
             }
+            .icon-bar {
+
+            height: 30px;
+            width: 30px;
+            display: block;
+            /* Other styles here */
+}
         </style>
         <style>
 
@@ -56,13 +63,13 @@
 
         <!-- <header class="masthead"> -->
         <div id="map_canvas"></div>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
         <div id ="recenter">
-          <div style="">
-            <h4>RECENTER</h4>
-          </div>
+          <button class = "icon-bar"><i class="fa fa-map-pin"></i> </button>
         </div>
         <div id="dashboard" >
-          <div class="s tat" id="time-holder"><span class="result" style="color:lightyellow">Time <span id="day_time"></span></span></div>
+          <div class="s tat" id="time-holder"><span class="result" style="color:#1b6ca8">Time <span id="day_time"></span></span></div>
         </div>
         <div id="panel" class = "hidden">
           <div style="">
@@ -311,14 +318,15 @@
                       <svg width="960" height="800" font-family="sans-serif" font-size="10" id = "svg1"></svg>
                       <script src="https://d3js.org/d3.v4.min.js"></script>
 
-         <script type="text/javascript" src="static/js/routine.js">  </script>
+                      <script type="text/javascript" src="static/js/routine.js">  </script>
 
                     </div>
                     <div class="col-md-3">
-                        <question style="color: #ff8a5c;">Research question: What is the "day" routine of transportation schedules?</question>
+                        <question style="color: #ff8a5c;">What is the "day" routine of transportation system?</question>
                         <br>
                         <blockquote style="width:100%">
-                            The number of Initiating and Terminating transports in each half hour represented by Radial Barchart. The pick transportation happen in 7-9 am morning and 4-7 pm evening, which is the time usually when most of the commutes happen.                         </blockquote>
+                            The number of Initiating and Terminating transports in each hour represented by Radial Barchart. The pick time is around 7-9 am morning and 4-7 pm evening, which is the time usually when most of the commutes happen.
+                        </blockquote>
                     </div>
                 </div>
             </div>
@@ -331,10 +339,10 @@
                     <h2 class="section-heading text-uppercase">Connectivity</h2>
                     <div class="row text-center">
                         <div class="col-md-3">
-                            <question style="color: #badfdb;">Reseach question: How connected are the big stations in different part of the country?</question>
+                            <question style="color: #badfdb;">How connected are the big train stations in different parts of the country?</question>
                             <br>
                             <blockquote style="width:100%">
-                                The Edge bundling on map represents connectivity of stations by direct trips. You should hover around the map and stations to see the "powerful" connections, which are defined by bundling edges the number of trains running between the connected stations in a day.
+                                The Edge bundling on map represents connectivity of stations by direct trips. You should hover around the map and stations to see the connections, which are defined by bundling edges.
                                 <br> Hover around the Basel, Geneve, Zurich, Lausanne to see the connectivity.
                             </blockquote>
                         </div>
@@ -381,14 +389,15 @@
                      <script src="https://unpkg.com/d3-delaunay@4"></script>
                      <script src="https://unpkg.com/d3-geo-voronoi@1"></script>
                      <link href="static/css/capacity_style.css" rel="stylesheet" />
-                    <script src="static/js/capacity.js"></script>
+                     <script src="static/js/capacity.js"></script>
                    </div>
                     <div class="col-md-3" style="margin-top: 5%;">
-                        <question style="color: #ff8a5c;;">Research question: How many transports are being operated in stations at each hour og the day?</question>
+                        <question style="color: #ff8a5c;;">How many transports are operating at stations in day time?</question>
                         <br>
                         <blockquote style="width:100%">
-                            The Time-Interactive Map represents the stations and the number of trips passing through them.
-                            <br> Adjust and Move the timebar, to get information of number of transports in stations colored by type.
+                            The Time-Interactive Map represents the stations and the number of vehicles passing through them.
+                            <br> Adjust and move the timebar to get information of the number of transports in stations.
+                            <br> The color of a station characterizes the type of operating transport in the station.
                         </blockquote>
                     </div>
                 </div>
@@ -399,8 +408,7 @@
         <section class="page-section bg_blue" id="video">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Video</h2>
-                    <h3 class="section-subheading text-muted">The time-interactive Map represents the stations and the number of trips passing through them in time.</h3>
+                    <h2 class="section-heading text-uppercase">The Screencast</h2>
                 </div>
 
                 <div class="text-center">
@@ -419,7 +427,6 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Our Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4">

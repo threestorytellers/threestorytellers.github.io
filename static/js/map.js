@@ -1190,8 +1190,8 @@ var simulation_manager = (function(){
 
             var map_inited = false;
             var map_options = {
-                zoom: parseInt(config.getParam('zoom.start'), 10),
-                center: new google.maps.LatLng(parseFloat(config.getParam('center.y')), parseFloat(config.getParam('center.x'))),
+                zoom: parseInt(config.getParam('zoom.start'), 5),
+                center: new google.maps.LatLng(46.8,8.3),
                 mapTypeId: config.getParam('map_type_id'),
                 styles: mapStyles,
                 disableDefaultUI: true,
@@ -1230,8 +1230,8 @@ var simulation_manager = (function(){
             google.maps.event.addDomListener(map, 'idle', function() {
               var recenterButton = document.querySelector("#recenter");
               recenterButton.addEventListener("click", function() {
-                map.setZoom(parseInt(config.getParam('zoom.start'), 10));
-                map.setCenter(new google.maps.LatLng(parseFloat(config.getParam('center.y')), parseFloat(config.getParam('center.x'))));
+                map.setZoom(parseInt(config.getParam('zoom.start'), 5));
+                map.setCenter(new google.maps.LatLng(46.8,8.3));
               });
             });
 
