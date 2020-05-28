@@ -386,11 +386,10 @@
 
                     </div>
                     <div class="col-md-3">
-                        <question style="color: #ff8a5c;">Quiz 1: Any idea about the pick time in travel routine?</question>
+                        <question style="color: #ff8a5c;">Research question: What is the "day" routine of transportation schedules?</question>
                         <br>
                         <blockquote style="width:100%">
-                            The answer can be read from the graph: it is 7-9am morning and 4-7pm evening when usually most of the work commutes happen.
-                        </blockquote>
+                            The number of Initiating and Terminating transports in each half hour represented by Radial Barchart. The pick transportation happen in 7-9 am morning and 4-7 pm evening, which is the time usually when most of the commutes happen.                         </blockquote>
                     </div>
                 </div>
             </div>
@@ -401,8 +400,16 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Connectivity</h2>
-
-                <div class="col-md-12">
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <question style="color: #badfdb;">Reseach question: How connected are the big stations in different part of the country?</question>
+                            <br>
+                            <blockquote style="width:100%">
+                                The Edge bundling on map represents connectivity of stations by direct trips. You should hover around the map and stations to see the "powerful" connections, which are defined by bundling edges the number of trains running between the connected stations in a day.
+                                <br> Hover around the Basel, Geneve, Zurich, Lausanne to see the connectivity.
+                            </blockquote>
+                        </div>
+                <div class="col-md-9">
 
                 <div class="map_bundling">
                       <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -423,15 +430,7 @@
                    <script src="static/js/connectivity.js"></script>
                   </div>
                 </div>
-                    <div class="row text-center">
-                        <div class="col-md-3">
-                            <question style="color: #badfdb;">Quiz 2: Which city is more accessible to other cities by train?</question>
-                            <br>
-                            <blockquote style="width:100%">
-                                Well, you should hover around the map and stations to find it out
-                                . Overall the power of bundling edge defines the number of trains running between the stations in a day.
-                                Hover around the Basel, Geneve, Zurich, Lausanne to see the connectivity.          </blockquote>
-                        </div>
+
 </div>
 
                 </div>
@@ -455,12 +454,12 @@
                      <link href="static/css/capacity_style.css" rel="stylesheet" />
                     <script src="static/js/capacity.js"></script>
                    </div>
-                    <div class="col-md-3">
-                        <question style="color: #ff8a5c;;">Quiz 3: Discover the time period in which ferries operate.</question>
+                    <div class="col-md-3" style="margin-top: 5%;">
+                        <question style="color: #ff8a5c;;">Research question: How many transports are being operated in stations at each hour og the day?</question>
                         <br>
                         <blockquote style="width:100%">
-                            While adjusting and moving the timebar, you will notice the approximate
-                            ferry operating schedules are around 6am - 10pm with different intensity in a day.
+                            The Time-Interactive Map represents the stations and the number of trips passing through them.
+                            <br> Adjust and Move the timebar, to get information of number of transports in stations colored by type.
                         </blockquote>
                     </div>
                 </div>
