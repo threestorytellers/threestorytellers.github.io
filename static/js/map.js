@@ -786,8 +786,6 @@ var simulation_manager = (function(){
                     $(this).addClass('passed');
                 }
             });
-
-            $('#vehicle_info').removeClass('hidden');
         }
 
         function vehicle_info_hide() {
@@ -830,6 +828,8 @@ var simulation_manager = (function(){
                     $('#station_departures > tbody').html(html_rows.join(''));
 
                     $('#station_info').removeClass('hidden');
+                    $('#options_info').addClass('hidden');
+                    $('#options_info').removeClass('expanded');
                     $('.station_name', $('#station_info')).text(stationsPool.get(station_id));
                 }
             });

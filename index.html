@@ -37,7 +37,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top" style="font-size: 1.8em;">Story Tellers<!-- <img src="static/template_assets/img/navbar-logo.svg" /> -->
+                <a class="navbar-brand js-scroll-trigger" href="#page-top" style="font-size: 1.8em;color:#badfdb;font-size:35px">Story Tellers<!-- <img src="static/template_assets/img/navbar-logo.svg" /> -->
                 </a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
@@ -45,11 +45,10 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#routine">Routine</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#connectivity">Connectivity</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resources">Capacity</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#video">Video</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" target="_blank">Documents</a></li>
                     </ul>
-                    <button class="button button1"onclick="location.href='http://www.google.com'"  type="button" style="font-size: 1.8em;"> Process book</button>
-                    <button class="button button1" onclick="location.href='http://www.google.com'"  type="button" style="font-size: 1.8em;"> Video</button>
-
                 </div>
             </div>
         </nav>
@@ -134,23 +133,11 @@
         <!-- <header class="masthead"> -->
         <div id="map_canvas"></div>
         <div id="dashboard" >
-          <div class="s tat" id="time-holder"><span class="result">Time <span id="day_time"></span></span></div>
+          <div class="s tat" id="time-holder"><span class="result" style="color:lightyellow">Time <span id="day_time"></span></span></div>
         </div>
         <div id="panel" class = "hidden">
           <div style="">
               <h3>Map Filters and Info</h3>
-          </div>
-          <div class="section">
-              <b>Your Location</b>
-              <!-- <select id="time_multiply">
-                  <option value="1" selected="selected">1x</option>
-                  <option value="5">5x</option>
-                  <option value="10">10x</option>
-                  <option value="100">100x</option>
-              </select> -->
-               <br/>
-              <input type="button" id="geolocation_click" />
-              <input type="text" id="user_location" / >
           </div>
           <div id="vehicle_info" class="hidden section" data-type="panel">
               <div>
@@ -178,6 +165,122 @@
                   </div>
               </div>
           </div>
+            <div id="options_info" class="section" data-type="panel">
+                <div style="font-size: larger">
+                    <b>Options:</b> <span class="vehicle_name"></span> <input id="options-info" type="button" class="panel_collapsible expanded" />
+                </div>
+                <div class="panel_content">
+                    <div class="container">
+                        <div class="row" style="text-align: left">
+                            <h2 style="font-weight: bold">Shows</h2>
+                        </div>
+                        <div class="row" style="text-align: left">
+
+                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
+                                <input id="check2" type="checkbox" class="styled" checked>
+                                <label for="check2">
+                                    Stations
+                                </label>
+                            </div>
+                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
+                                <input id="check3" type="checkbox" class="styled" checked>
+                                <label for="check3">
+                                    Routes
+                                </label>
+                            </div>
+                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
+                                <input id="check4" type="checkbox" class="styled" checked>
+                                <label for="check4">
+                                    Maps
+                                </label>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row" style="text-align: left">
+                            <h2 style="font-weight: bold">Colors</h2>
+                        </div>
+                        <div class="row" style="text-align: left">
+                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
+                                <input id="check4" type="checkbox" class="styled" checked>
+                                <label for="check4">
+                                    Uniform
+                                </label>
+                            </div>
+                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
+                                <input id="check5" type="checkbox" class="styled" checked>
+                                <label for="check5">
+                                    Color
+                                </label>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row" style="text-align: left">
+                            <h2 style="font-weight: bold">Type</h2>
+                        </div>
+                        <div class="row" style="text-align: left">
+                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
+                                <input id="check7" type="checkbox" class="styled" checked>
+                                <label for="check7">
+                                    Train
+                                </label>
+                            </div>
+                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
+                                <input id="check7" type="checkbox" class="styled" checked>
+                                <label for="check7">
+                                    Tram
+                                </label>
+                            </div>
+                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
+                                <input id="check8" type="checkbox" class="styled" checked>
+                                <label for="check8">
+                                    Ferry
+                                </label>
+                            </div>
+                        </div>
+                            <div class="row" style="text-align: left">
+                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
+                                <input id="check9" type="checkbox" class="styled" checked>
+                                <label for="check9">
+                                    Gondola
+                                </label>
+                            </div>
+                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
+                                <input id="check10" type="checkbox" class="styled" checked>
+                                <label for="check10">
+                                    Other
+                                </label>
+                            </div>
+                        </div>
+
+<br>
+                        <div class="row" style="text-align: left">
+                            <h2 style="font-weight: bold">Speed</h2>
+                        </div>
+                        <div class="row" style="text-align: left">
+                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
+                                <input id="check11" type="checkbox" class="styled" checked>
+                                <label for="check11">
+                                    1x
+                                </label>
+                            </div>
+                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
+                                <input id="check12" type="checkbox" class="styled" checked>
+                                <label for="check12">
+                                    5x
+                                </label>
+                            </div>
+                            <div class="col-md-4 checkbox checkbox-danger" style="text-align: left">
+                                <input id="check13" type="checkbox" class="styled" checked>
+                                <label for="check13">
+                                    10x
+                                </label>
+                            </div>
+                        </div>
+<br>
+
+                    </div>
+                </div>
+            </div>
           <div id="station_info" class="hidden section" data-type="panel">
               <div>
                   <b>Station:</b> <span class="station_name"></span> <input type="button" class="panel_collapsible expanded" />
@@ -198,16 +301,16 @@
               </div>
           </div>
 
-            <div id="options" class="hoverable">
+           <!-- <div id="options" class="hoverable">
               <b><span class="nav-subhead">Options</span></b>
               <div id="togglers" class="option">
                 <div class="option-name">Show <i class="fa fa-chevron-down"></i></div>
                 <div class="option-menu">
                   <div id="station-toggler" class="btn check checked"><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Stations</span></div>
                   <div id="route-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Routes</span></div>
-                  <!--<div id="train-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Trains</span></div>-->
-                  <!--<div id="bus-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Bus</span></div>-->
-                  <!-- <div id="ship-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Ships</span></div> -->
+                  &lt;!&ndash;<div id="train-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Trains</span></div>&ndash;&gt;
+                  &lt;!&ndash;<div id="bus-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Bus</span></div>&ndash;&gt;
+                  &lt;!&ndash; <div id="ship-toggler" class="btn check "><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Ships</span></div> &ndash;&gt;
                   <div id="map-toggler" class="btn check checked"><i class="fas fa-times" style="color:yellow"></i> <span class="radio-name">Map</span></div>
                 </div>
               </div>
@@ -236,7 +339,7 @@
                   <div id="ten-times" class="btn check"><i class="fa fa-times" style="color:yellow"></i> <span class="radio-name">10x</span></div>
                 </div>
               </div>
-            </div>
+            </div>-->
 
         </div>
         <div id="vehicle_popup_container" class="hidden">
@@ -268,37 +371,40 @@
         <!-- </header> -->
 
         <!-- routine-->
-        <section class="page-section" id="routine">
+        <section class="page-section bg_beige" id="routine">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Travel Routine</h2>
                     <h3 class="section-subheading text-muted">The Radial barchart represents the number of initiating and terminating transports in each half hour.</h3>
                 </div>
                 <div class="row text-center">
-                    <div class="col-md-10">
+                    <div class="col-md-9">
                       <div id="my_dataviz_1"></div>
                       <svg width="960" height="800" font-family="sans-serif" font-size="10" id = "svg1"></svg>
                       <script src="https://d3js.org/d3.v4.min.js"></script>
 
-                      <script type="text/javascript" src="static/js/routine.js">  </script>
+         <script type="text/javascript" src="static/js/routine.js">  </script>
 
                     </div>
-                    <div class="col-md-2">
-                        <h4 class="my-3">Quiz 1: Any idea about the pick time in travel routine?</h4>
-                        <p class="text-muted"> The answer can be read from the graph: it is 7-9am morning and 4-7pm evening when usually most of the work commutes happen. </p>
+                    <div class="col-md-3">
+                        <question style="color: #ff8a5c;">Quiz 1: Any idea about the pick time in travel routine?</question>
+                        <br>
+                        <blockquote style="width:100%">
+                            The answer can be read from the graph: it is 7-9am morning and 4-7pm evening when usually most of the work commutes happen.
+                        </blockquote>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Connectivity-->
-        <section class="page-section bg-light" id="connectivity">
+        <section class="page-section bg_blue" id="connectivity">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Connectivity</h2>
                     <h3 class="section-subheading text-muted">The Bundling Graph represents the stations and the power of their direct connectivities.</h3>
 
-                <div class="col-md-10">
+                <div class="col-md-12">
 
                 <div class="map_bundling">
                       <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -316,36 +422,33 @@
                       <text id="tooltip" style="display: none;"></text>
                     </svg>
 
-                    <script src="static/js/connectivity.js"></script>
+                   <script src="static/js/connectivity.js"></script>
                   </div>
                 </div>
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <question style="color: #badfdb;">Quiz 2: Which city is more accessible to other cities by train?</question>
+                            <br>
+                            <blockquote style="width:100%">
+                                Well, you should hover around the map and stations to find it out
+                                . Overall the power of bundling edge defines the number of trains running between the stations in a day.
+                                Hover around the Basel, Geneve, Zurich, Lausanne to see the connectivity.          </blockquote>
+                        </div>
+</div>
 
-                </div>
-
-
-
-                <div class="row text-center">
-                    <div class="col-md-2">
-                        <h4 class="my-3">Quiz 2: Which city is more accessible to other cities by train?</h4>
-                        <p class="text-muted">Well, you should hover around the map and stations to find it out
-                            . Overall the power of bundling edge defines the number of trains running between the stations in a day.
-                          Hover around the Basel, Geneve, Zurich, Lausanne to see the connectivity.
-                        </p>
-                    </div>
                 </div>
 
             </div>
         </section>
         <!-- Transport Resources-->
-        <section class="page-section" id="resources">
+        <section class="page-section bg_beige" id="resources">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Stations' type and capacity</h2>
                     <h3 class="section-subheading text-muted">The time-interactive Map represents the stations and the number of trips passing through them in time.</h3>
                 </div>
-
-                <div class="text-center">
-                   <div class="col-md-8">
+                <div class="row text-center">
+                   <div class="col-md-9">
                      <div id="map-container"></div>
                      <div id="timeline-container"></div>
                      <script src="//d3js.org/d3.v3.min.js"></script>
@@ -353,22 +456,41 @@
                      <script src="https://unpkg.com/d3-delaunay@4"></script>
                      <script src="https://unpkg.com/d3-geo-voronoi@1"></script>
                      <link href="static/css/capacity_style.css" rel="stylesheet" />
-                     <script src="static/js/capacity.js"></script>
+                    <script src="static/js/capacity.js"></script>
                    </div>
-
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-2">
-                        <h4 class="my-3">Quiz 3: Discover the time period in which ferries operate.</h4>
-                        <p class="text-muted"> While adjusting and moving the timebar, you will notice the approximate ferry operating schedules are around 6am - 10pm with different intensity in a day.
-                        </p>
+                    <div class="col-md-3">
+                        <question style="color: #ff8a5c;;">Quiz 3: Discover the time period in which ferries operate.</question>
+                        <br>
+                        <blockquote style="width:100%">
+                            While adjusting and moving the timebar, you will notice the approximate
+                            ferry operating schedules are around 6am - 10pm with different intensity in a day.
+                        </blockquote>
                     </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Video-->
+        <section class="page-section bg_blue" id="video">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Video</h2>
+                    <h3 class="section-subheading text-muted">The time-interactive Map represents the stations and the number of trips passing through them in time.</h3>
+                </div>
+
+                <div class="text-center">
+                    <div class="col-md-12">
+                        <iframe width="100%" height="500"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                        </iframe>
+                    </div>
+
                 </div>
 
             </div>
         </section>
         <!-- Team-->
-        <section class="page-section bg-light" id="team">
+        <section class="page-section bg_beige" id="team">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Our Team</h2>
