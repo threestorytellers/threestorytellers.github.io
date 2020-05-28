@@ -10,8 +10,8 @@ body {
   font-size: 13px;
   line-height: 18px;
 }
-
 #map_canvas {
+    background: transparent url(../images/preview.gif) no-repeat center center;
     height: 100%;
 }
 
