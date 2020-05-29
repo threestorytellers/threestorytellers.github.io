@@ -89,8 +89,8 @@ body.guardian #dashboard .stat .value { font-family: inherit; font-weight: bold;
     position: absolute;
     /*width: 400px;*/
     padding: 5px;
-    right: 10px;
-    top: 575px;
+    left: 10px;
+    bottom: 70px;
     background-color: white;
     opacity: 0.6;
     border: 1px solid #717D7D;
