@@ -2241,7 +2241,7 @@ var simulation_manager = (function(){
                     url: url,
                     dataType: 'json',
                     success: function(vehicles) {
-                        console.log(vehicles)
+                        // console.log(vehicles)
                         $("#loadingimg").hide();
                         $("#disclamer").show();
                         $.each(vehicles, function(index, data) {
