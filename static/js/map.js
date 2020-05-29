@@ -1228,11 +1228,11 @@ var simulation_manager = (function(){
             });*/
 
             google.maps.event.addDomListener(map, 'idle', function() {
-              var recenterButton = document.querySelector("#recenter");
-              recenterButton.addEventListener("click", function() {
-                map.setZoom(parseInt(config.getParam('zoom.start'), 5));
-                map.setCenter(new google.maps.LatLng(46.8,8.3));
-              });
+                var recenterButton = document.querySelector("#recenter");
+                recenterButton.addEventListener("click", function() {
+                    map.setZoom(parseInt(config.getParam('zoom.start'), 5));
+                    map.setCenter(new google.maps.LatLng(46.8,8.3));
+                });
             });
 
             var stations_showing = false,
@@ -2214,8 +2214,9 @@ var simulation_manager = (function(){
                     url: url,
                     dataType: 'json',
                     success: function(vehicles) {
-                        // console.log(vehicles)
+                        console.log(vehicles)
                         $("#loadingimg").hide();
+                        $("#disclamer").show();
                         $.each(vehicles, function(index, data) {
                             var vehicle_id = ((typeof data.trip_id) === 'undefined') ? data.id : data.trip_id;
 

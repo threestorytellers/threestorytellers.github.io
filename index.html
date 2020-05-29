@@ -65,8 +65,12 @@
         <div id="map_canvas"></div>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-        <div id ="recenter">
-          <button class = "icon-bar"><i class="fa fa-map-pin"></i> </button>
+        <div id ="recenter" >
+            <button class = "icon-bar"><i class="fa fa-map-pin"></i> </button>
+        </div>
+        <div id ="disclamer" class="hidden">
+            <button id="disclamer-button" type="button" class="btn btn-lg btn-info float-right" data-toggle="popover" title="Not all data has shown due to server limitations." data-content="Buses and some local train data was not shown due to the server limitations exist.">Disclaimer!</button>
+<!--            <button class = "icon-bar"><i class="fa fa-map-pin"></i> </button>-->
         </div>
         <div id="dashboard" >
           <div class="s tat" id="time-holder"><span class="result" style="color:#1b6ca8">Time <span id="day_time"></span></span></div>
@@ -221,9 +225,8 @@
             <div >
                 <span id="loadingimg" >
                 <img height="20px" width="20px" src="static/images/loading.gif"/>
-                vehicle data is still loading...
+                vehicle data is updating...
                 </span>
-<!--                <button type="button" style="opacity: 0.4; height: 25px; width: 20px; margin: 0; padding: 0; font-size:1em; " class="btn btn-lg btn-info float-right" data-toggle="popover" title="Not all data has shown due to server limitations." data-content="Buses and some local train data was not shown due to the server limitations exist.">!</button>-->
 
             </div>
 
